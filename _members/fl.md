@@ -5,6 +5,6 @@ role: phd
 affiliation: Polytechnique Montreal
 links:
   github: fbl10
-  google-scholar: https://scholar.google.fr/citations?user=vrGzOI0AAAAJ&hl=fr&oi=sra
-  linkedin: https://ca.linkedin.com/in/fabrice-lamarche
+  google-scholar: vrGzOI0AAAAJ&hl=fr&oi=sra
+  linkedin: fabrice-lamarche
 ---
