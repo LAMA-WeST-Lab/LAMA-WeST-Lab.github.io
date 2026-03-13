@@ -1,6 +1,6 @@
 ---
 title: Example post 1
-author: sarah-johnson
+author: zacharie-garnier-cuchet
 tags:
   - biology
   - medicine

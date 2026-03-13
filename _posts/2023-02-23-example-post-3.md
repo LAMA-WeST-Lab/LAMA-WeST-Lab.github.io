@@ -1,7 +1,7 @@
 ---
 title: Example post 3
 image: images/photo.jpg
-author: john-doe
+author: zacharie-garnier-cuchet
 tags: biology, medicine
 ---
 

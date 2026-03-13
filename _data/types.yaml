@@ -26,6 +26,10 @@ mascot:
   icon: fa-solid fa-dog
   description: Mascot
 
+master:
+  icon: fa-solid fa-graduation-cap
+  description: Master Student
+
 # general
 
 link:
