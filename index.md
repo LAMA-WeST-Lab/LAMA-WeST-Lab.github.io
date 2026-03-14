@@ -64,7 +64,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/SPARQL_RAG.jpg"
+  image="images/sparql.jpg"
   link="projects"
   title="Our Projects"
   flip=true
