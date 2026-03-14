@@ -29,9 +29,9 @@ defaults:
       type: "members"
     values:
       layout: member
-  # markdown files in /_posts
+  # markdown files in /_news
   - scope:
-      type: "posts"
+      type: "news"
     values:
       layout: post
 
@@ -39,8 +39,8 @@ collections:
   # generate page for each member
   members:
     output: true
-  # generate page for each post
-  posts:
+  # generate page for each news item
+  news:
     output: true
 
 # jekyll plugins

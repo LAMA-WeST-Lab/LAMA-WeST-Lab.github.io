@@ -7,6 +7,21 @@ Welcome to the LAMA-WeST-Lab
 
 {% include section.html %}
 
+
+## News
+
+{% include list.html data="news" component="post-excerpt" filter="featured == true" %}
+
+{%
+  include button.html
+  link="news"
+  text="View all news"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+
 ## Highlights
 
 {% capture text %}
@@ -26,7 +41,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/hangman_main.jpg"
   link="research"
   title="Our Research"
   text=text
@@ -49,7 +64,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/SPARQL_RAG.jpg"
   link="projects"
   title="Our Projects"
   flip=true
@@ -79,3 +94,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   title="Our Team"
   text=text
 %}
+
