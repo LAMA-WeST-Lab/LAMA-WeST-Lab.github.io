@@ -30,6 +30,12 @@ master:
   icon: fa-solid fa-graduation-cap
   description: Master Student
 
+# team member groups
+
+alum:
+  icon: fa-solid fa-handshake
+  description: Alumni
+
 # general
 
 link:
