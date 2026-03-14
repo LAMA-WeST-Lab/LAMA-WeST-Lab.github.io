@@ -39,6 +39,14 @@ Short bio text.
 - `mascot`
 - `master`
 
+## Allowed `group` Values (Optional)
+
+Use the `group` field to organize members by status:
+
+- `alum` - For alumni/former members who have left the lab
+
+If no `group` is specified, the member is considered a current member.
+
 ## Allowed `links` Keys (General + Social Media)
 
 - `link`
