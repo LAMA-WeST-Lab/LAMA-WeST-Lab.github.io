@@ -43,21 +43,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Projects | LAMA-WeST-Lab</title>
+<title>Seminars | LAMA-WeST-Lab</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="Projects">
+<meta name="title" content="Seminars">
 <meta name="description" content="An engaging 1-3 sentence description of your lab.">
 
-<meta property="og:title" content="Projects">
+<meta property="og:title" content="Seminars">
 <meta property="og:site_title" content="LAMA-WeST-Lab">
 <meta property="og:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="og:url" content="https://lama-west-lab.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Projects">
+<meta property="twitter:title" content="Seminars">
 <meta property="twitter:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="twitter:url" content="https://lama-west-lab.github.io">
 <meta property="twitter:card" content="summary_large_image">
@@ -73,9 +73,9 @@
     
       "@type": "WebSite",
     
-    "name": "Projects",
+    "name": "Seminars",
     "description": "An engaging 1-3 sentence description of your lab.",
-    "headline": "Projects",
+    "headline": "Seminars",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -264,6 +264,10 @@
 
   
     <link href="/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/seminar-excerpt.css" rel="stylesheet">
   
 
   
@@ -461,14 +465,14 @@
     
     
       
-        <a href="/research/" data-tooltip="Published works">
-          Research
+        <a href="/news/" data-tooltip="Latest updates and announcements">
+          News
         </a>
       
     
       
-        <a href="/projects/" data-tooltip="Software, datasets, and more">
-          Projects
+        <a href="/research/" data-tooltip="Published works and publications">
+          Research
         </a>
       
     
@@ -479,14 +483,14 @@
       
     
       
-        <a href="/news/" data-tooltip="Musings and miscellany">
-          News
+        <a href="/projects/" data-tooltip="Seminars and events">
+          Seminars
         </a>
       
     
       
-        <a href="/contact/" data-tooltip="Email, address, and location">
-          Contact
+        <a href="/contact/" data-tooltip="Join our team">
+          Prospective Students
         </a>
       
     
@@ -511,29 +515,128 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="projects">
-<i class="icon fa-solid fa-wrench"></i>Projects</h1>
+    <h1 id="seminars">
+<i class="icon fa-solid fa-presentation"></i>Seminars</h1>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p>We host regular seminars featuring presentations from lab members and invited speakers on topics ranging from machine learning to data science and beyond.</p>
+  </section>
 
-<div class="tags">
-    
-      <a href="/projects/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
-        publication
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20website%22" class="tag" data-tooltip='Show items with the tag "website"'>
-        website
-      </a>
-    
-  </div>
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<div class="search-box">
+  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
+  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
+    <i class="icon fa-solid fa-magnifying-glass"></i>
+  </button>
+</div>
 
 <div class="search-info"></div>
+
+<h2 id="upcoming-seminars">Upcoming Seminars</h2>
+
+<div class="seminar-excerpt-container">
+  <div class="seminar-excerpt">
+    
+    
+
+    <div class="seminar-excerpt-content">
+      <a href="/seminars/2026-04-20-data-visualization-seminar.html" class="seminar-excerpt-title" aria-label="Advanced Data Visualization Techniques">
+        Advanced Data Visualization Techniques
+      </a>
+
+      
+        <div class="seminar-subtitle">
+          From raw data to compelling visual stories
+        </div>
+      
+
+      
+        <div class="seminar-authors">
+          <strong>Presenters:</strong>
+          
+            
+            
+              <a href="/members/jane-smith.html" class="seminar-author">
+                Jane Smith
+              </a>
+            
+            <span class="seminar-author-sep">,</span>
+          
+            
+            
+              <a href="/members/clara-kowalczyk.html" class="seminar-author">
+                Clara Kowalczyk
+              </a>
+            
+            
+          
+        </div>
+      
+
+      <div class="post-info">
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>April 20, 2026</span>
+    </span>
+  
+
+  
+    <span data-tooltip="Last updated on">
+      <i class="icon fa-solid fa-clock-rotate-left"></i>
+      <span>March 15, 2026</span>
+    </span>
+  
+</div>
+
+
+  
+
+
+  <div class="tags">
+    
+      <a href="/news?search=%22tag:%20visualization%22" class="tag" data-tooltip='Show items with the tag "visualization"'>
+        visualization
+      </a>
+    
+      <a href="/news?search=%22tag:%20data-science%22" class="tag" data-tooltip='Show items with the tag "data-science"'>
+        data-science
+      </a>
+    
+      <a href="/news?search=%22tag:%20tools%22" class="tag" data-tooltip='Show items with the tag "tools"'>
+        tools
+      </a>
+    
+  </div>
+
+
+
+
+
+      
+      
+        <div class="seminar-excerpt-text">
+          This seminar will cover modern data visualization techniques and best practices for presenting scientific results. We’ll explore interactive visualizations, creating publication-ready figures, and storytelling through data.
+
+        </div>
+      
+    </div>
+  </div>
+</div>
   </section>
 
   
@@ -547,223 +650,92 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   <size></size>
 -->
 
-<h2 id="featured">Featured</h2>
+<h2 id="past-seminars">Past Seminars</h2>
 
-<div class="card" data-style="">
-  <a href="https://github.com/" aria-label="Cool Dataset" class="card-image">
-    <img src="/images/photo.jpg" alt="Cool Dataset" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
+<div class="seminar-excerpt-container">
+  <div class="seminar-excerpt">
     
-      <a href="https://github.com/" class="card-title">
-        Cool Dataset
-    </a>
     
 
-    
-      <span class="card-subtitle">a subtitle</span>
-    
+    <div class="seminar-excerpt-content">
+      <a href="/seminars/2024-11-15-machine-learning-seminar.html" class="seminar-excerpt-title" aria-label="Machine Learning in Biological Research">
+        Machine Learning in Biological Research
+      </a>
 
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
+      
+        <div class="seminar-subtitle">
+          Advanced techniques for data analysis
+        </div>
       
 
-
-  <div class="tags" data-repo="greenelab/lab-website-template">
-    
-      <a href="/projects/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
-      </a>
-    
-  </div>
-
-
-    
-  </div>
-</div>
-
-<div class="card" data-style="">
-  <a href="https://github.com/" aria-label="Cool Package" class="card-image">
-    <img src="/images/photo.jpg" alt="Cool Package" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a href="https://github.com/" class="card-title">
-        Cool Package
-    </a>
-    
-
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
+      
+        <div class="seminar-authors">
+          <strong>Presenters:</strong>
+          
+            
+            
+              <a href="/members/john-doe.html" class="seminar-author">
+                John Doe
+              </a>
+            
+            
+          
+        </div>
       
 
-
-  <div class="tags" data-repo="greenelab/lab-website-template">
-    
-      <a href="/projects/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
-      </a>
-    
-  </div>
-
-
-    
-  </div>
-</div>
-  </section>
+      <div class="post-info">
+  
 
   
   
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>November 15, 2024</span>
+    </span>
   
 
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
-
-<h2 id="more">More</h2>
-
-<div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Tutorial" class="card-image">
-    <img src="/images/photo.jpg" alt="Cool Tutorial" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a href="https://github.com/" class="card-title">
-        Cool Tutorial
-    </a>
-    
-
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
-      
-
-
-  <div class="tags" data-repo="greenelab/lab-website-template">
-    
-      <a href="/projects/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
-        publication
-      </a>
-    
-  </div>
-
-
-    
-  </div>
+  
+    <span data-tooltip="Last updated on">
+      <i class="icon fa-solid fa-clock-rotate-left"></i>
+      <span>March 15, 2026</span>
+    </span>
+  
 </div>
 
-<div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Web App" class="card-image">
-    <img src="/images/photo.jpg" alt="Cool Web App" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
 
-  <div class="card-text">
-    
-      <a href="https://github.com/" class="card-title">
-        Cool Web App
-    </a>
-    
-
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
-      
+  
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template">
+  <div class="tags">
     
-      <a href="/projects/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
-        software
+      <a href="/news?search=%22tag:%20machine-learning%22" class="tag" data-tooltip='Show items with the tag "machine-learning"'>
+        machine-learning
+      </a>
+    
+      <a href="/news?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
+        biology
+      </a>
+    
+      <a href="/news?search=%22tag:%20research%22" class="tag" data-tooltip='Show items with the tag "research"'>
+        research
       </a>
     
   </div>
 
 
-    
-  </div>
-</div>
 
-<div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Web Server" class="card-image">
-    <img src="/images/photo.jpg" alt="Cool Web Server" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
 
-  <div class="card-text">
-    
-      <a href="https://github.com/" class="card-title">
-        Cool Web Server
-    </a>
-    
 
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
       
+      
+        <div class="seminar-excerpt-text">
+          In this seminar, we explored cutting-edge machine learning approaches applied to biological research. The presentation covered neural networks, random forests, and deep learning applications in genomics.
 
-
-  <div class="tags" data-repo="greenelab/lab-website-template">
-    
-      <a href="/projects/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
-        software
-      </a>
-    
-  </div>
-
-
-    
+        </div>
+      
+    </div>
   </div>
 </div>
   </section>
