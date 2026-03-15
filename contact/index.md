@@ -1,5 +1,5 @@
 ---
-title: Prospective Students
+title: Join
 nav:
   order: 5
   tooltip: Join our team
