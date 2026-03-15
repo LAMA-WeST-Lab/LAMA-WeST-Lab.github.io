@@ -1,5 +1,5 @@
 ---
-title: Advanced Data Visualization Techniques
+title: Example
 subtitle: From raw data to compelling visual stories
 authors:
   - jane-smith

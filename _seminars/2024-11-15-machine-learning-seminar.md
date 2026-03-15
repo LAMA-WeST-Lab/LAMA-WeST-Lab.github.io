@@ -1,5 +1,5 @@
 ---
-title: Machine Learning in Biological Research
+title: Example : Machine Learning in Biological Research
 subtitle: Advanced techniques for data analysis
 authors:
   - john-doe

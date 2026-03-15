@@ -9,6 +9,8 @@ nav:
 
 We host regular seminars featuring presentations from lab members and invited speakers on topics ranging from machine learning to data science and beyond.
 
+**Regular Schedule:** Our seminars are currently held **every Tuesday from 1:30 PM to 3:00 PM in room M-6007 at Polytechnique**.
+
 {% include section.html %}
 
 {% include search-box.html %}
