@@ -81,6 +81,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   image="images/sparql.jpg"
   link="seminars"
   title="Our Seminars"
+  flip=true
+  style="bare"
+  text=text
+%}
+
+{% capture text %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
