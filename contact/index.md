@@ -18,7 +18,7 @@ Our lab is interested in several key areas of NLP and machine learning:
 - **Data Science** - large-scale text data analysis and computational approaches to linguistic problems
 - **Applied NLP** - practical applications of NLP in real-world problems
 
-Visit our [Research](../research/) page for a detailed overview of our current projects and publications.
+Visit our [Research](../research/) page for a detailed overview of our current seminars and publications.
 
 ## Essential Reading
 
