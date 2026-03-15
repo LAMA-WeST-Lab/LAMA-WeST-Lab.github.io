@@ -1,8 +1,8 @@
 ---
 title: News
 nav:
-  order: 4
-  tooltip: Musings and miscellany
+  order: 1
+  tooltip: Latest updates and announcements
 ---
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}News

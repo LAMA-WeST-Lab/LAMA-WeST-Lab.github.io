@@ -21,17 +21,20 @@ Welcome to the LAMA-WeST-Lab
   style="bare"
 %}
 
+{% include section.html %}
 
-## Highlights
+## Featured Seminars
 
-{% capture text %}
+{% include list.html data="seminars" component="seminar-excerpt" filter="featured == true" %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
+{% 
   include button.html
-  link="research"
-  text="See our publications"
+  link="projects"
+  text="View all seminars"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"

@@ -1,27 +1,29 @@
 ---
-title: Projects
+title: Seminars
 nav:
-  order: 2
-  tooltip: Software, datasets, and more
+  order: 4
+  tooltip: Seminars and events
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-presentation" %}Seminars
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We host regular seminars featuring presentations from lab members and invited speakers on topics ranging from machine learning to data science and beyond.
 
-{% include tags.html tags="publication, resource, website" %}
+{% include section.html %}
+
+{% include search-box.html %}
+
+{% include tags.html tags=site.tags %}
 
 {% include search-info.html %}
 
-{% include section.html %}
+## Upcoming Seminars
 
-## Featured
-
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
+{% include list.html data="seminars" component="seminar-excerpt" filter="status == 'upcoming'" %}
 
 {% include section.html %}
 
-## More
+## Past Seminars
 
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+{% include list.html data="seminars" component="seminar-excerpt" filter="status == 'past'" %}
+

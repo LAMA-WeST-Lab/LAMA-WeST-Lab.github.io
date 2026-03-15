@@ -1,0 +1,69 @@
+{% if include.lookup %}
+  {% assign seminar = site.seminars
+    | where_exp: "seminar", "seminar.slug == include.lookup"
+    | first
+    | default: include
+  %}
+{% else %}
+  {% assign seminar = include %}
+{% endif %}
+
+<div class="seminar-excerpt-container">
+  <div class="seminar-excerpt">
+    {% assign url = seminar.url | relative_url | uri_escape %}
+    {% assign title = seminar.title %}
+
+    <div class="seminar-excerpt-content">
+      <a
+        href="{{ url }}"
+        class="seminar-excerpt-title"
+        aria-label="{{ title | default: "seminar link" | regex_strip }}"
+      >
+        {{ title }}
+      </a>
+
+      {% if seminar.subtitle %}
+        <div class="seminar-subtitle">
+          {{ seminar.subtitle }}
+        </div>
+      {% endif %}
+
+      {% if seminar.authors %}
+        <div class="seminar-authors">
+          <strong>Presenters:</strong>
+          {% for author_id in seminar.authors %}
+            {% assign author_obj = site.members | where: "slug", author_id | first %}
+            {% if author_obj %}
+              <a href="{{ author_obj.url | relative_url }}" class="seminar-author">
+                {{ author_obj.name | default: author_id }}
+              </a>
+            {% else %}
+              <span class="seminar-author">{{ author_id }}</span>
+            {% endif %}
+            {% unless forloop.last %}<span class="seminar-author-sep">,</span>{% endunless %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {%
+        include post-info.html
+        published=seminar.date
+        updated=seminar.last_modified_at
+        tags=seminar.tags
+      %}
+
+      {% assign excerpt = seminar.content
+        | default: ""
+        | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
+        | default: seminar.excerpt
+        | default: ""
+        | strip_html
+      %}
+      {% if excerpt %}
+        <div class="seminar-excerpt-text">
+          {{ excerpt }}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

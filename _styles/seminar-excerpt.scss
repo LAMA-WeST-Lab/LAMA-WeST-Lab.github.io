@@ -1,0 +1,78 @@
+---
+---
+
+.seminar-excerpt-container {
+  container-type: inline-size;
+}
+
+.seminar-excerpt {
+  display: flex;
+  margin: 20px 0;
+  border-radius: var(--rounded);
+  background: var(--background);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.seminar-excerpt-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 30px;
+  text-align: left;
+  width: 100%;
+}
+
+.seminar-excerpt-content > * {
+  margin: 0 !important;
+}
+
+.seminar-excerpt-title {
+  font-weight: var(--semi-bold);
+  font-size: 1.1em;
+  color: var(--text);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--theme);
+  }
+}
+
+.seminar-subtitle {
+  font-size: 0.95em;
+  font-style: italic;
+  color: var(--text-secondary);
+}
+
+.seminar-authors {
+  font-size: 0.9em;
+  color: var(--text);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+
+  strong {
+    margin-right: 8px;
+  }
+}
+
+.seminar-author {
+  color: var(--theme);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.seminar-author-sep {
+  color: var(--text-secondary);
+  margin: 0 2px;
+}
+
+.seminar-excerpt-text {
+  font-size: 0.95em;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}

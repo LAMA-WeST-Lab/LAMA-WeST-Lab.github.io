@@ -1,15 +1,52 @@
 ---
-title: Contact
+title: Prospective Students
 nav:
   order: 5
-  tooltip: Email, address, and location
+  tooltip: Join our team
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-regular fa-envelope" %}Prospective Students
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We are currently looking for strong and motivated students interested in pursuing research in Natural Language Processing (NLP), machine learning, and computational linguistics. If you are interested in joining our laboratory, please reach out to us with your CV and a brief description of your research interests.
+
+## Our Research Areas
+
+Our lab is interested in several key areas of NLP and machine learning:
+
+- **Natural Language Processing** - text understanding, generation, language models, and semantic analysis
+- **Machine Learning** - deep learning architectures, transformers, and neural network optimization
+- **Data Science** - large-scale text data analysis and computational approaches to linguistic problems
+- **Applied NLP** - practical applications of NLP in real-world problems
+
+Visit our [Research](../research/) page for a detailed overview of our current projects and publications.
+
+## Essential Reading
+
+Before applying, we recommend familiarizing yourself with these foundational resources:
+
+- [Speech and Language Processing (3rd Edition)](https://web.stanford.edu/~jurafsky/slp3/) - Comprehensive guide to NLP fundamentals
+
+## Extra Reading
+
+To deepen your understanding of the field:
+
+- [Introduction to Natural Language Processing](https://mitpress.mit.edu/9780262042840/introduction-to-natural-language-processing/) - MIT Press textbook on NLP theory and practice
+
+## General Expectations
+
+We expect prospective students to:
+
+- Have a solid understanding of **machine learning fundamentals** before applying
+- Demonstrate strong **Python programming skills** and familiarity with deep learning frameworks (PyTorch, TensorFlow, or JAX)
+- Be familiar with basic **NLP concepts** and transformer-based language models
+- Show genuine interest in the research topics listed above
+- Be prepared to discuss your background and research interests in interviews
+
+Some of these requirements may be waived for exceptional candidates with strong fundamentals in related areas.
+
+## We Encourage Applications From
+
+Women and underrepresented minorities are especially encouraged to apply to our lab. We value diverse perspectives and experiences that contribute to innovative research in NLP.
 
 {%
   include button.html

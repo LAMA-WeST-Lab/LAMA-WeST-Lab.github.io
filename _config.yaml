@@ -34,6 +34,11 @@ defaults:
       type: "news"
     values:
       layout: post
+  # markdown files in /_seminars
+  - scope:
+      type: "seminars"
+    values:
+      layout: post
 
 collections:
   # generate page for each member
@@ -41,6 +46,9 @@ collections:
     output: true
   # generate page for each news item
   news:
+    output: true
+  # generate page for each seminar
+  seminars:
     output: true
 
 # jekyll plugins
