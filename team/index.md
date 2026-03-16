@@ -13,15 +13,38 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'principal-investigator' and group != 'alum'" %}
-{% include list.html data="members" component="portrait" filter="role != 'principal-investigator' and group != 'alum'" %}
+## Principal Investigator
+
+{% include list.html data="members" component="portrait" filter="(role == 'principal-investigator' or role == 'professor') and group != 'alum'" %}
+
+## Postdocs
+
+{% include list.html data="members" component="portrait" filter="role == 'postdoc' and group != 'alum'" %}
+
+## PhD Students
+
+{% include list.html data="members" component="portrait" filter="role == 'phd' and group != 'alum'" %}
+
+## Master Students
+
+{% include list.html data="members" component="portrait" filter="role == 'master' and group != 'alum'" %}
 
 {% assign alumni = site.members | where_exp: "member", "member.group == 'alum'" | size %}
 {% if alumni > 0 %}
 
 ## Alumni
 
-{% include list.html data="members" component="alumni-card" filter="group == 'alum'" %}
+### PhD
+
+{% include list.html data="members" component="alumni-card" filter="role == 'phd' and group == 'alum'" %}
+
+### Master
+
+{% include list.html data="members" component="alumni-card" filter="role == 'master' and group == 'alum'" %}
+
+### Postdoc
+
+{% include list.html data="members" component="alumni-card" filter="role == 'postdoc' and group == 'alum'" %}
 
 {% endif %}
 
