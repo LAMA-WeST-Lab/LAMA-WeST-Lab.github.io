@@ -21,3 +21,19 @@
 
 - id: doi:10.7554/eLife.32822
   image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+
+- id: arxiv:2601.06973
+  type: preprint
+  title: "LLMs Can't Play Hangman: On the Necessity of a Private Working Memory for Language Agents"
+  authors:
+    - Davide Baldelli
+    - Ali Parviz
+    - Amal Zouaq
+    - Sarath Chandar
+  date: 2026-01-01
+  link: https://arxiv.org/abs/2601.06973
+  image: images/papers/hangman_main.jpg
+  tags:
+    - language models
+    - agents
+    - working memory

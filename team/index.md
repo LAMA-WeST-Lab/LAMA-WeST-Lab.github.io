@@ -34,17 +34,19 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ## Alumni
 
-### PhD
+### Postdocs
+
+{% include list.html data="members" component="alumni-card" filter="role == 'postdoc' and group == 'alum'" %}
+
+### PhD Students
 
 {% include list.html data="members" component="alumni-card" filter="role == 'phd' and group == 'alum'" %}
 
-### Master
+### Master Students
 
 {% include list.html data="members" component="alumni-card" filter="role == 'master' and group == 'alum'" %}
 
-### Postdoc
 
-{% include list.html data="members" component="alumni-card" filter="role == 'postdoc' and group == 'alum'" %}
 
 {% endif %}
 
