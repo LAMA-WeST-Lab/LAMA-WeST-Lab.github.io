@@ -2,7 +2,7 @@
 title: Example post 3
 image: images/photo.jpg
 author: zacharie-garnier-cuchet
-featured: fasle
+featured: false
 tags: biology, medicine
 ---
 
