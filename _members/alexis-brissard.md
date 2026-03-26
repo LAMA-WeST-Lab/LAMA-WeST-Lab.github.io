@@ -1,6 +1,6 @@
 ---
 name: Alexis Brissard
-image: images/team/alexis-brissard.png
+image: images/team/alexis-brissard.jpeg
 role: master
 affiliation: Polytechnique Montreal
 aliases:

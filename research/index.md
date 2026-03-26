@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-The LAMA-WeST lab focuses on 
+The LAMA-WeST lab focuses on TODO ADD DESCRIPTION
 
 {% include section.html %}
 

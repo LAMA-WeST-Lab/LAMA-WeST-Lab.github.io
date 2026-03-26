@@ -3,7 +3,7 @@ title: "LNS to improve constraint following sentences through MLMs & Process Mod
 authors:
   - arnaud-delage-reid
   - alexis-brissard
-status: upcoming
+status: past
 featured: false
 tags:
   - mlm

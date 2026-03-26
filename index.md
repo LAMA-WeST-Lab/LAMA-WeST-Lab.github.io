@@ -55,7 +55,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/hangman_main.jpg"
+  image="images/papers/hangman_main.jpg"
   link="research"
   title="Our Research"
   text=text
@@ -78,7 +78,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/sparql.jpg"
+  image="images/papers/sparql.jpg"
   link="seminars"
   title="Our Seminars"
   flip=true
@@ -103,7 +103,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/team/team-selfie.jpg"
   link="team"
   title="Our Team"
   text=text
