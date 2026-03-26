@@ -1,6 +1,7 @@
 ---
 name: Karou
 role: phd
+image: images/team/karou-diallo.png
 affiliation: Polytechnique Montreal
 ---
 

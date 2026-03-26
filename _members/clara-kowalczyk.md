@@ -1,6 +1,6 @@
 ---
 name: Clara Kowalczyk
-image: images/team/photo_CK2022.png
+image: images/team/clara-kowalczyk.png
 role: phd
 affiliation: Polytechnique Montréal
 aliases:
