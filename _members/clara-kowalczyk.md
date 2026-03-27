@@ -2,6 +2,7 @@
 name: Clara Kowalczyk
 image: images/team/clara-kowalczyk.png
 role: phd
+year: "September 2025 - "
 affiliation: Polytechnique Montréal
 aliases:
   - C. Kowalczyk
@@ -18,3 +19,4 @@ Clara Kowalczyk is a PhD student in Computer Engineering at Polytechnique Montr�
 Previously, she completed a Computer Engineering master at Polytechnique Montréal, and a Mechanical Engineering master at Ecole des Ponts ParisTech. 
 
 Outside of research, she enjoys hiking and learning new languages.
+

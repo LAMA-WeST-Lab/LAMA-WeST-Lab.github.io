@@ -18,17 +18,17 @@ undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
 
-programmer:
-  icon: fa-solid fa-code
-  description: Programmer
-
-mascot:
-  icon: fa-solid fa-dog
-  description: Mascot
-
 master:
   icon: fa-solid fa-graduation-cap
   description: Master Student
+
+associate:
+  icon: fa-solid fa-user-tie
+  description: Associate
+
+intern:
+  icon: fa-solid fa-user
+  description: Intern
 
 # team member groups
 

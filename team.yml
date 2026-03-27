@@ -1,0 +1,1215 @@
+---
+- lastname: "Zouaq (Full Professor - FRQS Chair in AI and Digital Health)"
+  firstname: "Amal"
+  email: "amal.zouaq@polymtl.ca"
+  title: "Lab Director"
+  specificTitle: "Professeure titulaire"
+  homepage: "https://www.polymtl.ca/expertises/zouaq-amal"
+  photo:
+    url: "/img/azouaq.jpg"
+
+- lastname: "Chandar"
+  firstname: "Sarath"
+  email: ""
+  title: "professor"
+  specificTitle: ""
+  homepage: "http://sarathchandar.in/"
+  photo:
+    url: ""    
+    
+  
+- lastname: "Kildea"
+  firstname: "John"
+  email: "john.kildea@mcgill.ca"
+  title: "professor"
+  specificTitle: 
+  homepage: "https://www.depdocs.com/jkildea/"
+  photo:
+    url: ""   
+    
+  
+- lastname: "Cuppens"
+  firstname: "Frédéric"
+  email: "frederic.cuppens@polymtl.ca"
+  title: "professor"
+  specificTitle: 
+  homepage: "https://www.polymtl.ca/expertises/cuppens-frederic"
+  photo:
+    url: ""   
+    
+- lastname: "Cuppens"
+  firstname: "Nora"
+  email: "nora.cuppens@polymtl.ca"
+  title: "professor"
+  specificTitle: 
+  homepage: "https://www.polymtl.ca/expertises/cuppens-nora"
+  photo:
+    url: ""   
+        
+- lastname: "Nicolescu"
+  firstname: "Gabriela"
+  email: "gabriela.nicolescu@polymtl.ca"
+  title: "professor"
+  specificTitle: 
+  homepage: "https://www.polymtl.ca/expertises/nicolescu-gabriela"
+  photo:
+    url: ""        
+    
+- lastname: "Pal"
+  firstname: "Christopher"
+  email: "Christopher.pal@polymtl.ca"
+  title: "professor"
+  specificTitle: ""
+  homepage: "https://www.polymtl.ca/expertises/pal-christopher-j"
+  photo:
+    url: ""
+    
+- lastname: "Gagnon (retired)"
+  firstname: "Michel"
+  email: "michel.gagnon@polymtl.ca"
+  title: "professor"
+  specificTitle: 
+  homepage: "https://www.polymtl.ca/expertises/gagnon-michel"
+  photo:
+    url: ""
+    
+ # PHD STUDENTS
+- lastname: "Clouâtre"
+  firstname: "Louis"
+  year: "Sept 2019-"
+  email: "" 
+  title: "phdStudent"
+  topic:
+     en: NLP, sequential information, LLMs capabilities
+     fr: TAL, information séquentielle, capacités des LLMs
+  supervisors: "Amal Zouaq /Sarath Chandar"
+  thesis: 
+  current: true
+  specificTitle: ""
+  photo:
+    url: ""
+  
+- lastname: "Diallo"
+  firstname: "Papa Abdou Karim Karou"
+  year: "Sept 2022 - "
+  email: ""
+  title: "phdStudent"
+  topic:
+     en: NLP, Knowledge Bases, Query generation
+     fr: TAL, Bases de connaissances, génération de requêtes
+  supervisors: "Amal Zouaq"
+  thesis:
+  current: true
+  specificTitle: ""
+  
+- lastname: "Sharma"
+  firstname: "Aditya"
+  year: "Sept 2023 - "
+  email: "" 
+  title: "phdStudent"
+  topic:
+     en: Knowledge graphs, automated reasoning, NLP
+     fr: TAL, Graphes de connaissances, raisonnement automatique
+  supervisors: "Amal Zouaq / Christopher Pal"
+  thesis: 
+  current: true
+  specificTitle: ""
+  photo:
+    url: ""
+    
+- lastname: "Noel (internship)"
+  firstname: "Amos"
+  year: "May 2024 - August 2024"
+  email: "" 
+  title: "phdStudent"
+  topic:
+     en: AI and Digital Health
+     fr: Intelligence artificielle et santé 
+  supervisors: "Amal Zouaq"
+  thesis: 
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+    
+- lastname: "Lamarche"
+  firstname: "Fabrice"
+  year: "Sept 2024 - "
+  email: "" 
+  title: "phdStudent"
+  topic:
+     en: AI and Digital Health, LLMs, Non parametric memories
+     fr: Intelligence artificielle et santé, GMLs, mémoires non paramétriques 
+  supervisors: "Amal Zouaq"
+  thesis: 
+  current: true
+  specificTitle: ""
+  photo:
+    url: ""
+
+- lastname: "Baldelli"
+  firstname: "Davide"
+  year: "January 2025 - "
+  email: "" 
+  title: "phdStudent"
+  topic:
+     en: LLMs, explainability
+     fr: LLMs, interprétabilité, explications
+  supervisors: "Sarath Chandar / Amal Zouaq"
+  thesis: 
+  current: true
+  specificTitle: ""
+  photo:
+    url: ""  
+    
+ 
+- lastname: "Butault"
+  firstname: "Gaétan"
+  year: "May 2025 - "
+  email: "" 
+  title: "phdStudent"
+  topic:
+     en: TBD
+     fr: TBD
+  supervisors: "Amal Zouaq"
+  thesis: 
+  current: true
+  specificTitle: ""
+  photo:
+    url: ""  
+    
+- lastname: "Rios Ibacache"
+  firstname: "Odette"
+  year: "September 2024 - "
+  email: "" 
+  title: "phdStudent"
+  topic:
+     en: TBD
+     fr: TBD
+  supervisors: "John Kildea / Amal Zouaq"
+  thesis: 
+  current: true
+  specificTitle: ""
+  photo:
+    url: ""  
+ 
+    
+- lastname: "Kowalczyk"
+  firstname: "Clara"
+  year: "September 2025 - "
+  email: "" 
+  title: "phdStudent"
+  topic:
+     en: TBD
+     fr: TBD
+  supervisors: "Amal Zouaq / Frédéric Cuppens"
+  thesis: 
+  current: true
+  specificTitle: ""
+  photo:
+    url: ""   
+ 
+- lastname: "Demers"
+  firstname: "Liliane-Caroline"
+  year: "September 2026 - "
+  email: "" 
+  title: "phdStudent"
+  topic:
+     en: TBD
+     fr: TBD
+  supervisors: "Amal Zouaq "
+  thesis: 
+  current: true
+  specificTitle: ""
+  photo:
+    url: ""   
+   
+      
+  # MASTERS STUDENTS
+
+
+- lastname: "Brissard"
+  firstname: "Alexis"
+  year: "Sept 2023 - "
+  email: ""
+  topic:
+    en: Language Models for Internal Threat Detection
+    fr: Modèle de langage pour la détection de la menace interne
+  supervisors: "Amal Zouaq / Frédéric Cuppens"
+  thesis:
+  title: "masterStudent"
+  current: true
+  specificTitle: ""
+  photo:
+    url: ""    
+  
+- lastname: "Delage-Reid"
+  firstname: "Arnaud"
+  year: "Sept 2024 - "
+  email: "arnaud.delage-reid@polymtl.ca"
+  title: "masterStudent"
+  topic:
+     en: CSP and Constrained Generation
+     fr: PSC et génération contraintes
+  supervisors: "Gilles Pesant / Amal Zouaq"
+  thesis:
+  current: true
+  specificTitle: ""   
+  
+- lastname: "Garnier-Cuchet"
+  firstname: "Zacharie"
+  year: "Sept 2024 - "
+  email: ""
+  title: "masterStudent"
+  topic:
+     en: TBD
+     fr: TBD
+  supervisors: "Amal Zouaq / Philippe Langlais"
+  thesis:
+  current: true
+  specificTitle: ""
+ 
+ - lastname: "Lafleur"
+  firstname: "Carl-Eric"
+  year: "Sept 2026 - "
+  email: ""
+  title: "masterStudent"
+  topic:
+     en: TBD
+     fr: TBD
+  supervisors: "Amal Zouaq"
+  thesis:
+  current: true
+  specificTitle: ""
+
+- lastname: "Mehenni"
+  firstname: "Gaya"
+  year: "Sept 2023 - "
+  supervisors: "Amal Zouaq"
+  email: ""
+  topic:
+    en: Clinical Notes Summarization and Adaptation
+    fr: Génération et adaptation de résumés de notes cliniques
+  thesis:
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+
+- lastname: "Albert-Roulhac"
+  firstname: "Edouard"
+  year: "Sept 2023 - "
+  supervisors: "Amal Zouaq"
+  email: ""
+  topic:
+    en: Knowledge Base Learning from Pretrained Language Models
+    fr: Apprentissage de bases de connaissances à partir de modèles de langue pré-entrainés
+  thesis:
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+    
+- lastname: "Sargodi"
+  firstname: "Maziar"
+  year: "Sept 2021 - April 2024"
+  email: ""
+  title: "masterStudent"
+  topic:
+     en: Constraint satisfaction using neural networks
+     fr: Satisfaction de contraintes avec des reseaux de neurones
+  supervisors: "Sarath Chandar and Amal Zouaq (co-supervisor)"
+  thesis:
+  current: false
+  specificTitle: ""
+  
+- lastname: "Durocher"
+  firstname: "Simon"
+  year: "Janv 2021 - April 2023"
+  email: ""
+  topic:
+    en: Fine-grained named entity recognition
+  supervisors: "Amal Zouaq" 
+  thesis:
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+ 
+- lastname: "Gosselin"
+  firstname: "Francis"
+  year: "Sept 2021 - April 2024 "
+  email: ""
+  topic:
+    en: Neural schema alignment using pretrained language models (Jury congratulations - thesis accepted without any revision)
+  supervisors: "Amal Zouaq" 
+  thesis:
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+ 
+- lastname: "Reyd"
+  firstname: "Samuel"
+  year: "Sept 2021 - August 2023"
+  email: ""
+  topic:
+    en: SPARQL query generation with pretrained language models
+  supervisors: "Amal Zouaq" 
+  thesis:
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+
+- lastname: "Moslemi"
+  firstname: "Mehrnaz"
+  year: "Sept 2022 - April 2024 "
+  email: ""
+  topic:
+    en: Bias detection and mitigation using pretrained language models (thesis accepted without any revision)
+  supervisors: "Amal Zouaq and Jinghui Cheng (co-supervisor)" 
+  thesis:
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+    
+- lastname: "Layoun"
+  firstname: "Jean-Charles"
+  year: "Sept 2021 - April 2024"
+  email: ""
+  topic:
+    en: Prerequisite learning using neural networks
+  supervisors: "Michel Desmarais and Amal Zouaq (co-supervisor)"
+  thesis:
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+
+- lastname: "Rousseau"
+  firstname: "Maxime"
+  year: "Janvier 2022 - April 2023"
+  supervisors: "Nelly Huynh - Amal Zouaq"
+  email: ""
+  topic:
+    en: Question Answering for Orthodontics
+  thesis:
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+    
+- lastname: "Marocco"
+  firstname: "Jean-Simon"
+  year: "October 2022 - December 2023"
+  supervisors: "Gabriela Nicolescu and Amal Zouaq (co-supervisor)"
+  email: ""
+  topic:
+    en: Anomaly Detection using Transformers
+  thesis:
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+
+    
+
+        
+# RESEARCH ASSOCIATES   - ALUMNI 
+- lastname: "Elhami-Fard"
+  firstname: "Neshat"
+  year: "2025"
+  supervisors: "Amal Zouaq"
+  email: ""
+  topic:
+    en: Knowledge Base Generation from Clinical Notes
+    fr: Génération de bases de connaissances à partir de notes cliniques
+  title: "postDoctoratStudent"
+  current: true
+  specificTitle: ""
+  
+- lastname: "Favreau"
+  firstname: "Charles-Olivier"
+  year: "2022"
+  email: ""
+  topic:
+    en: Argument Quality Evaluation
+  supervisors: "Amal Zouaq"
+  title: "researchassociate"
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+    
+- lastname: "Font"
+  firstname: "Ludovic"
+  year: "2020-2021"
+  supervisors: "Amal Zouaq - Michel Gagnon"
+  email: ""
+  topic:
+     en: MCCQ - Generation of a Knowledge Base about Quebec literature
+     fr: MCCQ - Génération d'une base de connaissances sur la littérature du Québec
+  title: "researchassociate"
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+    
+- lastname: "Bodain"
+  firstname: "Yan"
+  year: "2021"
+  supervisors: "Amal Zouaq"
+  email: ""
+  topic:
+    en: Conova AI - Ontologies for the representation of competencies and professional paths
+  title: "researchassociate"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Ahmadi"
+  firstname: "Parvin"
+  year: "2024"
+  supervisors: "Amal Zouaq / Frédéric Cuppens"
+  email: ""
+  topic:
+    en: Large Pretrained Language Models and Ontologies for Insider Threat Detection
+    fr: Les grands modèles de langue et les ontologies pour la détection de la menace interne
+  title: "postDoctoratStudent"
+  current: false
+  specificTitle: ""
+ 
+- lastname: "Yassin"
+  firstname: "Mohamed"
+  year: "2021"
+  supervisors: "Bram Adams - Amal Zouaq - Jinghui Chen"
+  email: ""
+  topic:
+    en: AIRUDI - Automatic NLP Methods for Human Resource Management
+  title: "postDoctoratStudent"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Leduc"
+  firstname: "Nicolas"
+  year: "2019"
+  supervisors: "Michel Gagnon - Amal Zouaq"
+  email: ""
+  topic:
+    en: Lab management
+    fr: Gestion du laboratoire
+  title: "researchassociate"
+  current: false
+  specificTitle: ""
+    
+- lastname: "Kouznetsov"
+  firstname: "Alexandre"
+  year: "2017"
+  email: ""
+  topic:
+    en: Neural Information Retrieval
+  title: "postDoctoratStudent"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Jean-Louis"
+  firstname: "Ludovic"
+  year: "2015"
+  topic:
+    en: Keyword and Relation extraction and Knowledge Base Population
+  email: ""
+  title: "postDoctoratStudent"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Kouznetsov"
+  firstname: "Alexandre"
+  year: "2014"
+  email: ""
+  topic:
+    en: Using machine learning for open keyword and relation extraction
+  title: "postDoctoratStudent"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Ensan"
+  firstname: "Faezeh"
+  year: "2014"
+  email: ""
+  topic:
+    en: A framework for the evaluation of semantic annotators
+  title: "postDoctoratStudent"
+  current: false
+  specificTitle: ""
+  
+
+  
+  # PHD - Alumni
+  
+- lastname: "Bathnagar"
+  firstname: "Sameer"
+  year: "2021"
+  email: ""
+  title: "phdStudent"
+  topic:
+    en: Technology Mediated Peer Instruction
+  supervisors: Michel Desmarais - Amal Zouaq
+  thesis: https://publications.polymtl.ca/6597/
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+
+#- lastname: "Leduc"
+#  firstname: "Nicolas"
+#  year: ""
+#  email: "nicolas.leduc@polymtl.ca"
+#  topic: QED-Tutrix 
+#  supervisors: Michel Gagnon - Philippe Richard
+#  Co-supervisor:
+#  thesis: https://publications.polymtl.ca/2450/
+#  title: "phdStudent"
+#  current: false
+
+#- lastname: "Coulombe"
+#  firstname: "Claude"
+#  year: "2019"
+#  email: "claude.coulombe@polymtl.ca"
+#  topic: Data Augmentation Methods for Deep Learning 
+#  supervisors: Gilbert Paquette - Michel Gagnon
+#  Co-supervisor:
+#  thesis:
+#  title: "phdStudent"
+#  current: false
+#  specificTitle: ""
+#  photo:
+#    url: ""
+    
+#- lastname: "Font"
+#  firstname: "Ludovic"
+#  year: "2021"
+#  email: ""
+#  title: "phdStudent"
+#  topic: "Automatic Proof Generation"
+#  supervisors: Michel Gagnon - Philippe Richard
+#  Co-supervisor:
+#  thesis: https://publications.polymtl.ca/9090/
+#  current: false
+#  specificTitle: ""
+#  photo:
+#    url: ""
+ 
+#- lastname: "Gaha"
+#  firstname: "Mohamed"
+#  year: "2012"
+#  email: ""
+#  topic: Decision support systems for the distribution network
+#  supervisors: Michel Gagnon
+#  Co-supervisor:
+#  thesis: https://publications.polymtl.ca/1040/
+#  title: "phdStudent"
+#  current: false
+#  specificTitle: ""
+     
+  # Msc.A. Alumni
+  
+- lastname: "Hirigoyen"
+  firstname: "Rose"
+  year: "2022"
+  topic:
+    en: Automatic query generation from natural language (Nomination for the Best Master's Thesis Award, congratulations of the jury, thesis accepted without any revision))
+  supervisors: "Amal Zouaq" 
+  thesis: 
+  email: ""
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+  
+- lastname: "Piché"
+  firstname: "Dominique"
+  year: "2022"
+  email: ""
+  title: "masterStudent"
+  topic:
+    en: Automatic alignment of knowledge bases in cultural heritage (Congratulations of the jury, thesis accepted without any revision)
+  supervisors: "Amal Zouaq - Michel Gagnon"
+  thesis: https://publications.polymtl.ca/10327/
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+    
+- lastname: "Favreau"
+  firstname: "Charles-Olivier"
+  year: "2022"
+  email: ""
+  topic:
+    en: Learning to rank convincing explanations (Congratulations of the jury, thesis accepted without any revision)
+  supervisors: "Amal Zouaq - Sameer Bathnagar"
+  title: "masterStudent"
+  thesis: https://publications.polymtl.ca/10296/
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+    
+  
+- lastname: "Ghavidel"
+  firstname: "Hadi Abdi"
+  year: "2021"
+  supervisors: Amal Zouaq
+  topic:
+    en: Automatic short answer grading using Transformers
+  thesis: https://publications.polymtl.ca/5608/
+  email: "hadi.abdi-ghavidel@polymtl.ca"
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+    
+- lastname: "Martel"
+  firstname: "Félix"
+  email: ""
+  year: "2020"
+  topic:
+    en: Taxonomy Extraction using Knowledge Graph Embeddings (Nomination for the Best Master's Thesis Award, Congratulations of the jury, thesis accepted without any revision))
+  supervisors: Amal Zouaq
+  title: "masterStudent"
+  thesis: https://publications.polymtl.ca/5361/
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+
+- lastname: "Farvacque"
+  firstname: "Dylan"
+  year: "2020"
+  topic:
+    en: Open Domain Question Answering
+  title: "masterStudent"
+  supervisors: Amal Zouaq - Michel Gagnon
+  current: false
+  specificTitle: ""
+  thesis: https://publications.polymtl.ca/5396/
+  photo:
+    url: ""
+
+- lastname: "Marchand"
+  firstname: "Erwan"
+  year: "2020"
+  topic:
+    en: Knowledge Base Extraction from Patrimonial Documents
+  supervisors: "Michel Gagnon - Amal Zouaq"
+  email: "erwan.marchand@polymtl.ca"
+  title: "masterStudent"
+  thesis: https://publications.polymtl.ca/5225/
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""   
+    
+- lastname: "Radoev"
+  firstname: "Nikolay"
+  year: "2019"
+  email: ""
+  topic:
+    en: Multilingual SPARQL Query Generation Using Lexico-Syntactic Patterns (Congratulations of the jury)
+  supervisors: Amal Zouaq - Michel Gagnon 
+  Co-supervisor:
+  thesis: https://publications.polymtl.ca/3852/
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Mantecon"
+  firstname: "Gerardo"
+  year: "2019"
+  supervisors: Amal Zouaq
+  topic:
+    en: Towards the Automatic Classification of Student Answers to Open-ended Questions
+  thesis: https://ruor.uottawa.ca/handle/10393/39093
+  email: ""
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+     
+- lastname: "Ferry"
+  firstname: "François"
+  year: "2018"
+  email: ""
+  topic:
+    en: Relation extraction from digital heritage documents
+  supervisors: "Michel Gagnon - Amal Zouaq"
+  Co-supervisor:
+  thesis: https://publications.polymtl.ca/3301/
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+
+- lastname: "Bahmid"
+  firstname: "Rawan"
+  year: "2018"
+  supervisors: Amal Zouaq
+  topic:
+    en: Hybrid Question Answering over Linked Data
+  thesis: https://ruor.uottawa.ca/handle/10393/37976
+  email: ""
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Zhou"
+  firstname: "Hanqing"
+  year: "2018"
+  topic:
+    en: DBpedia Type and Entity Detection Using Word Embeddings and N-gram Models
+  supervisors: Amal Zouaq - Diana Inkpen
+  thesis: https://ruor.uottawa.ca/handle/10393/37324
+  email: ""
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+       
+- lastname: "Haidar-Hamad"
+  firstname: "Lara"
+  year: "2017"
+  email: ""
+  supervisors: Amal Zouaq - Michel Gagnon 
+  topic:
+    en: Logical Axiom Extraction from Wikipedia (Nomination for the Best Master's Thesis Award, Congratulations of the jury)
+  thesis: https://publications.polymtl.ca/2566/
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Font"
+  firstname: "Ludovic"
+  year: "2016"
+  email: ""
+  topic:
+    en: DBpedia Quality Evaluation
+  supervisors: "Amal Zouaq - Michel Gagnon"
+  title: "masterStudent"
+  current: false
+  thesis: https://publications.polymtl.ca/2409/
+  specificTitle: ""
+  
+- lastname: "Zacche de Aguiar"
+  firstname: "Camila"
+  year: "2016"
+  email: ""
+  topic:
+    en: Automatic Extraction of Concept Maps from Text
+  supervisors: "Davidson Cury - Amal Zouaq"
+  title: "masterStudent"
+  current: false
+  thesis: 
+  specificTitle: ""  
+  
+- lastname: "Pinotte"
+  firstname: "Guilherme"
+  year: "2016"
+  email: ""
+  topic:
+    en:  Generating OWL ontologies from Concept Maps
+  supervisors: "Davidson Cury - Amal Zouaq"
+  title: "masterStudent"
+  current: false
+  thesis: 
+  specificTitle: ""  
+  
+- lastname: "Chabchoub"
+  firstname: "Mohamed"
+  year: "2016"
+  email: ""
+  topic:
+    en: Enhancement of semantic annotators' performance using coherence and confidence scores
+  supervisors: "Michel Gagnon - Amal Zouaq"
+  Co-supervisor:
+  thesis: https://publications.polymtl.ca/2373/
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+
+- lastname: "Lange Di Cesare"
+  firstname: "Kevin"
+  year: "2016"
+  topic:
+    en: Automatic relation extraction for knowledge base population - The KBP Task
+  supervisors: "Michel Gagnon - Amal Zouaq"
+  email: ""
+  thesis: https://publications.polymtl.ca/2115/
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Armel N'Techobo"
+  firstname: "Philippe"
+  year: "2016"
+  topic:
+    en: Knowledge Graph Extraction from Political Debates
+  supervisors: "Amal Zouaq - Michel Gagnon"
+  email: ""
+  thesis: https://publications.polymtl.ca/2180/
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Geesaman"
+  firstname: "Paul"
+  year: "2013"
+  supervisors: "Jim Cordy - Amal Zouaq"
+  email: ""
+  topic:
+   en: Ontology Alignment using Near-miss Clone Detection
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  thesis: 
+
+- lastname: "Desmarais"
+  firstname: "François-Xavier"
+  year: "2012"
+  supervisors: "Michel Gagnon - Amal Zouaq"
+  email: ""
+  topic:
+    en: Semantic analysis using machine learning and rule-based methods
+  title: "masterStudent"
+  current: false
+  specificTitle: ""
+  thesis: https://publications.polymtl.ca/1049/
+  
+#- lastname: "Malenfant-Corriveau"
+#  firstname: "Simon"
+#  year: ""
+#  email: ""
+#  topic: 
+#  supervisors:
+#  Co-supervisor:
+#  thesis:
+#  title: "masterStudent"
+#  current: false
+#  specificTitle: ""
+
+#- lastname: "Belair"
+#  firstname: "Thierry"
+#  year: ""
+#  email: ""
+#  topic: 
+#  supervisors:
+#  Co-supervisor:
+#  thesis:
+#  title: "masterStudent"
+#  current: false
+#  specificTitle: ""
+  
+  
+#- lastname: "Gagnon"
+#  firstname: "Olivier"
+#  year: ""
+#  email: ""
+#  title: "masterStudent"
+#  current: false
+#  specificTitle: ""
+
+#- lastname: "Béland"
+#  firstname: "Antoine"
+#  year: ""
+#  email: ""
+#  title: "masterStudent"
+#  current: false
+#  specificTitle: ""
+#  photo:
+#    url: ""
+
+#- lastname: "Farid"
+#  firstname: "Othmane"
+#  year: ""
+#  email: ""
+#  title: "masterStudent"
+#  current: false
+#  specificTitle: ""
+#  photo:
+#    url: ""
+
+
+#- lastname: "Tobler"
+#  firstname: "Arthur"
+#  year: ""
+#  email: ""
+#  title: "masterStudent"
+#  current: false
+#  specificTitle: ""
+#  photo:
+#    url: "/img/arthur_tobler.png"
+    
+#- lastname: "Colin"
+#  firstname: "Antoine"
+#  year: ""
+#  email: ""
+#  topic: 
+#  supervisors:
+#  Co-supervisor:
+#  thesis:
+#  title: "masterStudent"
+#  current: false
+#  specificTitle: ""
+    
+  # Prof. Masters Students - Alumni
+    
+- lastname: "Ramos"
+  firstname: "Mathias"
+  year: "2021"
+  email: ""
+  title: "profmasterStudent"
+  current: false
+  topic:
+    en: Towards a Fully Automated Bilingual Job Recommendation Platform
+  supervisors: "Bram Adams and Amal Zouaq"
+  thesis: 
+  specificTitle: ""
+  photo:
+    url: ""
+
+- lastname: "Hamidi"
+  firstname: "Alaleh"
+  year: "2021"
+  topic:
+    en: Towards a Fully Automated Bilingual Job Recommendation Platform
+  supervisors: "Bram Adams and Amal Zouaq"
+  email: ""
+  title: "intern"
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+
+- lastname: "Dandin"
+  firstname: "Brieuc"
+  year: "2021"
+  topic:
+    en: Data mining methods for popularity detection
+  email: ""
+  title: "profmasterStudent"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Sharma"
+  firstname: "Sheenam"
+  topic:
+    en: Topic Detection and Clustering using Semantic Annotation on Canadian Parliamentary Debates
+  year: "2018"
+  Supervisors: "Amal Zouaq"
+  email: ""
+  title: "profmasterStudent"
+  current: false
+  specificTitle: ""
+  
+   # Interns - Alumni
+- lastname: "Trempe"
+  firstname: "Philippe"
+  year: "2020-2021"
+  email: ""
+  title: "intern"
+  topic:
+    en: Resume Representation Learning and Graph Embedding For Career Path Recommendation
+  supervisors: "Amal Zouaq"
+  thesis:
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""   
+- lastname: "Gagnon"
+  firstname: "Vincent"
+  year: "2021"
+  email: ""
+  title: "intern"
+  topic:
+    en: Prerequisite association learning
+  supervisors: "Michel Desmarais - Amal Zouaq"
+  thesis:
+  current: false
+  specificTitle: ""
+  photo:
+    url: ""
+  
+- lastname: "Sofiane"
+  firstname: "Carmen"
+  year: "2021"
+  topic:
+    en: A Semantic Web application for the retrieval of Quebec authors and books
+  supervisors: "Amal Zouaq - Michel Gagnon"
+  email: ""
+  title: "intern"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Derveaux"
+  firstname: "Grégoire"
+  year: "2020"
+  supervisors: "Amal Zouaq"
+  topic:
+    en: Automatic extraction of authors' information from Wikipedia
+  email: ""
+  title: "intern"
+  current: false
+  specificTitle: ""
+
+- lastname: "Arès"
+  firstname: "Julien"
+  year: "2020"
+  supervisors: "Amal Zouaq"
+  topic:
+    en: Neural convolutional networks for entity alignment in the domain of Quebec literature
+  email: ""
+  title: "intern"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Bento"
+  firstname: "Alexandre"
+  year: "2019"
+  email: ""
+  topic:
+    en: Ontology alignment using convolutional neural networks
+  supervisors: "Michel Gagnon - Amal Zouaq"
+  title: "intern"
+  current: false
+  specificTitle: "researchassistant"
+  photo:
+  
+  
+- lastname: "Janzen"
+  firstname: "Rob"
+  year: "2013"
+  supervisors: "Dragan Gasevic - Amal Zouaq"
+  topic:
+    en: Generating semantic learning paths
+  email: ""
+  title: "intern"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Granger"
+  firstname: "Francis"
+  supervisors: "Amal Zouaq"
+  year: "2020"
+  topic:
+    en: Axiom extraction from natural language
+  email: ""
+  title: "undergradStudent"
+  current: false
+  specificTitle: "" 
+ 
+
+- lastname: "Bourret-Desmarais"
+  firstname: "Hugo"
+  year: "2018-2019"
+  topic:
+    en: A machine learning approach for relation extraction in the cultural domain
+  supervisors: "Michel Gagnon - Amal Zouaq"
+  title: "undergradStudent"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Radoev"
+  firstname: "Nikolay"
+  year: "2017"
+  topic:
+    en: Answering Natural Language Questions in French on an RDF Knowledge Base
+  supervisors: "Michel Gagnon - Amal Zouaq"
+  email: ""
+  title: "undergradStudent"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Tremblay"
+  firstname: "Mathieu"
+  year: "2017"
+  supervisors: "Michel Gagnon - Amal Zouaq"
+  topic:
+    en: Answering Natural Language Questions in French on an RDF Knowledge Base
+  email: ""
+  title: "undergradStudent"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Jiuzhou"
+  firstname: "Wu"
+  year: "2017"
+  topic:
+    en: A Classifier for Class and Instance Recognition in Wikipedia
+  supervisors: "Amal Zouaq"
+  email: ""
+  title: "undergradStudent"
+  current: false
+  specificTitle: ""
+
+- lastname: "Haolong"
+  firstname: "Zhang"
+  year: "2017"
+  topic:
+    en: A Classifier for Class and Instance Recognition in Wikipedia
+  supervisors: "Amal Zouaq"
+  email: ""
+  title: "undergradStudent"
+  current: false
+  specificTitle: ""
+  
+- lastname: "Garant"
+  firstname: "Anthony"
+  year: "2016-2017"
+  supervisors: "Michel Gagnon - Amal Zouaq"
+  topic:
+    en: Multilingual question answering
+  email: ""
+  title: "undergradStudent"
+  current: false
+  specificTitle: ""
+ 
+- lastname: "Christopher Hughie"
+  firstname: "Beauclair"
+  year: "2016"
+  supervisors: "Amal Zouaq"
+  topic:
+    en: Building an LSA and LDA model on Wikipedia
+  email: ""
+  title: "undergradStudent"
+  current: false
+  specificTitle: ""  
+  
+- lastname: "Jeffrey Douglas"
+  firstname: "Nerad"
+  year: "2016"
+  supervisors: "Amal Zouaq"
+  topic:
+    en: A machine learning classifier for type detection on DBpedia
+  email: ""
+  title: "undergradStudent"
+  current: false
+  specificTitle: ""
+
+- lastname: "Megan"
+  firstname: "Gardner"
+  year: "2013"
+  supervisors: "Amal Zouaq"
+  topic:
+    en: A semantic media wiki for ontology learning
+  email: ""
+  title: "undergradStudent"
+  current: false
+  specificTitle: ""
+  

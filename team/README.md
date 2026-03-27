@@ -34,10 +34,18 @@ Short bio text.
 - `principal-investigator`
 - `postdoc`
 - `phd`
-- `undergrad`
-- `programmer`
-- `mascot`
 - `master`
+- `undergrad`
+- `intern`
+- `associate`
+
+## Optional `year` Field
+
+Use `year` to preserve timeline information from the legacy site, for example:
+
+```md
+year: "May 2024 - August 2024"
+```
 
 ## Allowed `group` Values (Optional)
 

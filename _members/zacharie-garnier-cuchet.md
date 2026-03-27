@@ -2,6 +2,7 @@
 name: Zacharie Garnier Cuchet
 image: images/team/Zacharie Garnier Cuchet.jpeg
 role: master
+year: "Sept 2024 - "
 affiliation: Polytechnique Montreal
 aliases:
   - Z. Garnier
@@ -13,3 +14,4 @@ links:
 ---
 
 Hi! I'm **Zacharie Garnier-Cuchet**, an AI researcher and M.Sc. student in computer engineering at [Polytechnique Montréal](https://www.polymtl.ca/) and [Mila - Québec AI Institute](https://mila.quebec/en), supervised by [Prof. Amal Zouaq](https://mila.quebec/en/directory/amal-zouaq) and [Prof. Philippe Langlais](https://www-labs.iro.umontreal.ca/~felipe/brand_new_home/creative-design/public_html/index.php?lg=en).
+

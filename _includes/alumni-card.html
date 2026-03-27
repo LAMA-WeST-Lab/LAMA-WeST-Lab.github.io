@@ -18,19 +18,9 @@
     data-style="{{ include.style }}"
     aria-label="{{ member.name | default: "member link" | regex_strip }}"
   >
-    {% if type %}
-      {% include icon.html icon=type.icon %}
-    {% endif %}
-
     {% if member.name %}
       <span class="portrait-name">
         {{ member.name }}
-      </span>
-    {% endif %}
-
-    {% if member.description or type %}
-      <span class="portrait-description">
-        {{ member.description | default: type.description }}
       </span>
     {% endif %}
 
