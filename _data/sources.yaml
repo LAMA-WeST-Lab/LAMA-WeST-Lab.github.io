@@ -1,26 +1,30 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
-  tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+########################################
+#     Here are some example sources    #
+########################################
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+#- id: doi:10.1371/journal.pcbi.1007128
+#  type: paper
+#  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+# date: 2020-12-4
+#  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+#  buttons:
+#    - type: manubot
+#      link: https://greenelab.github.io/meta-review/
+#    - type: source
+#      text: Manuscript Source
+#      link: https://github.com/greenelab/meta-review
+#    - type: website
+#      link: http://manubot.org/
+#  tags:
+#   - open science
+#    - collaboration
+#  repo: greenelab/meta-review
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+#- id: doi:10.1016/j.csbj.2020.05.017
+#  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+
+#- id: doi:10.7554/eLife.32822
+#  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
 
 - id: arxiv:2601.06973
   type: preprint
@@ -37,3 +41,767 @@
     - language models
     - agents
     - working memory
+
+
+#- type: paper
+#  title: "Using mCODE as a basis for an Ontology for Cancer Patient Digital Twins"
+#  authors:
+#    - Odette Rios-Ibacache
+#    - Gaétan Butault
+#    - Amal Zouaq
+#    - John Kildea
+#  publisher: "Scientific Days RSN, Université Laval"
+#  date: "2026-01-01"
+
+- id: arxiv:2503.22144
+  type: paper
+  title: "FRASE: Frame-based Structured Representations for Generalizable SPARQL Query Generation"
+  authors:
+    - Karou Diallo
+    - Amal Zouaq
+  publisher: "The Fifteenth biennial Language Resources and Evaluation Conference (LREC) 2026"
+  date: "2026-01-01"
+  link: https://arxiv.org/abs/2503.22144
+
+- id: arxiv:2502.13369
+  type: paper
+  title: "Reducing hallucinations in language model-based sparql query generation using post-generation memory retrieval"
+  authors:
+    - Aditya Sharma
+    - Christopher J. Pal
+    - Amal Zouaq
+  publisher: "EACL 2026 (Findings)"
+  date: "2025-01-01"
+  link: https://arxiv.org/abs/2502.13369
+
+#- type: paper
+#  title: "ReWiSe, Relation-Wise Self-consistency for LLM Probing (Winner of the competition)"
+#  authors:
+#    - Edouard Albert-Roulhac
+#    - Amal Zouaq
+#  publisher: "Knowledge Base Construction from Pre-trained Language Models Challenge, 24th International Semantic Web Conference (ISWC 2025)"
+#  date: "2025-01-01"
+
+- id: arxiv:2507.11356
+  type: paper
+  title: "What is the Best Process Model Representation? A Comparative Analysis for Process Modeling with Large Language Models"
+  authors:
+    - Alexis Brissard
+    - Frédéric Cuppens
+    - Amal Zouaq
+  publisher: "9th International Workshop on Artificial Intelligence for Business Process Management (AI4BPM) - BPM 2025"
+  date: "2025-01-01"
+  link: https://arxiv.org/abs/2507.11356
+
+#- type: paper
+#  title: "Towards the development of an mCODE radiomics-dosiomics extension and knowledge base for radiotherapy"
+#  authors:
+#    - Odette Rios-Ibacache
+#    - Amal Zouaq
+#    - John Kildea
+#  publisher: "Canadian Organization of Medical Physicists (COMP) 2025"
+#  date: "2025-01-01"
+
+#- type: paper
+#  title: "Development of a Radiomics-Dosiomics mCODE ontology extension for radiotherapy."
+#  authors:
+#    - Odette Rios-Ibacache
+#    - Amal Zouaq
+#    - John Kildea
+#  publisher: "67th Annual Meeting of the American Association of Physicists in Medicine (AAPM), Abstract."
+#  date: "2025-01-01"
+
+- id: doi:10.18653/v1/2025.acl-short.22
+  type: paper
+  title: "Combining Domain and Alignment Vectors Provides Better Knowledge-Safety Trade-offs in LLMs"
+  authors:
+    - Megh Thakkar
+    - Quentin Fournier
+    - Matthew Riemer
+    - Pin-Yu Chen
+    - Amal Zouaq
+    - Payel Das
+    - Sarath Chandar
+  publisher: "63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)"
+  date: "2025-01-01"
+
+- id: arxiv:2502.12210
+  type: paper
+  title: "Enhancing Frame Detection with Retrieval-Augmented  Generation"
+  authors:
+    - Karou Diallo
+    - Amal Zouaq
+  publisher: "5th International Conference on NLP & Data Mining (NLDM 2025)"
+  date: "2025-01-01"
+  link: https://arxiv.org/abs/2502.12210
+
+- id: doi:10.18653/v1/2025.findings-naacl.410
+  type: paper
+  title: "GeoCoder - Solving Geometry Problems by Generating Modular Code through Vision-Language Models"
+  authors:
+    - Aditya Sharma
+    - Aman Dalmia
+    - Mehran Kazemi
+    - Amal Zouaq
+    - Christopher J. Pal
+  publisher: "NAACL 2025 (Findings): https://arxiv.org/abs/2410.13510"
+  date: "2025-01-01"
+
+- id: arxiv:2411.06824
+  type: paper
+  title: "Combining Domain and Alignment Vectors to Achieve Better Knowledge-Safety Trade-offs in LLMs"
+  authors:
+    - Megh Thakkar
+    - Yash More
+    - Quentin Fournier
+    - Matthew Riemer
+    - Pin-Yu Chen
+    - Amal Zouaq
+    - Payel Das
+    - Sarath Chandar
+  publisher: "NeurIPS - Adaptive Foundation Models: Evolving AI for Personalized and Efficient Learning AFM 2024"
+  date: "2024-01-01"
+  link: https://arxiv.org/abs/2411.06824
+
+- id: doi:10.1007/978-3-031-77792-9_23
+  type: paper
+  title: "Ontology-Constrained Generation of Domain-Specific Clinical Summaries"
+  authors:
+    - Gaya Mehenni
+    - Amal Zouaq
+  publisher: "24th International Conference on Knowledge Engineering and Knowledge Management (EKAW) 2024"
+  date: "2024-01-01"
+
+- id: doi:10.1109/ACCESS.2024.3453215
+  type: paper
+  title: "A Comprehensive Evaluation of Neural SPARQL Query Generation from Natural Language Questions"
+  authors:
+    - Karou Diallo
+    - Samuel Reyd
+    - Amal Zouaq
+  publisher: "IEEE Access 2024"
+  date: "2024-01-01"
+
+- id: doi:10.18653/v1/2024.acl-long.311
+  type: paper
+  title: "A deep-dive into the tradeoffs of preference alignment with PEFT"
+  authors:
+    - Megh Thakkar
+    - Quentin Fournier
+    - Matthew Riemer
+    - Pin-Yu Chen
+    - Amal Zouaq
+    - Payel Das
+    - Sarath Chandar
+  publisher: "Annual Meeting of the Association for Computational Linguistics (ACL) 2024"
+  date: "2024-01-01"
+
+- id: doi:10.1145/3605098.3636062
+  type: paper
+  title: "Contextual Embeddings and Graph Convolutional Networks for Concept Prerequisite Learning"
+  authors:
+    - Jean-Charles Layoun
+    - Amal Zouaq
+    - Michel Desmarais
+  publisher: "The 39th ACM/SIGAPP Symposium On Applied Computing (ACM SAC 2024): Artificial Intelligence for Education"
+  date: "2024-01-01"
+
+- id: doi:10.1145/3687486
+  type: paper
+  title: "An Exploration of IFLA LRM for Literature Data Representation"
+  authors:
+    - Michel Gagnon
+    - Ludovic Font
+    - Amal Zouaq
+  publisher: "Journal on Computing and Cultural Heritage, ACM"
+  date: "2024-01-01"
+
+- id: doi:10.18653/v1/2024.findings-naacl.101
+  type: paper
+  title: "TagDebias: Entity and Concept Tagging for Social Bias Mitigation in Pretrained Language Models"
+  authors:
+    - Mehrnaz Moslemi
+    - Amal Zouaq
+  publisher: "2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (Findings)"
+  date: "2024-01-01"
+
+#- type: paper
+#  title: "MVP: Minimal Viable Phrase for Long Text Understanding"
+#  authors:
+#    - Louis Clouâtre
+#    - Amal Zouaq
+#    - Sarath Chandar
+#  publisher: "The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation"
+#  date: "2024-01-01"
+
+#- type: paper
+#  title: "SORBETMatcher results for OAEI 2023 (Top system in several tracks)"
+#  authors:
+#    - Francis Gosselin
+#    - Amal Zouaq
+#  publisher: "The 18th International Workshop on Ontology Matching"
+#  date: "2023-01-01"
+
+- id: doi:10.1007/978-3-031-47240-4_26
+  type: paper
+  title: "Assessing the Generalization Capabilities of Neural Machine Translation Models for SPARQL Query Generation"
+  authors:
+    - Samuel Reyd
+    - Amal Zouaq
+  publisher: "The 22nd International Semantic Web Conference (ISWC)"
+  date: "2023-01-01"
+
+- id: doi:10.1007/978-3-031-47240-4_30
+  type: paper
+  title: "SORBET: a Siamese Network for Ontology Embeddings using a Distance-based Regression Loss and BERT (Best paper award nomination)"
+  authors:
+    - Francis Gosselin
+    - Amal Zouaq
+  publisher: "The 22nd International Semantic Web Conference (ISWC)"
+  date: "2023-01-01"
+
+- id: doi:10.1145/3606699
+  type: paper
+  title: "Comparing Heuristic Rules and Masked Language Models for Entity Alignment in the Literature Domain"
+  authors:
+    - Dominique Piché
+    - Ludovic Font
+    - Amal Zouaq
+    - Michel Gagnon
+  publisher: "Journal on Computing and Cultural Heritage"
+  date: "2023-01-01"
+
+- id: doi:10.18653/v1/2022.findings-aacl.22
+  type: paper
+  title: "A Copy Mechanism for Handling Out-of-Vocabulary Elements in SPARQL Neural Machine Translation"
+  authors:
+    - Rose Hirigoyen
+    - Amal Zouaq
+    - Samuel Reyd
+  publisher: "AACL 2022"
+  date: "2022-01-01"
+
+#- type: paper
+#  title: "SEBMatcher Results for OAEI 2022"
+#  authors:
+#    - Francis Gosselin
+#    - Amal Zouaq
+#  publisher: "OAEI @ISWC 2022"
+#  date: "2022-01-01"
+
+- id: arxiv:2211.05015
+  type: paper
+  title: "Detecting Languages Unintelligible to Multilingual Models through Local Structure Probes"
+  authors:
+    - Louis Clouatre
+    - Prasanna Parthasarathi
+    - Amal Zouaq
+    - Sarath Chandar
+  publisher: "EMNLP 2022 (Findings)"
+  date: "2022-01-01"
+  link: https://arxiv.org/abs/2211.05015
+
+- id: arxiv:2211.05025
+  type: paper
+  title: "Local Structure Matters Most in Most Languages"
+  authors:
+    - Louis Clouatre
+    - Prasanna Parthasarathi
+    - Amal Zouaq
+    - Sarath Chandar
+  publisher: "AACL 2022"
+  date: "2022-01-01"
+  link: https://arxiv.org/abs/2211.05025
+
+- id: 10.18653/v1/2022.findings-acl.293
+  type: paper
+  title: "Local Structure Matters Most: Perturbation Study in NLU"
+  authors:
+    - Louis Clouatre
+    - Prasanna Parthasarathi
+    - Amal Zouaq
+    - Sarath Chandar
+  publisher: "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2022, pages 3712-3731, Association for Computational Linguistics"
+  date: "2022-01-01"
+
+- id: doi:10.32473/flairs.v35i.130643
+  type: paper
+  title: "Learning to Rank with BERT for Argument Quality Evaluation"
+  authors:
+    - Charles-Olivier Favreau
+    - Amal Zouaq
+    - Sameer Bhatnagar
+  publisher: "The 35th  International FLAIRS Conference, 35. https://doi.org/10.32473/flairs.v35i.130643"
+  date: "2022-01-01"
+
+- id: doi:10.1145/3412841.3441959
+  type: paper
+  title: "Taxonomy Extraction Using Knowledge Graph Embeddings and Hierarchical Clustering (Best Paper Award)"
+  authors:
+    - F. Martel
+    - A. Zouaq
+  publisher: "36th Annual ACM Symposium on Applied Computing(836–844), ACM"
+  date: "2021-01-01"
+
+- id: doi:10.18653/v1/2021.findings-acl.378
+  type: paper
+  title: "MLMLM: Link Prediction with Mean Likelihood Masked Language Model"
+  authors:
+    - Louis Clouatre
+    - Philippe Trempe
+    - Amal Zouaq
+    - Sarath Chandar
+  publisher: "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021, pages 4321–4331, Association for Computational Linguistics"
+  date: "2021-01-01"
+
+- id: doi:10.1007/978-3-030-91669-5_29
+  type: paper
+  title: "Integrating Heterogeneous Data About Quebec Literature into an IFLA LRM Knowledge Base."
+  authors:
+    - L. Font
+    - D. Piché
+    - A. Zouaq
+    - M. Gagnon
+  publisher: "International Conference on Asian Digital Libraries (pp. 373-391). Springer, Cham"
+  date: "2021-01-01"
+
+#- type: paper
+#  title: "Masked Language Model Entity Matching for Cultural Heritage Data"
+#  authors:
+#    - D. Piché
+#    - L. Font
+#    - A. Zouaq
+#    - M. Gagnon
+#  publisher: "Semantic Web and Ontology Design for Cultural Heritage(SWODCH 2021), Vol. 2949,CEUR-WS, http://ceur-ws.org/Vol-2949/paper5.pdf"
+#  date: "2021-01-01"
+
+- id: arxiv:2107.13955v1
+  type: paper
+  title: "Demystifying Neural Language Models' Insensitivity to Word-Order"
+  authors:
+    - Louis Clouatre
+    - Prasanna Parthasarathi
+    - Amal Zouaq
+    - Sarath Chandar
+  publisher: "arXiv preprint arXiv:2107.13955v1"
+  date: "2021-01-01"
+  link: https://arxiv.org/abs/2107.13955v1
+
+- id: doi:10.1007/978-3-030-57717-9_11
+  type: paper
+  title: "Learnersourcing Quality Assessment of Explanations for Peer Instruction."
+  authors:
+    - Bhatnagar S.
+    - Zouaq A.
+    - Desmarais M.C.
+    - Charles E.
+  publisher: "15th European Conference on Technology Enhanced Learning EC-TEL 2020. Lecture Notes in Computer Science, vol 12315. Springer, Cham."
+  date: "2020-01-01"
+
+- id: doi:10.1007/978-3-030-55814-7_2
+  type: paper
+  title: "Extraction of a Knowledge Graph from French Cultural Heritage Documents."
+  authors:
+    - E. Marchand
+    - M. Gagnon
+    - A. Zouaq
+  publisher: "TPDL 2020, ADBIS 2020. Communications in Computer and Information Science, vol 1260. Springer, Cham."
+  date: "2020-01-01"
+
+- id: doi:10.1145/3391274.3393637
+  type: paper
+  title: "What is the schema of your knowledge graph?: leveraging knowledge graph embeddings and clustering for expressive taxonomy learning (Invited)"
+  authors:
+    - A. Zouaq
+    - F. Martel
+  publisher: "SBD '20: Proceedings of The International Workshop on Semantic Big Data. Association for Computing Machinery, New York, NY, USA, Article 6, 1–6. https://doi.org/10.1145/3391274.3393637"
+  date: "2020-01-01"
+
+#- type: paper
+#  title: "Ontology matching using convolutional neural networks"
+#  authors:
+#    - Alexandre Bento
+#    - Amal Zouaq
+#    - Michel Gagnon
+#  publisher: "Proceedings of the 12th language resources and evaluation conference, 5648–5653, ACL"
+#  date: "2020-01-01"
+
+#- type: paper
+#  title: "Using BERT and XLNET for the Automatic Short Answer Grading Task."
+#  authors:
+#    - MC Ghavidel
+#    - Hadi Abdi
+#    - Amal Zouaq
+#    - Michel Desmarais
+#  publisher: "12th International Conference on Computer Supported Education CSEDU, 58-67"
+#  date: "2020-01-01"
+
+#- type: paper
+#  title: "A Dataset of Learnersourced Explanations from an Online Peer Instruction Environment"
+#  authors:
+#    - Sameer Bhatanagar
+#    - Michel C Desmarais
+#    - Amal Zouaq
+#    - Elizabeth Charles
+#  publisher: "13th International Conference on Educational Data Mining, EDM 2020,pp. 350-355"
+#  date: "2020-01-01"
+
+- id: arxiv:1811.05549
+  type: paper
+  title: "An analysis of the semantic annotation task on the linked data cloud"
+  authors:
+    - Michel Gagnon
+    - Amal Zouaq
+    - Francisco Aranha
+    - Faezeh Ensan
+    - Ludovic Jean-Louis
+  publisher: "International Journal of Metadata, Semantics and Ontologies (IJMSO); 13(4): 317 - 329, InderScience Publishers"
+  date: "2019-01-01"
+  link: https://arxiv.org/abs/1811.05549
+
+- id: doi:10.5753/RBIE.2019.27.01.83
+  type: paper
+  title: "Mining Concept Map from Text in Portuguese"
+  authors:
+    - Camila Zacche de Aguiar
+    - Davidson Cury
+    - Amal Zouaq
+  publisher: "Brazilian Journal of Computers in Education 27(1), 83-103. DOI: 10.5753/RBIE.2019.27.01.83"
+  date: "2019-01-01"
+
+- id: doi:10.3390/info10010006
+  type: paper
+  title: "A Comparison of Word Embeddings and N-gram Models for DBpedia Type and Invalid Entity Detection"
+  authors:
+    - Zhou Hanqing
+    - Amal Zouaq
+    - Diana Inkpen
+  publisher: "Information 10.1 (2018): 6."
+  date: "2019-01-01"
+
+- id: doi:10.1109/TLT.2019.2916808
+  type: paper
+  title: "Comprehensive analysis of discussion forum participation: from speech acts to discussion dynamics and course outcomes"
+  authors:
+    - Srećko Joksimović
+    - Jelena Jovanović
+    - Vitomir Kovanović
+    - Dragan Gašević
+    - Nikola Milikić
+    - Amal Zouaq
+    - Jan Paul Van Staalduinen
+  publisher: "IEEE Transactions on Learning Technologies 13(1): 38-51, IEEE"
+  date: "2019-01-01"
+
+#- type: paper
+#  title: "An Exploration of Disciplinary Literacy in Learners’ Short Answers"
+#  authors:
+#    - Jean-Philippe Corbeil
+#    - Amal Zouaq
+#    - Michel Gagnon
+#  publisher: "2nd International Workshop on eliciting Adaptive Sequences for Learning (WeASeL) - Held in conjunction with Intelligent Tutoring Systems (ITS), Springer."
+#  date: "2019-01-01"
+
+- id: doi:10.1007/978-3-030-01762-0_16
+  type: paper
+  title: "Automatic Identification of Relations in Quebec Heritage Data."
+  authors:
+    - François Ferry
+    - Amal Zouaq
+    - Michel Gagnon
+  publisher: "7th EUROMED 2018 conference – Progress in Cultural Heritage. (pp. 188-199). Springer, Cham."
+  date: "2018-01-01"
+
+- id: doi:10.3390/info9060133
+  type: paper
+  title: "A Machine Learning Filter for the Slot Filling Task"
+  authors:
+    - Kevin Lange Di Cesare
+    - Amal Zouaq
+    - Michel Gagnon
+    - Ludovic Jean-Louis
+  publisher: "Information 2018, 9(6), 133"
+  date: "2018-01-01"
+
+#- type: paper
+#  title: "FICLONE: Improving DBpedia Spotlight Using Named Entity Recognition and Collective Disambiguation"
+#  authors:
+#    - Mohamed Chabchoub
+#    - Michel Gagnon
+#    - Amal Zouaq
+#  publisher: "Open Journal of Semantic Web (OJSW) 5.1 (2018): 12-28."
+#  date: "2018-01-01"
+
+- id: doi:10.19153/cleiej.21.1.7
+  type: paper
+  title: "Towards Technological Approaches for Concept Maps Mining from Text"
+  authors:
+    - Camila Zacche de Aguiar
+    - Davidson Cury
+    - Amal Zouaq
+  publisher: "CLEI Electronic Journal. 21(1): 1-16."
+  date: "2018-01-01"
+
+- id: doi:10.1109/WI.2018.00-54
+  type: paper
+  title: "Hybrid Question Answering Using Heuristic Methods and Linked Data Schema"
+  authors:
+    - Rawan Bahmid
+    - Amal Zouaq
+  publisher: "I2018 IEEE/WIC/ACM International Conference on Web Intelligence (WI), 2018, pp. 446-451, doi: 10.1109/WI.2018.00-54."
+  date: "2018-01-01"
+
+#- type: paper
+#  title: "A Comparison of Features for the Automatic Labeling of Student Answers to Open-Ended Questions"
+#  authors:
+#    - Jesus Gerardo Mantecon
+#    - Hadi Abdi Ghavidel
+#    - Amal Zouaq
+#    - Jelena Jovanovic
+#    - Jenny McDonald
+#  publisher: "International Conference on Educational Data Mining (EDM) (11th, Raleigh, NC, Jul 16-20, 2018), International Educational Data Mining Society."
+#  date: "2018-01-01"
+
+- id: doi:10.1007/978-3-030-00072-1_9
+  type: paper
+  title: "A Language Adaptive Method for Question Answering"
+  authors:
+    - Nikolay Radoev
+    - Amal Zouaq
+    - Mathieu Tremblay
+    - Michel Gagnon
+  publisher: "In: Buscaldi, D., Gangemi, A., Reforgiato Recupero, D. (eds) Semantic Web Challenges. SemWebEval 2018. Communications in Computer and Information Science, vol 927. Springer, Cham. https://doi.org/10.1007/978-3-030-00072-1_9"
+  date: "2018-06-01"
+
+- id: doi:10.1016/j.is.2017.08.008
+  type: paper
+  title: "An assessment of open relation extraction systems for the semantic web"
+  authors:
+    - Amal Zouaq
+    - Michel Gagnon
+    - Ludovic Jean-Louis
+  publisher: "Information Systems, Volume 71, p. 228-239"
+  date: "2017-11-01"
+
+- id: doi:10.1145/3132847.3133138
+  type: paper
+  title: "An Empirical Study of Embedding Features in Learning to Rank"
+  authors:
+    - Faezeh Ensan
+    - Ebrahim Bagheri
+    - Amal Zouaq
+    - Alexandre Kouznetsov
+  publisher: "The 26th ACM Conference on Information and Knowledge Management, pp. 2059-2062. ACM."
+  date: "2017-01-01"
+
+#- type: paper
+#  title: "Answering Natural Language Questions on RDF Knowledge base in French. (1st place of QALD 2017 – Question answering in French)"
+#  authors:
+#    - Nikolay Radoev
+#    - Mathieu Tremblay
+#    - Michel Gagnon
+#    - Amal Zouaq
+#  publisher: "Question Answering over Linked Data Challenge (QALD2017 Challenge - ESWC 2017). https://project-hobbit.eu/wp-content/uploads/2017/05/QALD_Paper_3.pdf"
+#  date: "2017-01-01"
+
+- id: doi:10.1007/978-3-319-69146-6_9
+  type: paper
+  title: "AMAL: Answering French Natural Language Questions using DBpedia"
+  authors:
+    - Nikolay Radoev
+    - Mathieu Tremblay
+    - Michel Gagnon
+    - Amal Zouaq
+  publisher: "In: Dragoni, M., Solanki, M., Blomqvist, E. (eds) Semantic Web Challenges. SemWebEval 2017. Communications in Computer and Information Science, vol 769. Springer, Cham. https://doi.org/10.1007/978-3-319-69146-6_9"
+  date: "2017-01-01"
+
+- id: doi:10.1007/978-3-319-69548-8_21
+  type: paper
+  title: "DBpedia Entity Type Detection Using Entity Embeddings and N-Gram Models"
+  authors:
+    - Hanqing Zhou
+    - Amal Zouaq
+    - Diana Inkpen
+  publisher: "In: Różewski, P., Lange, C. (eds) 8th International Conference on Knowledge Engineering and Semantic Web. KESW 2017. Communications in Computer and Information Science, vol 786. Springer, Cham. https://doi.org/10.1007/978-3-319-69548-8_21"
+  date: "2017-01-01"
+
+- id: doi:10.1111/jcal.12178
+  type: paper
+  title: "Short answers to deep questions: supporting teachers in large‐class settings"
+  authors:
+    - Jenny McDonald
+    - Rebecca J Bird
+    - Amal Zouaq
+    - Adon Moskal
+  publisher: "Journal of Computer Assisted Learning 33.4 (2017): 306-319"
+  date: "2017-01-01"
+
+#- type: paper
+#  title: "Assessing and Improving Domain Knowledge Representation in DBpedia"
+#  authors:
+#    - Ludovic Font
+#    - Amal Zouaq
+#    - Michel Gagnon
+#  publisher: "Open Journal of Semantic Web (OJSW), 4(1) : p. 1-19"
+#  date: "2017-01-01"
+
+#- type: paper
+#  title: "Linked data for learning analytics: Potentials and challenges"
+#  authors:
+#    - Amal Zouaq
+#    - Jelena Jovanovic
+#    - Srécko Joksimovic
+#    - D Gasevic
+#  publisher: "Handbook of Learning Analytics, pp. 347-355"
+#  date: "2017-11-01"
+
+- id: doi:10.1016/j.compedu.2016.05.007
+  type: paper
+  title: "Automatic detection of expert models: The exploration of expert modeling methods applicable to technology-based assessment and instruction"
+  authors:
+    - Min Kyu Kim
+    - Amal Zouaq
+    - So Mi Kim
+  publisher: "Computers & Education 101 (2016): 55-69"
+  date: "2016-01-01"
+
+- id: doi:10.1007/978-3-319-46565-4_3
+  type: paper
+  title: "Collective disambiguation and Semantic Annotation for Entity Linking and Typing - Winner of the Open Knowledge Extraction challenge)"
+  authors:
+    - Mohamed Chabchoub
+    - Michel Gagnon
+    - Amal Zouaq
+  publisher: "ESWC-16 Open Knowledge Extraction Challenge, Heraklion, Greece"
+  date: "2016-06-01"
+
+#- type: paper
+#  title: "Automatic construction of concept maps from text"
+#  authors:
+#    - Camila Z. Aguiar
+#    - Davidson Cury
+#    - Amal Zouaq
+#  publisher: "7th International Conference on Concept Mapping. Vol 2, pp. 20-30"
+#  date: "2016-01-01"
+
+#- type: paper
+#  title: "Ontomap: from concept maps to shallow owl ontologies"
+#  authors:
+#    - Guilherme N. Pinotte
+#    - Davidson Cury
+#    - Amal Zouaq
+#  publisher: "7th International Conference on Concept Mapping, Vol 2, pp. 164-174."
+#  date: "2016-01-01"
+
+#- type: paper
+#  title: "Automatic Extraction of Axioms from Wikipedia Using SPARQL"
+#  authors:
+#    - Lara Haidar-Ahmad
+#    - Amal Zouaq
+#    - Michel Gagnon
+#  publisher: "Lara Haidar-Ahmad, Amal Zouaq, Michel Gagnon"
+#  date: "2016-07-01"
+
+#- type: paper
+#  title: "Semantic Annotation for the Analysis of Political Debates: A Graph-based Approach"
+#  authors:
+#    - Edoukou Philippe Armel N'Techobo
+#    - Amal Zouaq
+#    - Michel Gagnon
+#  publisher: "International Conference on the Advances in Computational Analysis of Political Text, Dubrovnik"
+#  date: "2016-07-01"
+
+- id: doi:10.1007/978-3-319-46565-4_5
+  type: paper
+  title: "Entity Typing and Linking using SPARQL Patterns and DBpedia -  Winner of the Open Knowledge Extraction challenge"
+  authors:
+    - Lara Haidar-Ahmad
+    - Ludovic Font
+    - Amal Zouaq
+    - M. Gagnon
+  publisher: "ESWC-16 Open Knowledge Extraction Challenge, Heraklion, Greece"
+  date: "2016-05-01"
+
+- id: doi:10.1145/2872518.2889397
+  type: paper
+  title: "A Machine learning Filter for Relation Extraction"
+  authors:
+    - Kevin Lange Di Cesare
+    - Amal Zouaq
+    - Ludovic Jean-Louis
+    - Michel Gagnon
+  publisher: "25th World Wide Web Conference, Montreal"
+  date: "2016-04-01"
+
+#- type: paper
+#  title: "Étude Prospective d’un Système Tutoriel à l’aide du Modèle des Espaces de Travail Mathématique"
+#  authors:
+#    - Nicolas Leduc
+#    - Michèle Tessier-Baillargeon
+#    - Jean-Philippe Corbeil
+#    - Philippe R. Richard
+#    - Michel Gagnon
+#  publisher: "Proceedings Fifth ETM Symposium"
+#  date: "2016-07-01"
+
+#- type: paper
+#  title: "OntoMap: De Mapas Conceituais a Ontologias OWL"
+#  authors:
+#    - Guilherme N. Pinotte
+#    - Davidson Cury
+#    - Amal Zouaq
+#  publisher: "In Proceedings of TISE 2015, pp. 172-180."
+#  date: "2015-01-01"
+
+- id: doi:10.1109/SITIS.2015.104
+  type: paper
+  title: "Assessing the Quality of Domain Concepts Descriptions in DBpedia"
+  authors:
+    - Ludovic Font
+    - Amal Zouaq
+    - Michel Gagnon
+  publisher: "12th International Conference on Signal Image Technology & Internet Based Systems, Bangkok, p. 254-261"
+  date: "2015-11-01"
+
+#- type: paper
+#  title: "Short Answers to Deep Questions: Insights from Tutorial Dialogue"
+#  authors:
+#    - Jenny McDonald
+#    - Amal Zouaq
+#    - Michel Gagnon
+#    - R Bird
+#  publisher: "ALASI 2015"
+#  date: "2015-01-01"
+
+- id: doi:10.1145/2723576.2723609
+  type: paper
+  title: "What do cMOOC participants talk about in Social Media? A Topic Analysis of Discourse in a cMOOC."
+  authors:
+    - Srecko Joksimovic
+    - Vitomir Kovanovic
+    - Jelena Jovanovic
+    - Amal Zouaq
+    - Dragan Gasevic
+    - Marek Hatala
+  publisher: "Proceedings of the 5th International Conference on Learning Analytics & Knowledge (LAK 2015)"
+  date: "2015-01-01"
+
+- id: doi:10.1007/978-3-319-13332-4_21
+  type: paper
+  title: "A Comparison of Graph-based and Statistical Metrics for Learning Domain Keywords."
+  authors:
+    - Alexandre Kouznetsov
+    - Amal Zouaq
+  publisher: "13th Pacific Rim Knowledge Acquisition Workshop - PKAW 2014, pp. 260-268, Gold Coast, Australia."
+  date: "2014-01-01"
+
+- id: doi:10.1007/978-3-319-13560-1_44
+  type: paper
+  title: "An Assessment of Online Semantic Annotators for the Keyword Extraction Task"
+  authors:
+    - Ludovic Jean-Louis
+    - Amal Zouaq
+    - Michel Gagnon
+    - Faezeh Ensan
+  publisher: "The 13rd Pacific Rim Internationl Conference on Artificial Intelligence, Gold Coast, Australia."
+  date: "2014-12-01"
