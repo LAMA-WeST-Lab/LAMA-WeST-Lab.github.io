@@ -73,6 +73,7 @@
   publisher: "EACL 2026 (Findings)"
   date: "2025-01-01"
   link: https://arxiv.org/abs/2502.13369
+  image: images/papers/SPARQL_RAG.jpg
 
 #- type: paper
 #  title: "ReWiSe, Relation-Wise Self-consistency for LLM Probing (Winner of the competition)"
@@ -146,6 +147,7 @@
     - Christopher J. Pal
   publisher: "NAACL 2025 (Findings): https://arxiv.org/abs/2410.13510"
   date: "2025-01-01"
+  image: images/papers/geocoder.jpeg
 
 - id: arxiv:2411.06824
   type: paper
