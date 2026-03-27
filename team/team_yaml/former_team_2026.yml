@@ -477,50 +477,6 @@
 
   
 
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
 
 <!-- include all css in styles folder -->
 
@@ -562,7 +518,7 @@
 
 <header
   class="background"
-  style="--image: url('')"
+  style="--image: url('/images/dune.jpg')"
   
     data-dark="true"
   
@@ -1945,7 +1901,7 @@
 
 <footer
   class="background"
-  style="--image: url('')"
+  style="--image: url('/images/dune.jpg')"
   
     data-dark="true"
   
