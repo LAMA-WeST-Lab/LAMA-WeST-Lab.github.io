@@ -43,6 +43,7 @@
   date: '2025-01-01'
   link: https://arxiv.org/abs/2502.13369
   type: paper
+  image: images/papers/SPARQL_RAG.jpg
   plugin: sources.py
   file: sources.yaml
 - id: arxiv:2507.11356
@@ -101,6 +102,7 @@
   date: '2025-01-01'
   link: https://doi.org/hbt4dz
   type: paper
+  image: images/papers/geocoder.jpeg
   plugin: sources.py
   file: sources.yaml
 - id: arxiv:2411.06824
