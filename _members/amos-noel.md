@@ -9,3 +9,4 @@ topic:
   fr: "Intelligence artificielle et santé"
 ---
 
+AI and Digital Health

@@ -8,3 +8,4 @@ topic:
   fr: "TAL, information séquentielle, capacités des LLMs"
 ---
 
+NLP, sequential information, LLMs capabilities

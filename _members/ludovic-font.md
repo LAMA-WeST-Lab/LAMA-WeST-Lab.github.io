@@ -8,3 +8,4 @@ topic:
   fr: "MCCQ - Génération d'une base de connaissances sur la littérature du Québec"
 ---
 
+MCCQ - Generation of a Knowledge Base about Quebec literature

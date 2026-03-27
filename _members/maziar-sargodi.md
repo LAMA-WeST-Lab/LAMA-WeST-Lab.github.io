@@ -9,3 +9,4 @@ topic:
   fr: "Satisfaction de contraintes avec des reseaux de neurones"
 ---
 
+Constraint satisfaction using neural networks
