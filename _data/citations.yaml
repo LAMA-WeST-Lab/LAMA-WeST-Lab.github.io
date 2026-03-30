@@ -56,6 +56,7 @@
   date: '2025-01-01'
   link: https://www.semanticscholar.org/paper/ReWiSe%3A-Relation-Wise-Self-consistency-for-LLM-Albert-Roulhac-Zouaq/d141d423894f59513be2c83a7cfb84db8a499ddb
   type: paper
+  image: images/papers/ReWise.png
   plugin: sources.py
   file: sources.yaml
 - id: arxiv:2507.11356
