@@ -2,9 +2,9 @@
 
 # team member roles
 
-principal-investigator:
+Full Professor:
   icon: fa-solid fa-microscope
-  description: Principal Investigator
+  description: Full Professor & FRQS Chair in AI and Digital Health
 
 postdoc:
   icon: fa-solid fa-glasses
