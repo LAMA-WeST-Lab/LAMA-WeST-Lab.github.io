@@ -1,6 +1,6 @@
 ---
 name: Amal Zouaq
-role: Full Professor & FRQS Chair in AI and Digital Health
+role: fullprof
 affiliation: Polytechnique Montreal
 links:
   home-page: https://www.polymtl.ca/expertises/zouaq-amal
