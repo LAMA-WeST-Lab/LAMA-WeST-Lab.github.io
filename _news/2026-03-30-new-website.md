@@ -1,11 +1,10 @@
 ---
-title: "GeoCoder: Solving Geometry Problems by Generating Modular Code through Vision-Language Models"
-author: amal-zouaq
-featured: false
+title: "New Website Launch"
+author: zacharie-garnier-cuchet
+featured: true
 tags:
-  - paper
-  - multimodal
-  - geometry
+  - website
+  - lab
 ---
 
-Check our paper GeoCoder- Solving Geometry Problems by Generating Modular Code through Vision-Language Models. See the publications tab for more details.
+We have just launched our new website! Explore the new design and updated content across all sections.
