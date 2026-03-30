@@ -2,7 +2,6 @@
 title: "Process Modeling with Large Language Models: Towards a Fine-Grained Evaluation Framework"
 authors:
   - alexis-brissard
-status: past
 featured: false
 tags:
   - process-modeling

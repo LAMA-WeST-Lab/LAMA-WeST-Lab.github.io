@@ -21,11 +21,11 @@ We host regular seminars featuring presentations from lab members on their own r
 
 ## Upcoming Seminars
 
-{% include list.html data="seminars" component="seminar-excerpt" filter="status == 'upcoming'" %}
+{% include list.html data="seminars" component="seminar-excerpt" filter="date >= Time.now" %}
 
 {% include section.html %}
 
 ## Past Seminars
 
-{% include list.html data="seminars" component="seminar-excerpt" filter="status == 'past'" %}
+{% include list.html data="seminars" component="seminar-excerpt" filter="date < Time.now" %}
 

@@ -2,7 +2,6 @@
 title: "BenchIEFL: A Manually Re-Annotated Fact-Based Open Information Extraction Benchmark"
 authors:
   - fl
-status: past
 featured: false
 tags:
   - open-information-extraction

@@ -2,7 +2,6 @@
 title: "Enhancing Frame Detection with Generative Models"
 authors:
   - karou
-status: past
 featured: false
 tags:
   - frame-detection

@@ -2,7 +2,6 @@
 title: "Explainable Insider Threat Detection by leveraging Large Language Models"
 authors:
   - alexis-brissard
-status: past
 featured: false
 tags:
   - cybersecurity

@@ -3,7 +3,6 @@ title: "Leveraging LLMs to Extract Process Models from Emails & Post-Generation 
 authors:
   - alexis-brissard
   - aditya-sharma
-status: past
 featured: false
 tags:
   - information-extraction

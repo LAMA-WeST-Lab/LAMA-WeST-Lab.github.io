@@ -3,7 +3,6 @@ title: "Non-parametric Memories & LLM Working Memory"
 authors:
   - aditya-sharma
   - davide-baldelli
-status: past
 featured: false
 tags:
   - memory

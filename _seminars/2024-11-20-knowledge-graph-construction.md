@@ -2,7 +2,6 @@
 title: "Knowledge Graph Construction from LLMs"
 authors:
   - edouard-albert-roulhac
-status: past
 featured: false
 tags:
   - knowledge-graphs

@@ -3,8 +3,7 @@ title: "Lab Seminar: Presentations & Oral Predoc Practice"
 authors:
   - neshat-elhami-fard
   - fl
-status: upcoming
-featured: false
+featured: true
 tags:
   - presentations
   - oral-practice

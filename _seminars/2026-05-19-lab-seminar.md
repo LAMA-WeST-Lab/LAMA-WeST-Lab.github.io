@@ -3,7 +3,6 @@ title: "Lab Seminar"
 authors:
   - davide-baldelli
   - zacharie-garnier-cuchet
-status: upcoming
 featured: false
 tags:
   - seminar

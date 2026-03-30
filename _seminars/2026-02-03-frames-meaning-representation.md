@@ -3,7 +3,6 @@ title: Frames for meaning representation & Mémoire
 authors:
   - karou
   - edouard-albert-roulhac
-status: past
 featured: false
 tags:
   - semantics

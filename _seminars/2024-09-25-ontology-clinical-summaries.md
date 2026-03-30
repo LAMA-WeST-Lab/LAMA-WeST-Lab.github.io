@@ -2,7 +2,6 @@
 title: "Ontology-Constrained Generation of Domain-Specific Clinical Summaries"
 authors:
   - gaya
-status: past
 featured: false
 tags:
   - ontology

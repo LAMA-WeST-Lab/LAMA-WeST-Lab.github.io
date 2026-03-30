@@ -2,7 +2,6 @@
 title: "GeoCoder: Solving Geometry Problems with Multimodal Large Language Models"
 authors:
   - aditya-sharma
-status: past
 featured: false
 tags:
   - multimodal

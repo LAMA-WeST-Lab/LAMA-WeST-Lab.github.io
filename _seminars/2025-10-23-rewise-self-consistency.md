@@ -3,7 +3,6 @@ title: "ReWiSe: Relation-Wise Self-consistency for LLM Probing"
 authors:
   - edouard-albert-roulhac
   - arnaud-delage-reid
-status: past
 featured: false
 tags:
   - llm-probing
