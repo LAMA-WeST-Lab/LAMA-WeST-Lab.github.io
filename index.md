@@ -3,7 +3,13 @@
 
 # LAMA-WeST-Lab's Website
 
-Welcome to the LAMA-WeST-Lab
+The LAMA-WeST lab specializes in all aspects of natural language processing and artificial intelligence, with a special focus on Semantic Web technologies. Semantic Web knowledge bases can represent a large-scale source of knowledge for artificial intelligence models and can be used, among other things, to ensure the validity of information, and the explainability of artificial intelligence models.
+
+Our various research projects tackle challenges related to representation learning, natural language interfaces and question answering, automated reasoning, knowledge base learning and alignment, ontology learning, knowledge engineering and modeling, and information extraction and generation to name a few.
+
+Our lab is funded through government and industry institutions including NSERC, FRQS, SSHRC, IVADO and MITACS. It provides a fertile ground and learning opportunities for students and visiting researchers.
+
+Led by Prof. Amal Zouaq, The LAMA-WeST lab is welcoming new collaborations in the academic and industrial community.
 
 {% include section.html %}
 
