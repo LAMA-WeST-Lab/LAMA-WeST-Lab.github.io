@@ -46,6 +46,18 @@
   image: images/papers/SPARQL_RAG.jpg
   plugin: sources.py
   file: sources.yaml
+- id: url:https://www.semanticscholar.org/paper/ReWiSe%3A-Relation-Wise-Self-consistency-for-LLM-Albert-Roulhac-Zouaq/d141d423894f59513be2c83a7cfb84db8a499ddb
+  title: ReWiSe, Relation-Wise Self-consistency for LLM Probing (Winner of the competition)
+  authors:
+  - Edouard Albert-Roulhac
+  - Amal Zouaq
+  publisher: Knowledge Base Construction from Pre-trained Language Models Challenge,
+    24th International Semantic Web Conference (ISWC 2025)
+  date: '2025-01-01'
+  link: https://www.semanticscholar.org/paper/ReWiSe%3A-Relation-Wise-Self-consistency-for-LLM-Albert-Roulhac-Zouaq/d141d423894f59513be2c83a7cfb84db8a499ddb
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
 - id: arxiv:2507.11356
   title: What is the Best Process Model Representation? A Comparative Analysis for
     Process Modeling with Large Language Models
