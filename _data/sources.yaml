@@ -75,13 +75,14 @@
   link: https://arxiv.org/abs/2502.13369
   image: images/papers/SPARQL_RAG.jpg
 
-#- type: paper
-#  title: "ReWiSe, Relation-Wise Self-consistency for LLM Probing (Winner of the competition)"
-#  authors:
-#    - Edouard Albert-Roulhac
-#    - Amal Zouaq
-#  publisher: "Knowledge Base Construction from Pre-trained Language Models Challenge, 24th International Semantic Web Conference (ISWC 2025)"
-#  date: "2025-01-01"
+- id: url:https://www.semanticscholar.org/paper/ReWiSe%3A-Relation-Wise-Self-consistency-for-LLM-Albert-Roulhac-Zouaq/d141d423894f59513be2c83a7cfb84db8a499ddb
+  type: paper
+  title: "ReWiSe, Relation-Wise Self-consistency for LLM Probing (Winner of the competition)"
+  authors:
+    - Edouard Albert-Roulhac
+    - Amal Zouaq
+  publisher: "Knowledge Base Construction from Pre-trained Language Models Challenge, 24th International Semantic Web Conference (ISWC 2025)"
+  date: "2025-01-01"
 
 - id: arxiv:2507.11356
   type: paper
