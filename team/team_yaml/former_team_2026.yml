@@ -518,7 +518,7 @@
 
 <header
   class="background"
-  style="--image: url('/images/dune.jpg')"
+  style="--image: url('/images/logo_banner.jpg')"
   
     data-dark="true"
   
@@ -1901,7 +1901,7 @@
 
 <footer
   class="background"
-  style="--image: url('/images/dune.jpg')"
+  style="--image: url('/images/logo_banner.jpg')"
   
     data-dark="true"
   
