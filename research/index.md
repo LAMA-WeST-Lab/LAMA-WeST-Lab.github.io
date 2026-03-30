@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-The LAMA-WeST lab focuses on TODO ADD DESCRIPTION
+The LAMA-WeST lab conducts research at the intersection of natural language processing, semantic web technologies, and machine learning, with a focus on large language models, knowledge graphs, and their applications in education, healthcare, and intelligent information systems.
 
 {% include section.html %}
 
