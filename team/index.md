@@ -13,7 +13,7 @@ nav:
 {% if principal_investigators.size > 0 %}
 ## Lab Director
 
-{% include list.html data="members" component="portrait" filter="(role == 'principal-investigator' or role == 'professor') and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filter="(role == 'fullprof') and group != 'alum'" %}
 {% endif %}
 
 {% assign postdocs = site.members | where: "role", "postdoc" | where_exp: "member", "member.group != 'alum'" %}
