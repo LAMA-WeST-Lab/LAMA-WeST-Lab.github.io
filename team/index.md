@@ -9,7 +9,7 @@ nav:
 
 {% include section.html %}
 
-{% assign principal_investigators = site.members | where_exp: "member", "member.role == 'principal-investigator'" | where_exp: "member", "member.group != 'alum'" %}
+{% assign principal_investigators = site.members | where_exp: "member", "member.role == 'Full Professor & FRQS Chair in AI and Digital Health'" | where_exp: "member", "member.group != 'alum'" %}
 {% if principal_investigators.size > 0 %}
 ## Lab Director
 
