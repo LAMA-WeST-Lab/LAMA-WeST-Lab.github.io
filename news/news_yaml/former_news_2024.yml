@@ -1,0 +1,93 @@
+---
+- text:
+    en: Check our paper GeoCoder- Solving Geometry Problems by Generating Modular Code through Vision-Language Models. See the publications tab for more details.
+    fr: Consultez notre papier GeoCoder- Solving Geometry Problems by Generating Modular Code through Vision-Language Models. Regardez l'onglet publications pour plus de détails.
+  type: news
+  date: "2024-09-19" 
+- text:
+    en: Our paper  Combining Domain and Alignment Vectors to Achieve Better Knowledge-Safety Trade-offs in LLMs is accepted at NeurIPS-AFM 2024. See the publications tab for more details.
+    fr: Notre papier Combining Domain and Alignment Vectors to Achieve Better Knowledge-Safety Trade-offs in LLMs est accepté à NeurIPS-AFM 2024. Regardez l'onglet publications pour plus de détails.
+  type: news
+  date: "2024-09-12" 
+- text:
+    en: Our paper Ontology-Constrained Generation of Domain-Specific Clinical Summaries is accepted at EKAW 2024. See the publications tab for more details.
+    fr: Notre papier Ontology-Constrained Generation of Domain-Specific Clinical Summaries est accepté à EKAW 2024. Regardez l'onglet publications pour plus de détails.
+  type: news
+  date: "2024-09-12" 
+- text:
+    en: Our paper A Comprehensive Evaluation of Neural SPARQL Query Generation from Natural Language Questions is accepted at IEEE Access. See the publications tab for more details.
+    fr: Notre papier A Comprehensive Evaluation of Neural SPARQL Query Generation from Natural Language Questions est accepté à IEEE Access. Regardez l'onglet publications pour plus de détails.
+  type: news
+  date: "2024-08-31" 
+- text: 
+    en: Prof. Zouaq is the co leader of the IVADO R3AI NLP regroupement
+    fr: Prof. Zouaq est la co leader du regroupement IVADO R3AI en TALN 
+  type: news
+  date: "2024-04-10" 
+# - text:
+    # en: Mehrnaz Moslemi has successfully defended her masters thesis on Social Bias Mitigation in Pretrained Language Models. See the seminars tab for more details.
+    # fr: Mehrnaz Moslemi a brillament défendu son mémoire de maitrise sur la mitigation de biais dans les modèles de langue pré-entrainés. Regardez l'onglet séminaires pour plus de détails.
+  # type: news
+  # date: "2024-04-01"
+# - text:
+    # en: Our paper TagDebias Entity and Concept Tagging for Social Bias Mitigation in Pretrained Language Models is accepted at NAACL 2024 (Findings). See the publications tab for more details.
+    # fr: Notre papier TagDebias Entity and Concept Tagging for Social Bias Mitigation in Pretrained Language Models est accepté à NAACL 2024 (Findings). Regardez l'onglet publications pour plus de détails.
+  # type: news
+  # date: "2024-04-08"
+# - text:
+    # en: Our paper Contextual Embeddings and Graph Convolutional Networks for Concept Prerequisite Learning is accepted at the 39th ACM/SIGAPP Symposium On Applied Computing (ACM SAC 2024)Artificial Intelligence for Education. See the publications tab for more details.
+    # fr: Notre papier Contextual Embeddings and Graph Convolutional Networks for Concept Prerequisite Learning est accepté à The 39th ACM/SIGAPP Symposium On Applied Computing (ACM SAC 2024) Artificial Intelligence for Education. Regardez l'onglet publications pour plus de détails.
+  # type: news
+  # date: "2024-04-04" 
+
+
+# - text: 
+    # en: Our system SORBETMatcher participates to the OAEI 2023 competition and is the best system in several tracks. Congratulations Francis!
+    # fr: Notre système SORBETMatcher participe à la compétition OAEI 2023 et est le meilleur système dans différentes tâches/données. Bravo Francis!
+  # type: news
+  # date: "2023-11-10"
+# - text:
+    # en: Our paper SORBET - A Siamese Network for Ontology Embeddings Using a Distance-Based Regression Loss and BERT à ISWC23 was nominated for the best paper award. Congratulations Francis!
+    # fr: Notre papier SORBET - A Siamese Network for Ontology Embeddings Using a Distance-Based Regression Loss and BERT à ISWC23 a été nominé pour le prix du meilleur papier. Bravo Francis!
+  # type: news
+  # date: "2023-11-15"
+# - text: 
+    # en: Our paper SORBET - A Siamese Network for Ontology Embeddings Using a Distance-Based Regression Loss and BERT à ISWC23 was nominated for the best paper award. Congratulations Francis!
+    # fr: Notre papier SORBET - A Siamese Network for Ontology Embeddings Using a Distance-Based Regression Loss and BERT à ISWC23 a été nominé pour le prix du meilleur papier. Bravo Francis!
+  # type: news
+  # date: "2023-11-15"
+# - text: 
+    # en: Two papers accepted at the 22nd International Semantic Web Conference (ISWC)! (See the publications' section)
+    # fr: Deux papiers acceptés à ISWC 2023! (voir la section publications)
+  # type: news
+  # date: "2022-07-14"
+# - text: 
+    # en: Prof. Amal Zouaq is the new FRQS (dual) chair in AI and Digital Health. We are looking for several graduate students and postdocs. 
+    # fr: Prof. Amal Zouaq est la nouvelle titulaire de la chaire (double) FRQS en IA et santé numérique. Nous sommes à la recherche d'étudiants aux cycles supérieurs et de postdocs! 
+  # type: news
+  # date: "2022-07-06"
+# - text: 
+    # en: Our NSERC Alliance project on cyber-security (Internal Threat), with Prof Frederic and Nora Cuppens, is starting next Fall. We are looking for several graduate students. 
+    # fr: Notre projet CRSNG Alliance en cyber-sécurité (Menace interne), avec les professeur.e.s Frédéric et Nora Cuppens, commence cet automne. Nous cherchons des étudiants aux cycles supérieurs! 
+  # type: news
+  # date: "2022-06-06"
+# - text: 
+    # en: Our paper Detecting Languages Unintelligible to Multilingual Models through Local Structure Probes is accepted at EMNLP (Findings) 2022. Congratulations Louis!
+    # fr: Notre papier Detecting Languages Unintelligible to Multilingual Models through Local Structure Probes est accepté à EMNLP (Findings) 2022. Bravo Louis!
+  # type: news
+  # date: "2022-10-23"
+# - text: 
+    # en: Our system SEBMatcher participates to the OAEI 2022 competition. Congratulations Francis!
+    # fr: Notre système SEBMatcher participe à la compétition OAEI 2022. Bravo Francis!
+  # type: news
+  # date: "2022-10-10"
+# - text: 
+    # en: Our paper  A Copy Mechanism for Handling Out-of-Vocabulary Elements in SPARQL Neural Machine Translation is accepted at AACL 2022. Congratulations Rose and Samuel!
+    # fr: Notre papier  A Copy Mechanism for Handling Out-of-Vocabulary Elements in SPARQL Neural Machine Translation est accepté à AACL 2022. Bravo Rose et Samuel!
+  # type: news
+  # date: "2022-09-21"
+# - text: 
+    # en: Our paper Local Structure Matters Most in Most Languages is accepted at AACL 2022. Congratulations Louis!
+    # fr: Notre papier  Local Structure Matters Most in Most Languages est accepté à AACL 2022. Bravo Louis!
+  # type: news
+  # date: "2022-09-21"
