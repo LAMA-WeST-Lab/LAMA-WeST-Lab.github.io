@@ -73,8 +73,8 @@ Women and underrepresented minorities are especially encouraged to apply to our 
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/icon.png"
+  caption="Once upon a time..."
 %}
 
 {% endcapture %}
@@ -83,8 +83,8 @@ Women and underrepresented minorities are especially encouraged to apply to our 
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/icon.png"
+  caption="...in the LAMA-WeST Lab"
 %}
 
 {% endcapture %}
@@ -94,21 +94,27 @@ Women and underrepresented minorities are especially encouraged to apply to our 
 {% include section.html dark=true %}
 
 {% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+### How to apply
+
+- Send your **CV** (with transcripts if available)
+- Add a short **research statement** (1–2 pages)
+- Indicate whether you are interested in **MSc, PhD, or internship** positions
 {% endcapture %}
 
 {% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+### What you will work on
+
+- Research in **natural language processing** and **machine learning**
+- Projects on language models, representation learning, and evaluation
+- Collaborations with researchers in computational linguistics and AI
 {% endcapture %}
 
 {% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+### Why apply
+
+- Work on **cutting-edge NLP and ML research**
+- Join a **collaborative and supportive** lab environment
+- Build a strong profile for **top PhD programs** or **industry research roles**
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}
