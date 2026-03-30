@@ -74,7 +74,7 @@ Women and underrepresented minorities are especially encouraged to apply to our 
 {%
   include figure.html
   image="images/icon.png"
-  caption="Once upon a time..."
+  caption="Once upon a time"
 %}
 
 {% endcapture %}
@@ -84,7 +84,7 @@ Women and underrepresented minorities are especially encouraged to apply to our 
 {%
   include figure.html
   image="images/icon.png"
-  caption="...in the LAMA-WeST Lab"
+  caption="in the LAMA-WeST Lab..."
 %}
 
 {% endcapture %}
