@@ -11,7 +11,7 @@ nav:
 
 {% assign principal_investigators = site.members | where_exp: "member", "member.role == 'principal-investigator'" | where_exp: "member", "member.group != 'alum'" %}
 {% if principal_investigators.size > 0 %}
-## Principal Investigator
+## Lab Director
 
 {% include list.html data="members" component="portrait" filter="(role == 'principal-investigator' or role == 'professor') and group != 'alum'" %}
 {% endif %}
