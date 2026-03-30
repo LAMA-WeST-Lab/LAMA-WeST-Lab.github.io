@@ -83,6 +83,7 @@
     - Amal Zouaq
   publisher: "Knowledge Base Construction from Pre-trained Language Models Challenge, 24th International Semantic Web Conference (ISWC 2025)"
   date: "2025-01-01"
+  image: images/papers/ReWise.png
 
 - id: arxiv:2507.11356
   type: paper
