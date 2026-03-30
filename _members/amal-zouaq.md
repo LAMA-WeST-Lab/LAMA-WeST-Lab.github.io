@@ -8,7 +8,7 @@ links:
   google-scholar: lqDGv9YAAAAJ&hl=fr&authuser=3&oi=ao
 ---
 
-Amal Zouaq is a professor à [Polytechnique Montréal](https://www.polymtl.ca/). Elle est titulaire de la chaire (double) FRQS en IA et santé numérique​, membre académique associée au [MILA](https://mila.quebec/en), et professeure associée à l'[Université d'Ottawa](https://www.uottawa.ca/en).
+Amal Zouaq is a professor at [Polytechnique Montréal](https://www.polymtl.ca/). She holds a dual FRQS Chair in AI and digital health, is an associate academic member of [MILA](https://mila.quebec/en), and an adjunct professor at the [University of Ottawa](https://www.uottawa.ca/en).
 
-Ses intérêts de recherche incluent l'intelligence artificielle, le traitement du langage naturel, le Web sémantique et l'exploration de données. Elle est directrice du [laboratoire de recherche LAMA-WeST](https://lama-west-lab.github.io/), spécialisé dans tous les aspects du traitement du langage naturel et de l'intelligence artificielle. Elle est membre du comité de programme de nombreuses conférences et revues sur l'ingénierie des connaissances et des données, le traitement du langage naturel, l'exploration de données et le Web sémantique. 
+Her research interests include artificial intelligence, natural language processing, the Semantic Web, and data mining. She is the director of the [LAMA-WeST research laboratory](https://lama-west-lab.github.io/), which specializes in all aspects of natural language processing and artificial intelligence. She serves on the program committees of numerous conferences and journals on knowledge and data engineering, natural language processing, data mining, and the Semantic Web.
 
