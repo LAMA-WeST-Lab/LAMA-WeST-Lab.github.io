@@ -46,9 +46,9 @@
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our research explores natural language processing, knowledge graphs and machine learning, with applications in education, healthcare and intelligent information systems.
 
-{%
+{%  
   include button.html
   link="research"
   text="See our publications"
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% endcapture %}
 
-{%
+{%  
   include feature.html
   image="images/papers/hangman_main.jpg"
   link="research"
@@ -69,9 +69,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We host regular seminars where lab members present ongoing projects, new results and other topics in natural language processing and AI.
 
-{%
+{%  
   include button.html
   link="seminars"
   text="Browse our seminars"
@@ -82,7 +82,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% endcapture %}
 
-{%
+{%  
   include feature.html
   image="images/papers/sparql.jpg"
   link="seminars"
@@ -94,9 +94,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our team brings together students, postdoctoral researchers and collaborators interested in natural language processing, semantic web technologies and applied AI.
 
-{%
+{%  
   include button.html
   link="team"
   text="Meet our team"
@@ -107,7 +107,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% endcapture %}
 
-{%
+{%  
   include feature.html
   image="images/team/team-selfie.jpg"
   link="team"
