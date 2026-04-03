@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Prospective Students
 
-We are currently looking for strong and motivated students interested in pursuing research in Natural Language Processing (NLP), machine learning, and computational linguistics. If you are interested in joining our laboratory, please reach out to us with your CV and a brief description of your research interests.
+We are currently looking for strong and motivated students interested in pursuing research in Natural Language Processing (NLP), machine learning, and computational linguistics. If you are interested in joining our laboratory, please reach out to us with your CV, transcripts, and a brief description of your research interests.
 
 ## Our Research Areas
 
@@ -51,8 +51,8 @@ Women and underrepresented minorities are especially encouraged to apply to our 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="amal.zouaq@polymtl.ca"
+  link="amal.zouaq@polymtl.ca"
 %}
 {%
   include button.html
@@ -98,7 +98,8 @@ Women and underrepresented minorities are especially encouraged to apply to our 
 
 - Send your **CV** (with transcripts if available)
 - Add a short **research statement** (1–2 pages)
-- Indicate whether you are interested in **MSc, PhD, or internship** positions
+- Add your transcripts
+- Indicate whether you are interested in **MSc, PhD, or postdoc** positions
 {% endcapture %}
 
 {% capture col2 %}
@@ -106,7 +107,7 @@ Women and underrepresented minorities are especially encouraged to apply to our 
 
 - Research in **natural language processing** and **machine learning**
 - Projects on language models, representation learning, and evaluation
-- Collaborations with researchers in computational linguistics and AI
+- Collaborations with researchers in NLP, machine learning and AI
 {% endcapture %}
 
 {% capture col3 %}
