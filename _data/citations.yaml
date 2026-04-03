@@ -218,7 +218,7 @@
   type: paper
   plugin: sources.py
   file: sources.yaml
-- id: https://www.semanticscholar.org/paper/SORBETmatcher-results-for-OAEI-2023-Gosselin-Zouaq/ceffb7006d51ba3d35fde939f7d77f072fe7149f
+- id: url:https://www.semanticscholar.org/paper/SORBETmatcher-results-for-OAEI-2023-Gosselin-Zouaq/ceffb7006d51ba3d35fde939f7d77f072fe7149f
   title: SORBETMatcher results for OAEI 2023 (Top system in several tracks)
   authors:
   - Francis Gosselin
