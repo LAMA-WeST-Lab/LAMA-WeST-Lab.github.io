@@ -1,6 +1,7 @@
 ---
 name: Louis Clouâtre
 role: phd
+group: alum
 year: "Sept 2019-"
 supervisors: "Amal Zouaq /Sarath Chandar"
 topic:
