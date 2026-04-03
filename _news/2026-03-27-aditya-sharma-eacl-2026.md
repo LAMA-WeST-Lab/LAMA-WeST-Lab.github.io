@@ -6,6 +6,7 @@ tags:
   - paper
   - conference
   - language models
+image: images/news/aditya_EACL.jpg
 ---
 
 Aditya Sharma is presenting his paper "Reducing hallucinations in language model-based SPARQL query generation using post-generation memory retrieval" at EACL 2026 (Findings).
