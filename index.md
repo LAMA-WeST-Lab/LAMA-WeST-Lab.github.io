@@ -3,9 +3,13 @@
 
 # LAMA-WeST-Lab's Website
 
-<p class="home-intro">The LAMA-WeST lab specializes in all aspects of natural language processing and artificial intelligence, with a special focus on Semantic Web technologies. Semantic Web knowledge bases can represent a large-scale source of knowledge for artificial intelligence models and can be used, among other things, to ensure the validity of information, and the explainability of artificial intelligence models.</p>
+<p class="home-intro">The LAMA-WeST Lab (Web, Semantics and Text) advances fundamental research in knowledge-centric artificial intelligence, focusing on how language models can represent, access, and reason over structured knowledge. Its work explores the theoretical integration of neural and symbolic AI, developing methods that connect natural language with formal representations such as knowledge graphs and ontologies. A central problem is the mapping between language and logic (e.g., natural language to SPARQL), enabling principled reasoning over complex information spaces.</p>
 
-<p class="home-intro">Our various research projects tackle challenges related to representation learning, natural language interfaces and question answering, automated reasoning, knowledge base learning and alignment, ontology learning, knowledge engineering and modeling, and information extraction and generation to name a few.</p>
+<p class="home-intro">A key research direction is the study of nonparametric large language models (LLMs), where knowledge is not only encoded in model parameters but dynamically retrieved from external sources. This paradigm raises fundamental questions about memory, generalization, and inference, and the lab develops approaches that combine retrieval, constraints, and symbolic structure to produce more interpretable and controllable models. These methods also support constrained generation, where outputs must satisfy formal or ontological requirements.</p>
+
+<p class="home-intro">The lab further investigates foundations of LLM safety and reliability, including knowledge verification and factuality checking. Its work examines how model outputs can be validated against structured knowledge, how hallucinations can be formally characterized and reduced, and how bias and uncertainty can be identified and mitigated. This contributes to a broader theoretical framework for trustworthy and verifiable AI systems, where correctness and transparency are first-class concerns.</p>
+
+<p class="home-intro">Application domains include knowledge-intensive areas such as law, medicine, and oncology, which serve as testbeds for these foundational ideas. Across these domains, the lab’s goal is to enable precise, explainable, and verifiable interactions between language and knowledge, grounded in solid theoretical principles.</p>
 
 <p class="home-intro">Our lab is funded through government and industry institutions including NSERC, FRQS, SSHRC, IVADO and MITACS. It provides a fertile ground and learning opportunities for students and visiting researchers.</p>
 
