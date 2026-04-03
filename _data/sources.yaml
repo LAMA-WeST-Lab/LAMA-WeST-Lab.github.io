@@ -295,7 +295,7 @@
   publisher: "AACL 2022"
   date: "2022-01-01"
 
-- id: url:https://ceur-ws.org/Vol-3324/oaei22_paper12.pdf
+- id: url:https://dblp.org/rec/conf/semweb/GosselinZ22.html
   type: paper
   title: "SEBMatcher Results for OAEI 2022"
   authors:
@@ -303,6 +303,7 @@
     - Amal Zouaq
   publisher: "OAEI @ISWC 2022"
   date: "2022-01-01"
+  link: https://dblp.org/rec/conf/semweb/GosselinZ22.html
 
 - id: arxiv:2211.05015
   type: paper
@@ -380,7 +381,7 @@
   publisher: "International Conference on Asian Digital Libraries (pp. 373-391). Springer, Cham"
   date: "2021-01-01"
 
-- id: url:https://ceur-ws.org/Vol-2949/paper5.pdf
+- id: url:https://publications.polymtl.ca/49906/
   type: paper
   title: "Masked Language Model Entity Matching for Cultural Heritage Data"
   authors:
@@ -446,7 +447,7 @@
   date: "2020-01-01"
   link: https://aclanthology.org/2020.lrec-1.693/
 
-- id: url:https://pdfs.semanticscholar.org/8e4c/bc85a19c7d32c1426ae9df558b21461c7dc9.pdf
+- id: url:https://www.academia.edu/106490387/Using_BERT_and_XLNET_for_the_Automatic_Short_Answer_Grading_Task
   type: paper
   title: "Using BERT and XLNET for the Automatic Short Answer Grading Task"
   authors:
@@ -458,7 +459,7 @@
   date: "2020-01-01"
   link: https://pdfs.semanticscholar.org/8e4c/bc85a19c7d32c1426ae9df558b21461c7dc9.pdf
 
-- id: url:https://files.eric.ed.gov/fulltext/ED607804.pdf
+- id: url:https://publications.polymtl.ca/56835/
   type: paper
   title: "A Dataset of Learnersourced Explanations from an Online Peer Instruction Environment"
   authors:
@@ -549,7 +550,7 @@
   publisher: "Information 2018, 9(6), 133"
   date: "2018-01-01"
 
-- id: url:https://www.ronpub.com/OJSW_2018v5i1n02_Cbabchoub.pdf
+- id: url:https://www.semanticscholar.org/paper/FICLONE%3A-Improving-DBpedia-Spotlight-Using-Named-Chabchoub-Gagnon/b4298decaaf24d2525de7ad1d1d44cf57cbea609
   type: paper
   title: "FICLONE: Improving DBpedia Spotlight Using Named Entity Recognition and Collective Disambiguation"
   authors:
@@ -579,7 +580,7 @@
   publisher: "I2018 IEEE/WIC/ACM International Conference on Web Intelligence (WI), 2018, pp. 446-451, doi: 10.1109/WI.2018.00-54."
   date: "2018-01-01"
 
-- id: url:https://files.eric.ed.gov/fulltext/ED593101.pdf
+- id: url:https://publications.polymtl.ca/41087/
   type: paper
   title: "A Comparison of Features for the Automatic Labeling of Student Answers to Open-Ended Questions"
   authors:
@@ -668,7 +669,7 @@
   publisher: "Journal of Computer Assisted Learning 33.4 (2017): 306-319"
   date: "2017-01-01"
 
-- id: url:https://publications.polymtl.ca/37137/1/2017_Font_Assessing_improving_domain_knowledge_representation.pdf
+- id: https://www.researchgate.net/publication/304407227_Assessing_the_Quality_of_Domain_Concepts_Descriptions_in_DBpedia
   type: paper
   title: "Assessing and Improving Domain Knowledge Representation in DBpedia"
   authors:
@@ -677,7 +678,7 @@
     - Michel Gagnon
   publisher: "Open Journal of Semantic Web (OJSW), 4(1) : p. 1-19"
   date: "2017-01-01"
-  link: https://publications.polymtl.ca/37137/1/2017_Font_Assessing_improving_domain_knowledge_representation.pdf
+  link: https://www.researchgate.net/publication/304407227_Assessing_the_Quality_of_Domain_Concepts_Descriptions_in_DBpedia
 
 - id: url:https://research.monash.edu/en/publications/linked-data-for-learning-analytics-potentials-and-challenges/
   type: paper

@@ -1,6 +1,6 @@
 ---
 name: Gabriela Nicolescu
-role: associate
+role: collaborator
 links:
   home-page: https://www.polymtl.ca/expertises/nicolescu-gabriela
   email: gabriela.nicolescu@polymtl.ca

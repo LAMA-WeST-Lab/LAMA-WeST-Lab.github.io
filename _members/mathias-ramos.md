@@ -1,6 +1,6 @@
 ---
 name: Mathias Ramos
-role: associate
+role: profmaster
 year: "2021"
 supervisors: "Bram Adams and Amal Zouaq"
 ---

@@ -1,6 +1,6 @@
 ---
 name: Sarath Chandar
-role: associate
+role: collaborator
 links:
   home-page: http://sarathchandar.in/
 ---

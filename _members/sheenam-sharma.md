@@ -1,6 +1,6 @@
 ---
 name: Sheenam Sharma
-role: associate
+role: profmaster
 year: "2018"
 supervisors: "Amal Zouaq"
 ---

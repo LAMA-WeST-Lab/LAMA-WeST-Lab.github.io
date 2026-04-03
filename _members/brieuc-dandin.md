@@ -1,6 +1,6 @@
 ---
 name: Brieuc Dandin
-role: associate
+role: profmaster
 year: "2021"
 legacy-title: "profmasterStudent"
 ---

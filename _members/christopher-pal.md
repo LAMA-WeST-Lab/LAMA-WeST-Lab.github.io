@@ -1,6 +1,6 @@
 ---
 name: Christopher Pal
-role: associate
+role: collaborator
 links:
   home-page: https://www.polymtl.ca/expertises/pal-christopher-j
   email: Christopher.pal@polymtl.ca
