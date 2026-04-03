@@ -44,9 +44,11 @@ We expect prospective students to:
 
 Some of these requirements may be waived for exceptional candidates with strong fundamentals in related areas.
 
+Please note that we will contact only the students whose application matches the requirements / needs of the lab.
+
 ## We Encourage Applications From
 
-Women and underrepresented minorities are especially encouraged to apply to our lab. We value diverse perspectives and experiences that contribute to innovative research in NLP.
+Women and underrepresented minorities are especially encouraged to apply to our lab. We value diverse perspectives and experiences that contribute to innovative research in NLP. 
 
 {%
   include button.html
