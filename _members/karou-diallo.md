@@ -2,7 +2,7 @@
 name: Karou Diallo
 role: phd
 year: "Sept 2022 - "
-image: images/team/karou-diallo.webp
+image: images/team/karou.jpg
 affiliation: Polytechnique Montreal
 links:
   home-page: https://mila.quebec/en/directory/karou-diallo
