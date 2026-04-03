@@ -44,7 +44,7 @@ We expect prospective students to:
 
 Some of these requirements may be waived for exceptional candidates with strong fundamentals in related areas.
 
-Please note that we will contact only the students whose application matches the requirements / needs of the lab.
+Please note that we will contact only the candidates whose application matches the requirements / needs of the lab.
 
 ## We Encourage Applications From
 
