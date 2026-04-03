@@ -1,7 +1,7 @@
 ---
 title: "Aditya Sharma presents at EACL 2026"
 author: amal-zouaq
-featured: false
+featured: true
 tags:
   - paper
   - conference
