@@ -43,15 +43,16 @@
     - working memory
 
 
-#- type: paper
-#  title: "Using mCODE as a basis for an Ontology for Cancer Patient Digital Twins"
-#  authors:
-#    - Odette Rios-Ibacache
-#    - Gaétan Butault
-#    - Amal Zouaq
-#    - John Kildea
-#  publisher: "Scientific Days RSN, Université Laval"
-#  date: "2026-01-01"
+- id: url:https://kildealab.com/news/odettedigitaltwins-2026/
+  title: "Using mCODE as a basis for an Ontology for Cancer Patient Digital Twins"
+  authors:
+    - Odette Rios-Ibacache
+    - Gaétan Butault
+    - Amal Zouaq
+    - John Kildea
+  publisher: "Scientific Days RSN, Université Laval"
+  date: "2026-01-01"
+  link: https://kildealab.com/news/odettedigitaltwins-2026/
 
 - id: arxiv:2503.22144
   type: paper
@@ -236,14 +237,15 @@
   publisher: "2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (Findings)"
   date: "2024-01-01"
 
-#- type: paper
-#  title: "MVP: Minimal Viable Phrase for Long Text Understanding"
-#  authors:
-#    - Louis Clouâtre
-#    - Amal Zouaq
-#    - Sarath Chandar
-#  publisher: "The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation"
-#  date: "2024-01-01"
+- id: url:https://aclanthology.org/2024.lrec-main.1049/
+  type: paper
+  title: "MVP: Minimal Viable Phrase for Long Text Understanding"
+  authors:
+    - Louis Clouâtre
+    - Amal Zouaq
+    - Sarath Chandar
+  publisher: "The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation"
+  date: "2024-01-01"
 
 - id: url:https://www.semanticscholar.org/paper/SORBETmatcher-results-for-OAEI-2023-Gosselin-Zouaq/ceffb7006d51ba3d35fde939f7d77f072fe7149f
   type: paper
@@ -293,13 +295,14 @@
   publisher: "AACL 2022"
   date: "2022-01-01"
 
-#- type: paper
-#  title: "SEBMatcher Results for OAEI 2022"
-#  authors:
-#    - Francis Gosselin
-#    - Amal Zouaq
-#  publisher: "OAEI @ISWC 2022"
-#  date: "2022-01-01"
+- id: url:https://ceur-ws.org/Vol-3324/oaei22_paper12.pdf
+  type: paper
+  title: "SEBMatcher Results for OAEI 2022"
+  authors:
+    - Francis Gosselin
+    - Amal Zouaq
+  publisher: "OAEI @ISWC 2022"
+  date: "2022-01-01"
 
 - id: arxiv:2211.05015
   type: paper
@@ -377,15 +380,18 @@
   publisher: "International Conference on Asian Digital Libraries (pp. 373-391). Springer, Cham"
   date: "2021-01-01"
 
-#- type: paper
-#  title: "Masked Language Model Entity Matching for Cultural Heritage Data"
-#  authors:
-#    - D. Piché
-#    - L. Font
-#    - A. Zouaq
-#    - M. Gagnon
-#  publisher: "Semantic Web and Ontology Design for Cultural Heritage(SWODCH 2021), Vol. 2949,CEUR-WS, http://ceur-ws.org/Vol-2949/paper5.pdf"
-#  date: "2021-01-01"
+- id: url:https://ceur-ws.org/Vol-2949/paper5.pdf
+  type: paper
+  title: "Masked Language Model Entity Matching for Cultural Heritage Data"
+  authors:
+    - D. Piché
+    - L. Font
+    - A. Zouaq
+    - M. Gagnon
+  publisher: "Semantic Web and Ontology Design for Cultural Heritage(SWODCH 2021), Vol. 2949,CEUR-WS"
+  date: "2021-01-01"
+  link: https://ceur-ws.org/Vol-2949/paper5.pdf
+
 
 - id: arxiv:2107.13955v1
   type: paper
@@ -429,34 +435,40 @@
   publisher: "SBD '20: Proceedings of The International Workshop on Semantic Big Data. Association for Computing Machinery, New York, NY, USA, Article 6, 1–6. https://doi.org/10.1145/3391274.3393637"
   date: "2020-01-01"
 
-#- type: paper
-#  title: "Ontology matching using convolutional neural networks"
-#  authors:
-#    - Alexandre Bento
-#    - Amal Zouaq
-#    - Michel Gagnon
-#  publisher: "Proceedings of the 12th language resources and evaluation conference, 5648–5653, ACL"
-#  date: "2020-01-01"
+- id: url:https://aclanthology.org/2020.lrec-1.693/
+  type: paper
+  title: "Ontology matching using convolutional neural networks"
+  authors:
+    - Alexandre Bento
+    - Amal Zouaq
+    - Michel Gagnon
+  publisher: "Proceedings of the 12th language resources and evaluation conference, 5648–5653, ACL"
+  date: "2020-01-01"
+  link: https://aclanthology.org/2020.lrec-1.693/
 
-#- type: paper
-#  title: "Using BERT and XLNET for the Automatic Short Answer Grading Task."
-#  authors:
-#    - MC Ghavidel
-#    - Hadi Abdi
-#    - Amal Zouaq
-#    - Michel Desmarais
-#  publisher: "12th International Conference on Computer Supported Education CSEDU, 58-67"
-#  date: "2020-01-01"
+- id: url:https://pdfs.semanticscholar.org/8e4c/bc85a19c7d32c1426ae9df558b21461c7dc9.pdf
+  type: paper
+  title: "Using BERT and XLNET for the Automatic Short Answer Grading Task"
+  authors:
+    - MC Ghavidel
+    - Hadi Abdi
+    - Amal Zouaq
+    - Michel Desmarais
+  publisher: "12th International Conference on Computer Supported Education CSEDU, 58-67"
+  date: "2020-01-01"
+  link: https://pdfs.semanticscholar.org/8e4c/bc85a19c7d32c1426ae9df558b21461c7dc9.pdf
 
-#- type: paper
-#  title: "A Dataset of Learnersourced Explanations from an Online Peer Instruction Environment"
-#  authors:
-#    - Sameer Bhatanagar
-#    - Michel C Desmarais
-#    - Amal Zouaq
-#    - Elizabeth Charles
-#  publisher: "13th International Conference on Educational Data Mining, EDM 2020,pp. 350-355"
-#  date: "2020-01-01"
+- id: url:https://files.eric.ed.gov/fulltext/ED607804.pdf
+  type: paper
+  title: "A Dataset of Learnersourced Explanations from an Online Peer Instruction Environment"
+  authors:
+    - Sameer Bhatanagar
+    - Michel C Desmarais
+    - Amal Zouaq
+    - Elizabeth Charles
+  publisher: "13th International Conference on Educational Data Mining, EDM 2020,pp. 350-355"
+  date: "2020-01-01"
+  link: https://files.eric.ed.gov/fulltext/ED607804.pdf
 
 - id: arxiv:1811.05549
   type: paper
@@ -505,14 +517,16 @@
   publisher: "IEEE Transactions on Learning Technologies 13(1): 38-51, IEEE"
   date: "2019-01-01"
 
-#- type: paper
-#  title: "An Exploration of Disciplinary Literacy in Learners’ Short Answers"
-#  authors:
-#    - Jean-Philippe Corbeil
-#    - Amal Zouaq
-#    - Michel Gagnon
-#  publisher: "2nd International Workshop on eliciting Adaptive Sequences for Learning (WeASeL) - Held in conjunction with Intelligent Tutoring Systems (ITS), Springer."
-#  date: "2019-01-01"
+- id: url:https://www.researchgate.net/publication/337331808_An_Exploration_of_Disciplinary_Literacy_in_Learners'_Short_Answers
+  type: paper
+  title: "An Exploration of Disciplinary Literacy in Learners’ Short Answers"
+  authors:
+    - Jean-Philippe Corbeil
+    - Amal Zouaq
+    - Michel Gagnon
+  publisher: "2nd International Workshop on eliciting Adaptive Sequences for Learning (WeASeL) - Held in conjunction with Intelligent Tutoring Systems (ITS), Springer."
+  date: "2019-01-01"
+  link: https://www.researchgate.net/publication/337331808_An_Exploration_of_Disciplinary_Literacy_in_Learners'_Short_Answers
 
 - id: doi:10.1007/978-3-030-01762-0_16
   type: paper
@@ -535,14 +549,16 @@
   publisher: "Information 2018, 9(6), 133"
   date: "2018-01-01"
 
-#- type: paper
-#  title: "FICLONE: Improving DBpedia Spotlight Using Named Entity Recognition and Collective Disambiguation"
-#  authors:
-#    - Mohamed Chabchoub
-#    - Michel Gagnon
-#    - Amal Zouaq
-#  publisher: "Open Journal of Semantic Web (OJSW) 5.1 (2018): 12-28."
-#  date: "2018-01-01"
+- id: url:https://www.ronpub.com/OJSW_2018v5i1n02_Cbabchoub.pdf
+  type: paper
+  title: "FICLONE: Improving DBpedia Spotlight Using Named Entity Recognition and Collective Disambiguation"
+  authors:
+    - Mohamed Chabchoub
+    - Michel Gagnon
+    - Amal Zouaq
+  publisher: "Open Journal of Semantic Web (OJSW) 5.1 (2018): 12-28."
+  date: "2018-01-01"
+  link: https://www.ronpub.com/OJSW_2018v5i1n02_Cbabchoub.pdf
 
 - id: doi:10.19153/cleiej.21.1.7
   type: paper
@@ -563,16 +579,18 @@
   publisher: "I2018 IEEE/WIC/ACM International Conference on Web Intelligence (WI), 2018, pp. 446-451, doi: 10.1109/WI.2018.00-54."
   date: "2018-01-01"
 
-#- type: paper
-#  title: "A Comparison of Features for the Automatic Labeling of Student Answers to Open-Ended Questions"
-#  authors:
-#    - Jesus Gerardo Mantecon
-#    - Hadi Abdi Ghavidel
-#    - Amal Zouaq
-#    - Jelena Jovanovic
-#    - Jenny McDonald
-#  publisher: "International Conference on Educational Data Mining (EDM) (11th, Raleigh, NC, Jul 16-20, 2018), International Educational Data Mining Society."
-#  date: "2018-01-01"
+- id: url:https://files.eric.ed.gov/fulltext/ED593101.pdf
+  type: paper
+  title: "A Comparison of Features for the Automatic Labeling of Student Answers to Open-Ended Questions"
+  authors:
+    - Jesus Gerardo Mantecon
+    - Hadi Abdi Ghavidel
+    - Amal Zouaq
+    - Jelena Jovanovic
+    - Jenny McDonald
+  publisher: "International Conference on Educational Data Mining (EDM) (11th, Raleigh, NC, Jul 16-20, 2018), International Educational Data Mining Society."
+  date: "2018-01-01"
+  link: https://files.eric.ed.gov/fulltext/ED593101.pdf
 
 - id: doi:10.1007/978-3-030-00072-1_9
   type: paper
@@ -606,15 +624,17 @@
   publisher: "The 26th ACM Conference on Information and Knowledge Management, pp. 2059-2062. ACM."
   date: "2017-01-01"
 
-#- type: paper
-#  title: "Answering Natural Language Questions on RDF Knowledge base in French. (1st place of QALD 2017 – Question answering in French)"
-#  authors:
-#    - Nikolay Radoev
-#    - Mathieu Tremblay
-#    - Michel Gagnon
-#    - Amal Zouaq
-#  publisher: "Question Answering over Linked Data Challenge (QALD2017 Challenge - ESWC 2017). https://project-hobbit.eu/wp-content/uploads/2017/05/QALD_Paper_3.pdf"
-#  date: "2017-01-01"
+- id: url:https://publications.polymtl.ca/41578/
+  type: paper
+  title: "Answering Natural Language Questions on RDF Knowledge base in French. (1st place of QALD 2017 – Question answering in French)"
+  authors:
+    - Nikolay Radoev
+    - Mathieu Tremblay
+    - Michel Gagnon
+    - Amal Zouaq
+  publisher: "Question Answering over Linked Data Challenge (QALD2017 Challenge - ESWC 2017). https://project-hobbit.eu/wp-content/uploads/2017/05/QALD_Paper_3.pdf"
+  date: "2017-01-01"
+  link: https://publications.polymtl.ca/41578/
 
 - id: doi:10.1007/978-3-319-69146-6_9
   type: paper
@@ -648,24 +668,28 @@
   publisher: "Journal of Computer Assisted Learning 33.4 (2017): 306-319"
   date: "2017-01-01"
 
-#- type: paper
-#  title: "Assessing and Improving Domain Knowledge Representation in DBpedia"
-#  authors:
-#    - Ludovic Font
-#    - Amal Zouaq
-#    - Michel Gagnon
-#  publisher: "Open Journal of Semantic Web (OJSW), 4(1) : p. 1-19"
-#  date: "2017-01-01"
+- id: url:https://publications.polymtl.ca/37137/1/2017_Font_Assessing_improving_domain_knowledge_representation.pdf
+  type: paper
+  title: "Assessing and Improving Domain Knowledge Representation in DBpedia"
+  authors:
+    - Ludovic Font
+    - Amal Zouaq
+    - Michel Gagnon
+  publisher: "Open Journal of Semantic Web (OJSW), 4(1) : p. 1-19"
+  date: "2017-01-01"
+  link: https://publications.polymtl.ca/37137/1/2017_Font_Assessing_improving_domain_knowledge_representation.pdf
 
-#- type: paper
-#  title: "Linked data for learning analytics: Potentials and challenges"
-#  authors:
-#    - Amal Zouaq
-#    - Jelena Jovanovic
-#    - Srécko Joksimovic
-#    - D Gasevic
-#  publisher: "Handbook of Learning Analytics, pp. 347-355"
-#  date: "2017-11-01"
+- id: url:https://research.monash.edu/en/publications/linked-data-for-learning-analytics-potentials-and-challenges/
+  type: paper
+  title: "Linked data for learning analytics: Potentials and challenges"
+  authors:
+    - Amal Zouaq
+    - Jelena Jovanovic
+    - Srécko Joksimovic
+    - D Gasevic
+  publisher: "Handbook of Learning Analytics, pp. 347-355"
+  date: "2017-11-01"
+  link: https://research.monash.edu/en/publications/linked-data-for-learning-analytics-potentials-and-challenges/
 
 - id: doi:10.1016/j.compedu.2016.05.007
   type: paper
@@ -687,41 +711,53 @@
   publisher: "ESWC-16 Open Knowledge Extraction Challenge, Heraklion, Greece"
   date: "2016-06-01"
 
-#- type: paper
-#  title: "Automatic construction of concept maps from text"
-#  authors:
-#    - Camila Z. Aguiar
-#    - Davidson Cury
-#    - Amal Zouaq
-#  publisher: "7th International Conference on Concept Mapping. Vol 2, pp. 20-30"
-#  date: "2016-01-01"
+- id: url:https://www.researchgate.net/publication/311424610_AUTOMATIC_CONSTRUCTION_OF_CONCEPT_MAPS_FROM_TEXTS
+  type: paper
+  title: "Automatic construction of concept maps from text"
+  authors:
+    - Camila Z. Aguiar
+    - Davidson Cury
+    - Amal Zouaq
+  publisher: "7th International Conference on Concept Mapping. Vol 2, pp. 20-30"
+  date: "2016-01-01"
+  link: https://www.researchgate.net/publication/311424610_AUTOMATIC_CONSTRUCTION_OF_CONCEPT_MAPS_FROM_TEXTS
 
-#- type: paper
-#  title: "Ontomap: from concept maps to shallow owl ontologies"
-#  authors:
-#    - Guilherme N. Pinotte
-#    - Davidson Cury
-#    - Amal Zouaq
-#  publisher: "7th International Conference on Concept Mapping, Vol 2, pp. 164-174."
-#  date: "2016-01-01"
+- id: url:https://publications.polymtl.ca/41086/
+  type: paper
+  title: "Ontomap: from concept maps to shallow owl ontologies"
+  authors:
+    - Guilherme N. Pinotte
+    - Davidson Cury
+    - Amal Zouaq
+  publisher: "7th International Conference on Concept Mapping, Vol 2, pp. 164-174."
+  date: "2016-01-01"
+  link: https://publications.polymtl.ca/41086/
 
-#- type: paper
-#  title: "Automatic Extraction of Axioms from Wikipedia Using SPARQL"
-#  authors:
-#    - Lara Haidar-Ahmad
-#    - Amal Zouaq
-#    - Michel Gagnon
-#  publisher: "Lara Haidar-Ahmad, Amal Zouaq, Michel Gagnon"
-#  date: "2016-07-01"
+- id: doi:10.1007/978-3-319-47602-5_13
+  type: paper
+  title: "Automatic Extraction of Axioms from Wikipedia Using SPARQL"
+  authors:
+    - Lara Haidar-Ahmad
+    - Amal Zouaq
+    - Michel Gagnon
+  publisher: "Lara Haidar-Ahmad, Amal Zouaq, Michel Gagnon"
+  date: "2016-07-01"
+  link: https://link.springer.com/chapter/10.1007/978-3-319-47602-5_13
+  tags:
+    - SPARQL
+    - Wikipedia
+    - Axiom Extraction
 
-#- type: paper
-#  title: "Semantic Annotation for the Analysis of Political Debates: A Graph-based Approach"
-#  authors:
-#    - Edoukou Philippe Armel N'Techobo
-#    - Amal Zouaq
-#    - Michel Gagnon
-#  publisher: "International Conference on the Advances in Computational Analysis of Political Text, Dubrovnik"
-#  date: "2016-07-01"
+- id: url:https://publications.polymtl.ca/41011/
+  type: paper
+  title: "Semantic Annotation for the Analysis of Political Debates: A Graph-based Approach"
+  authors:
+    - Edoukou Philippe Armel N'Techobo
+    - Amal Zouaq
+    - Michel Gagnon
+  publisher: "International Conference on the Advances in Computational Analysis of Political Text, Dubrovnik"
+  date: "2016-07-01"
+  link: https://publications.polymtl.ca/41011/
 
 - id: doi:10.1007/978-3-319-46565-4_5
   type: paper
@@ -756,14 +792,16 @@
 #  publisher: "Proceedings Fifth ETM Symposium"
 #  date: "2016-07-01"
 
-#- type: paper
-#  title: "OntoMap: De Mapas Conceituais a Ontologias OWL"
-#  authors:
-#    - Guilherme N. Pinotte
-#    - Davidson Cury
-#    - Amal Zouaq
-#  publisher: "In Proceedings of TISE 2015, pp. 172-180."
-#  date: "2015-01-01"
+- id: url:https://www.researchgate.net/publication/296695287_OntoMap_De_Mapas_Conceituais_a_Ontologias_OWL
+  type: paper
+  title: "OntoMap: De Mapas Conceituais a Ontologias OWL"
+  authors:
+    - Guilherme N. Pinotte
+    - Davidson Cury
+    - Amal Zouaq
+  publisher: "In Proceedings of TISE 2015, pp. 172-180."
+  date: "2015-01-01"
+  link: https://www.researchgate.net/publication/296695287_OntoMap_De_Mapas_Conceituais_a_Ontologias_OWL
 
 - id: doi:10.1109/SITIS.2015.104
   type: paper
@@ -775,15 +813,17 @@
   publisher: "12th International Conference on Signal Image Technology & Internet Based Systems, Bangkok, p. 254-261"
   date: "2015-11-01"
 
-#- type: paper
-#  title: "Short Answers to Deep Questions: Insights from Tutorial Dialogue"
-#  authors:
-#    - Jenny McDonald
-#    - Amal Zouaq
-#    - Michel Gagnon
-#    - R Bird
-#  publisher: "ALASI 2015"
-#  date: "2015-01-01"
+- id: url:https://publications.polymtl.ca/41096/
+  type: paper
+  title: "Short Answers to Deep Questions: Insights from Tutorial Dialogue"
+  authors:
+    - Jenny McDonald
+    - Amal Zouaq
+    - Michel Gagnon
+    - R Bird
+  publisher: "ALASI 2015"
+  date: "2015-01-01"
+  link: https://publications.polymtl.ca/41096/
 
 - id: doi:10.1145/2723576.2723609
   type: paper
