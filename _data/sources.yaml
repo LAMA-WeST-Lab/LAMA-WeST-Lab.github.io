@@ -238,7 +238,7 @@
 #  publisher: "The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation"
 #  date: "2024-01-01"
 
-- id: https://www.semanticscholar.org/paper/SORBETmatcher-results-for-OAEI-2023-Gosselin-Zouaq/ceffb7006d51ba3d35fde939f7d77f072fe7149f
+- id: url:https://www.semanticscholar.org/paper/SORBETmatcher-results-for-OAEI-2023-Gosselin-Zouaq/ceffb7006d51ba3d35fde939f7d77f072fe7149f
   type: paper
   title: "SORBETMatcher results for OAEI 2023 (Top system in several tracks)"
   authors:
