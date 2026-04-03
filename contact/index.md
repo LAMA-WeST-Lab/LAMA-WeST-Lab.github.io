@@ -56,12 +56,6 @@ Women and underrepresented minorities are especially encouraged to apply to our 
   text="amal.zouaq@polymtl.ca"
   link="amal.zouaq@polymtl.ca"
 %}
-{%
-  include button.html
-  type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="[https://www.google.com/maps](https://www.google.com/maps/place/Polytechnique+Montr%C3%A9al/@45.5047976,-73.6157527,17z/data=!3m1!4b1!4m6!3m5!1s0x4cc919f2a9fc4d71:0xda267ca95684133e!8m2!3d45.5047939!4d-73.6131831!16zL20vMDFqNXY3?entry=ttu&g_ep=EgoyMDI2MDMzMS4wIKXMDSoASAFQAw%3D%3D)"
-%}
 
 {% include section.html %}
 
