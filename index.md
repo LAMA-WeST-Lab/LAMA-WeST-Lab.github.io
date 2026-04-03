@@ -3,17 +3,17 @@
 
 # LAMA-WeST-Lab's Website
 
-<p class="home-intro">The LAMA-WeST Lab (Web, Semantics and Text) conducts fundamental research in knowledge-centric artificial intelligence, focusing on how language models can represent and reason over structured knowledge. Its work explores the integration of neural and symbolic AI, with a central emphasis on mapping natural language to formal representations (e.g., SPARQL) for principled reasoning over knowledge graphs and ontologies.</p>
+<p class="home-intro">The LAMA-WeST Lab (Web, Semantics and Text) conducts fundamental research in knowledge-centric artificial intelligence, focusing on how language models can represent and reason over structured knowledge. Its work explores the integration of <b>neural and symbolic AI </b>b>, with a central emphasis on mapping natural language to formal representations (e.g., SPARQL) for principled reasoning over <b>knowledge graphs and ontologies </b>b>.</p>
 
-<p class="home-intro">A key direction is the study of nonparametric large language models (LLMs), where knowledge is dynamically retrieved from external sources rather than stored solely in model parameters. This enables more interpretable, controllable, and grounded generation, while raising core questions about memory, inference, and generalization.</p>
+<p class="home-intro">A key direction is the study of <b>nonparametric large language models (LLMs)</b>b>, where knowledge is dynamically retrieved from external sources rather than stored solely in model parameters. This enables more <b>interpretable, controllable, and grounded generation </b>b>, while raising core questions about memory, inference, and generalization.</p>
 
-<p class="home-intro">The lab also investigates the foundations of LLM safety and reliability, including knowledge verification and factuality checking. Its research addresses hallucination reduction, bias mitigation, and the validation of outputs against structured knowledge, contributing to more transparent, robust, and trustworthy AI systems.</p>
+<p class="home-intro">The lab also investigates the foundations of <b>LLM safety and reliability</b>b>, including knowledge verification and factuality checking. Its research addresses<b> hallucination reduction </b>b>, bias mitigation, and the validation of outputs against structured knowledge, contributing to more <b>transparent, robust, and trustworthy AI systems</b>b>.</p>
 
 <p class="home-intro">Application domains include law, medicine, and oncology, which serve as testbeds for developing precise, explainable, and verifiable interactions between language and complex knowledge systems.</p>
 
 <p class="home-intro">Our lab is funded through government and industry institutions including NSERC, FRQS, SSHRC, IVADO and MITACS. It provides a fertile ground and learning opportunities for students and visiting researchers.</p>
 
-<p class="home-intro">Led by Prof. Amal Zouaq, The LAMA-WeST lab is welcoming new collaborations in the academic and industrial community.</p>
+<p class="home-intro">Led by <b> Prof. Amal Zouaq </b>b>, The LAMA-WeST lab is welcoming new collaborations in the academic and industrial community.</p>
 
 {% include section.html %}
 
