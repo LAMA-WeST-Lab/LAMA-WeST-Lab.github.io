@@ -1,7 +1,7 @@
 ---
 title: "Congratulations to Alexis Brissard for his successful thesis defense!"
 author: amal-zouaq
-featured: false
+featured: true
 tags:
   - thesis
   - defense
