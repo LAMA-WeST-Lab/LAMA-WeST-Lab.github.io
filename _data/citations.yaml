@@ -19,6 +19,18 @@
   - working memory
   plugin: sources.py
   file: sources.yaml
+- id: url:https://kildealab.com/news/odettedigitaltwins-2026/
+  title: Using mCODE as a basis for an Ontology for Cancer Patient Digital Twins
+  authors:
+  - Odette Rios-Ibacache
+  - "Ga\xE9tan Butault"
+  - Amal Zouaq
+  - John Kildea
+  publisher: "Scientific Days RSN, Universit\xE9 Laval"
+  date: '2026-01-01'
+  link: https://kildealab.com/news/odettedigitaltwins-2026/
+  plugin: sources.py
+  file: sources.yaml
 - id: arxiv:2503.22144
   title: 'FRASE: Frame-based Structured Representations for Generalizable SPARQL Query
     Generation'
@@ -225,6 +237,19 @@
   type: paper
   plugin: sources.py
   file: sources.yaml
+- id: url:https://aclanthology.org/2024.lrec-main.1049/
+  title: 'MVP: Minimal Viable Phrase for Long Text Understanding'
+  authors:
+  - "Louis Clou\xE2tre"
+  - Amal Zouaq
+  - Sarath Chandar
+  publisher: The 2024 Joint International Conference on Computational Linguistics,
+    Language Resources and Evaluation
+  date: '2024-01-01'
+  link: https://aclanthology.org/2024.lrec-main.1049/
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
 - id: url:https://www.semanticscholar.org/paper/SORBETmatcher-results-for-OAEI-2023-Gosselin-Zouaq/ceffb7006d51ba3d35fde939f7d77f072fe7149f
   title: SORBETMatcher results for OAEI 2023 (Top system in several tracks)
   authors:
@@ -284,6 +309,17 @@
   publisher: AACL 2022
   date: '2022-01-01'
   link: https://doi.org/hbt4fb
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://dblp.org/rec/conf/semweb/GosselinZ22.html
+  title: SEBMatcher Results for OAEI 2022
+  authors:
+  - Francis Gosselin
+  - Amal Zouaq
+  publisher: OAEI @ISWC 2022
+  date: '2022-01-01'
+  link: https://dblp.org/rec/conf/semweb/GosselinZ22.html
   type: paper
   plugin: sources.py
   file: sources.yaml
@@ -381,6 +417,20 @@
   type: paper
   plugin: sources.py
   file: sources.yaml
+- id: url:https://publications.polymtl.ca/49906/
+  title: Masked Language Model Entity Matching for Cultural Heritage Data
+  authors:
+  - "D. Pich\xE9"
+  - L. Font
+  - A. Zouaq
+  - M. Gagnon
+  publisher: Semantic Web and Ontology Design for Cultural Heritage(SWODCH 2021),
+    Vol. 2949,CEUR-WS
+  date: '2021-01-01'
+  link: https://ceur-ws.org/Vol-2949/paper5.pdf
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
 - id: arxiv:2107.13955v1
   title: Demystifying Neural Language Models' Insensitivity to Word-Order
   authors:
@@ -432,6 +482,48 @@
     \ https://doi.org/10.1145/3391274.3393637"
   date: '2020-01-01'
   link: https://doi.org/grffhx
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://aclanthology.org/2020.lrec-1.693/
+  title: Ontology matching using convolutional neural networks
+  authors:
+  - Alexandre Bento
+  - Amal Zouaq
+  - Michel Gagnon
+  publisher: "Proceedings of the 12th language resources and evaluation conference,\
+    \ 5648\u20135653, ACL"
+  date: '2020-01-01'
+  link: https://aclanthology.org/2020.lrec-1.693/
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://www.academia.edu/106490387/Using_BERT_and_XLNET_for_the_Automatic_Short_Answer_Grading_Task
+  title: Using BERT and XLNET for the Automatic Short Answer Grading Task
+  authors:
+  - MC Ghavidel
+  - Hadi Abdi
+  - Amal Zouaq
+  - Michel Desmarais
+  publisher: 12th International Conference on Computer Supported Education CSEDU,
+    58-67
+  date: '2020-01-01'
+  link: https://pdfs.semanticscholar.org/8e4c/bc85a19c7d32c1426ae9df558b21461c7dc9.pdf
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://publications.polymtl.ca/56835/
+  title: A Dataset of Learnersourced Explanations from an Online Peer Instruction
+    Environment
+  authors:
+  - Sameer Bhatanagar
+  - Michel C Desmarais
+  - Amal Zouaq
+  - Elizabeth Charles
+  publisher: 13th International Conference on Educational Data Mining, EDM 2020,pp.
+    350-355
+  date: '2020-01-01'
+  link: https://files.eric.ed.gov/fulltext/ED607804.pdf
   type: paper
   plugin: sources.py
   file: sources.yaml
@@ -492,6 +584,19 @@
   type: paper
   plugin: sources.py
   file: sources.yaml
+- id: url:https://www.researchgate.net/publication/337331808_An_Exploration_of_Disciplinary_Literacy_in_Learners'_Short_Answers
+  title: "An Exploration of Disciplinary Literacy in Learners\u2019 Short Answers"
+  authors:
+  - Jean-Philippe Corbeil
+  - Amal Zouaq
+  - Michel Gagnon
+  publisher: 2nd International Workshop on eliciting Adaptive Sequences for Learning
+    (WeASeL) - Held in conjunction with Intelligent Tutoring Systems (ITS), Springer.
+  date: '2019-01-01'
+  link: https://www.researchgate.net/publication/337331808_An_Exploration_of_Disciplinary_Literacy_in_Learners'_Short_Answers
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1007/978-3-030-01762-0_16
   title: Automatic Identification of Relations in Quebec Heritage Data.
   authors:
@@ -518,6 +623,19 @@
   type: paper
   plugin: sources.py
   file: sources.yaml
+- id: url:https://www.semanticscholar.org/paper/FICLONE%3A-Improving-DBpedia-Spotlight-Using-Named-Chabchoub-Gagnon/b4298decaaf24d2525de7ad1d1d44cf57cbea609
+  title: 'FICLONE: Improving DBpedia Spotlight Using Named Entity Recognition and
+    Collective Disambiguation'
+  authors:
+  - Mohamed Chabchoub
+  - Michel Gagnon
+  - Amal Zouaq
+  publisher: 'Open Journal of Semantic Web (OJSW) 5.1 (2018): 12-28.'
+  date: '2018-01-01'
+  link: https://www.ronpub.com/OJSW_2018v5i1n02_Cbabchoub.pdf
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.19153/cleiej.21.1.7
   title: Towards Technological Approaches for Concept Maps Mining from Text
   authors:
@@ -539,6 +657,22 @@
     2018, pp. 446-451, doi: 10.1109/WI.2018.00-54.'
   date: '2018-01-01'
   link: https://doi.org/gnd6wr
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://publications.polymtl.ca/41087/
+  title: A Comparison of Features for the Automatic Labeling of Student Answers to
+    Open-Ended Questions
+  authors:
+  - Jesus Gerardo Mantecon
+  - Hadi Abdi Ghavidel
+  - Amal Zouaq
+  - Jelena Jovanovic
+  - Jenny McDonald
+  publisher: International Conference on Educational Data Mining (EDM) (11th, Raleigh,
+    NC, Jul 16-20, 2018), International Educational Data Mining Society.
+  date: '2018-01-01'
+  link: https://files.eric.ed.gov/fulltext/ED593101.pdf
   type: paper
   plugin: sources.py
   file: sources.yaml
@@ -580,6 +714,21 @@
     2059-2062. ACM.
   date: '2017-01-01'
   link: https://doi.org/hbt4fr
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://publications.polymtl.ca/41578/
+  title: "Answering Natural Language Questions on RDF Knowledge base in French. (1st\
+    \ place of QALD 2017 \u2013 Question answering in French)"
+  authors:
+  - Nikolay Radoev
+  - Mathieu Tremblay
+  - Michel Gagnon
+  - Amal Zouaq
+  publisher: Question Answering over Linked Data Challenge (QALD2017 Challenge - ESWC
+    2017). https://project-hobbit.eu/wp-content/uploads/2017/05/QALD_Paper_3.pdf
+  date: '2017-01-01'
+  link: https://publications.polymtl.ca/41578/
   type: paper
   plugin: sources.py
   file: sources.yaml
@@ -626,6 +775,31 @@
   type: paper
   plugin: sources.py
   file: sources.yaml
+- id: https://www.researchgate.net/publication/304407227_Assessing_the_Quality_of_Domain_Concepts_Descriptions_in_DBpedia
+  title: Assessing and Improving Domain Knowledge Representation in DBpedia
+  authors:
+  - Ludovic Font
+  - Amal Zouaq
+  - Michel Gagnon
+  publisher: 'Open Journal of Semantic Web (OJSW), 4(1) : p. 1-19'
+  date: '2017-01-01'
+  link: https://www.researchgate.net/publication/304407227_Assessing_the_Quality_of_Domain_Concepts_Descriptions_in_DBpedia
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://research.monash.edu/en/publications/linked-data-for-learning-analytics-potentials-and-challenges/
+  title: 'Linked data for learning analytics: Potentials and challenges'
+  authors:
+  - Amal Zouaq
+  - Jelena Jovanovic
+  - "Sr\xE9cko Joksimovic"
+  - D Gasevic
+  publisher: Handbook of Learning Analytics, pp. 347-355
+  date: '2017-11-01'
+  link: https://research.monash.edu/en/publications/linked-data-for-learning-analytics-potentials-and-challenges/
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.compedu.2016.05.007
   title: 'Automatic detection of expert models: The exploration of expert modeling
     methods applicable to technology-based assessment and instruction'
@@ -649,6 +823,60 @@
   publisher: ESWC-16 Open Knowledge Extraction Challenge, Heraklion, Greece
   date: '2016-06-01'
   link: https://doi.org/hbt4fv
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://www.researchgate.net/publication/311424610_AUTOMATIC_CONSTRUCTION_OF_CONCEPT_MAPS_FROM_TEXTS
+  title: Automatic construction of concept maps from text
+  authors:
+  - Camila Z. Aguiar
+  - Davidson Cury
+  - Amal Zouaq
+  publisher: 7th International Conference on Concept Mapping. Vol 2, pp. 20-30
+  date: '2016-01-01'
+  link: https://www.researchgate.net/publication/311424610_AUTOMATIC_CONSTRUCTION_OF_CONCEPT_MAPS_FROM_TEXTS
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://publications.polymtl.ca/41086/
+  title: 'Ontomap: from concept maps to shallow owl ontologies'
+  authors:
+  - Guilherme N. Pinotte
+  - Davidson Cury
+  - Amal Zouaq
+  publisher: 7th International Conference on Concept Mapping, Vol 2, pp. 164-174.
+  date: '2016-01-01'
+  link: https://publications.polymtl.ca/41086/
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/978-3-319-47602-5_13
+  title: Automatic Extraction of Axioms from Wikipedia Using SPARQL
+  authors:
+  - Lara Haidar-Ahmad
+  - Amal Zouaq
+  - Michel Gagnon
+  publisher: Lara Haidar-Ahmad, Amal Zouaq, Michel Gagnon
+  date: '2016-07-01'
+  link: https://link.springer.com/chapter/10.1007/978-3-319-47602-5_13
+  type: paper
+  tags:
+  - SPARQL
+  - Wikipedia
+  - Axiom Extraction
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://publications.polymtl.ca/41011/
+  title: 'Semantic Annotation for the Analysis of Political Debates: A Graph-based
+    Approach'
+  authors:
+  - Edoukou Philippe Armel N'Techobo
+  - Amal Zouaq
+  - Michel Gagnon
+  publisher: International Conference on the Advances in Computational Analysis of
+    Political Text, Dubrovnik
+  date: '2016-07-01'
+  link: https://publications.polymtl.ca/41011/
   type: paper
   plugin: sources.py
   file: sources.yaml
@@ -679,6 +907,18 @@
   type: paper
   plugin: sources.py
   file: sources.yaml
+- id: url:https://www.researchgate.net/publication/296695287_OntoMap_De_Mapas_Conceituais_a_Ontologias_OWL
+  title: 'OntoMap: De Mapas Conceituais a Ontologias OWL'
+  authors:
+  - Guilherme N. Pinotte
+  - Davidson Cury
+  - Amal Zouaq
+  publisher: In Proceedings of TISE 2015, pp. 172-180.
+  date: '2015-01-01'
+  link: https://www.researchgate.net/publication/296695287_OntoMap_De_Mapas_Conceituais_a_Ontologias_OWL
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1109/SITIS.2015.104
   title: Assessing the Quality of Domain Concepts Descriptions in DBpedia
   authors:
@@ -689,6 +929,19 @@
     Systems, Bangkok, p. 254-261
   date: '2015-11-01'
   link: https://doi.org/hbt4h6
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://publications.polymtl.ca/41096/
+  title: 'Short Answers to Deep Questions: Insights from Tutorial Dialogue'
+  authors:
+  - Jenny McDonald
+  - Amal Zouaq
+  - Michel Gagnon
+  - R Bird
+  publisher: ALASI 2015
+  date: '2015-01-01'
+  link: https://publications.polymtl.ca/41096/
   type: paper
   plugin: sources.py
   file: sources.yaml
