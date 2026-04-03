@@ -238,13 +238,14 @@
 #  publisher: "The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation"
 #  date: "2024-01-01"
 
-#- type: paper
-#  title: "SORBETMatcher results for OAEI 2023 (Top system in several tracks)"
-#  authors:
-#    - Francis Gosselin
-#    - Amal Zouaq
-#  publisher: "The 18th International Workshop on Ontology Matching"
-#  date: "2023-01-01"
+- id: https://www.semanticscholar.org/paper/SORBETmatcher-results-for-OAEI-2023-Gosselin-Zouaq/ceffb7006d51ba3d35fde939f7d77f072fe7149f
+  type: paper
+  title: "SORBETMatcher results for OAEI 2023 (Top system in several tracks)"
+  authors:
+    - Francis Gosselin
+    - Amal Zouaq
+  publisher: "The 18th International Workshop on Ontology Matching"
+  date: "2023-01-01"
 
 - id: doi:10.1007/978-3-031-47240-4_26
   type: paper
