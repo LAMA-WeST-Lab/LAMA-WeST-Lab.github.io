@@ -1,5 +1,6 @@
 ---
 name: Amal Zouaq
+image: images/team/Amal-Zouaq.jpg
 role: fullprof
 affiliation: Polytechnique Montreal
 links:
