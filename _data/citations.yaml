@@ -218,6 +218,17 @@
   type: paper
   plugin: sources.py
   file: sources.yaml
+- id: https://www.semanticscholar.org/paper/SORBETmatcher-results-for-OAEI-2023-Gosselin-Zouaq/ceffb7006d51ba3d35fde939f7d77f072fe7149f
+  title: SORBETMatcher results for OAEI 2023 (Top system in several tracks)
+  authors:
+  - Francis Gosselin
+  - Amal Zouaq
+  publisher: The 18th International Workshop on Ontology Matching
+  date: '2023-01-01'
+  link: https://www.semanticscholar.org/paper/SORBETmatcher-results-for-OAEI-2023-Gosselin-Zouaq/ceffb7006d51ba3d35fde939f7d77f072fe7149f
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1007/978-3-031-47240-4_26
   title: Assessing the Generalization Capabilities of Neural Machine Translation Models
     for SPARQL Query Generation
