@@ -31,6 +31,9 @@ nav:
 {% include list.html data="members" component="alumni-card" filter="role == 'associate' and group != 'alum'" %}
 {% endif %}
 
+{% assign associates = site.members | where: "role", "associate" | where_exp: "member", "member.group != 'alum'" %}
+{% if associates.size > 0 %}
+
 ## PhD Students
 
 {% include list.html data="members" component="portrait" filter="role == 'phd' and group != 'alum'" %}
@@ -71,10 +74,6 @@ nav:
 {% include list.html data="members" component="alumni-card" filter="role == 'collaborator' and group != 'alum'" %}
 {% endif %}
 
-{% assign associates = site.members | where: "role", "associate" | where_exp: "member", "member.group != 'alum'" %}
-{% if associates.size > 0 %}
-
-
 ## Alumni
 
 {% assign fullprof_alumni = site.members | where: "role", "fullprof" | where: "group", "alum" %}
@@ -98,6 +97,7 @@ nav:
 
 {% include list.html data="members" component="alumni-card" filter="role == 'associate' and group == 'alum'" %}
 {% endif %}
+
 {% assign associate_alumni = site.members | where: "role", "associate" | where: "group", "alum" %}
 {% if associate_alumni.size > 0 %}
 
