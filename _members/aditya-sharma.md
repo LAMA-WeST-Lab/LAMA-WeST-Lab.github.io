@@ -12,5 +12,4 @@ links:
   linkedin: adityabits
 ---
 
-NLP PhD student with Dr Amal Zouaq and Dr Chris Pal
-
+PhD researcher at MILA and Polytechnique Montréal working on semi-parametric approaches for complex reasoning in language models.
