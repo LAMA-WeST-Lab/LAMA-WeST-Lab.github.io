@@ -23,6 +23,15 @@ nav:
 {% include list.html data="members" component="portrait" filter="role == 'postdoc' and group != 'alum'" %}
 {% endif %}
 
+{% assign associates = site.members | where: "role", "associate" | where_exp: "member", "member.group != 'alum'" %}
+{% if associates.size > 0 %}
+
+## Research Associates
+
+{% include list.html data="members" component="portrait" filter="role == 'associate' and group != 'alum'" %}
+{% endif %}
+
+
 {% assign phd_students = site.members | where: "role", "phd" | where_exp: "member", "member.group != 'alum'" %}
 {% if phd_students.size > 0 %}
 ## PhD Students
@@ -65,13 +74,6 @@ nav:
 {% include list.html data="members" component="alumni-card" filter="role == 'collaborator' and group != 'alum'" %}
 {% endif %}
 
-{% assign associates = site.members | where: "role", "associate" | where_exp: "member", "member.group != 'alum'" %}
-{% if associates.size > 0 %}
-## Research Associates
-
-{% include list.html data="members" component="alumni-card" filter="role == 'associate' and group != 'alum'" %}
-{% endif %}
-
 ## Alumni
 
 {% assign fullprof_alumni = site.members | where: "role", "fullprof" | where: "group", "alum" %}
@@ -90,6 +92,15 @@ nav:
 
 {% assign phd_alumni = site.members | where: "role", "phd" | where: "group", "alum" %}
 {% if phd_alumni.size > 0 %}
+
+### Research Associates
+
+{% include list.html data="members" component="alumni-card" filter="role == 'associate' and group == 'alum'" %}
+{% endif %}
+
+{% assign associate_alumni = site.members | where: "role", "associate" | where: "group", "alum" %}
+{% if associate_alumni.size > 0 %}
+
 ### PhD Students
 
 {% include list.html data="members" component="alumni-card" filter="role == 'phd' and group == 'alum'" %}
@@ -130,9 +141,5 @@ nav:
 {% include list.html data="members" component="alumni-card" filter="role == 'collaborator' and group == 'alum'" %}
 {% endif %}
 
-{% assign associate_alumni = site.members | where: "role", "associate" | where: "group", "alum" %}
-{% if associate_alumni.size > 0 %}
-### Research Associates
 
-{% include list.html data="members" component="alumni-card" filter="role == 'associate' and group == 'alum'" %}
-{% endif %}
+
