@@ -1,5 +1,6 @@
 ---
 name: Aditya Sharma
+image: images/team/Aditya.jpg
 role: phd
 year: "Sept 2023 - "
 affiliation: Polytechnique Montreal
