@@ -28,7 +28,7 @@ nav:
 
 ## Research Associates
 
-{% include list.html data="members" component="alumni-card" filter="role == 'associate' and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filter="role == 'associate' and group != 'alum'" %}
 {% endif %}
 
 {% assign associates = site.members | where: "role", "associate" | where_exp: "member", "member.group != 'alum'" %}
