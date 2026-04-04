@@ -98,6 +98,8 @@ nav:
 
 {% include list.html data="members" component="alumni-card" filter="role == 'associate' and group == 'alum'" %}
 {% endif %}
+{% assign associate_alumni = site.members | where: "role", "associate" | where: "group", "alum" %}
+{% if associate_alumni.size > 0 %}
 
 ### PhD Students
 
@@ -139,6 +141,5 @@ nav:
 {% include list.html data="members" component="alumni-card" filter="role == 'collaborator' and group == 'alum'" %}
 {% endif %}
 
-{% assign associate_alumni = site.members | where: "role", "associate" | where: "group", "alum" %}
-{% if associate_alumni.size > 0 %}
+
 
