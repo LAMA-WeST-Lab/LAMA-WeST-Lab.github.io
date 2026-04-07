@@ -77,8 +77,8 @@
     - Amal Zouaq
   publisher: "EACL 2026 (Findings)"
   date: "2026-01-01"
-  link: https://arxiv.org/abs/2502.13369
-  image: images/papers/SPARQL_RAG.jpg
+  link: https://aclanthology.org/2026.findings-eacl.243.pdf
+  image: images/papers/PGMR.jpg
   tags:
    - language models
    - Hallucinations
