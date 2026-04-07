@@ -144,6 +144,12 @@ linkedin:
   tooltip: LinkedIn
   link: https://www.linkedin.com/in/$VALUE
 
+matrix:
+  icon: fa-solid fa-message
+  text: Matrix
+  tooltip: Matrix
+  link: https://matrix.to/#/$VALUE
+
 # alerts
 
 tip:
