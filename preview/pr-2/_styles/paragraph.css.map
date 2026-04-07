@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["paragraph.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;;;AAGF;EACE","sourcesContent":["p {\n  margin: 20px 0;\n  text-align: justify;\n  line-height: var(--spacing);\n}\n\n.home-intro {\n  font-size: 1.2rem;\n}\n"],"file":"paragraph.css"}
