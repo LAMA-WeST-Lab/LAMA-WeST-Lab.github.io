@@ -11,7 +11,7 @@ links:
   email: clara.kowalczyk@etud.polytechnique.ca
   github: ClaraKowalczyk
   linkedin: clara-kowalczyk
-
+  orcid: 0009-0007-9692-3983
 ---
 
 Clara Kowalczyk is a PhD student in Computer Engineering at Polytechnique Montréal, working under the supervision of Pr. A. Zouaq and Pr. F. Cuppens. Her research focuses on modeling LLM-based agents behaviors, with a particular application to internal threat detection.
