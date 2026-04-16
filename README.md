@@ -5,7 +5,7 @@
 
 # LAMA-WeST-Lab's Website
 
-Visit **[labowest.ca](http://labowest.ca)** 🚀
+Visit **[www.labowest.ca](http://www.labowest.ca)** 🚀
 
 _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
 
