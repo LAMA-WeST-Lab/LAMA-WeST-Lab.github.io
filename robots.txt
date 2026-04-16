@@ -1,1 +1,1 @@
-Sitemap: http://labowest.ca/sitemap.xml
+Sitemap: https://labowest.ca/sitemap.xml
