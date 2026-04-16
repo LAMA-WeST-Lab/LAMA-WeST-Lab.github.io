@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # LAMA-WeST-Lab's Website
 <p class="home-intro">The LAMA-WeST Lab (Web, Semantics and Text) conducts fundamental research in knowledge-centric artificial intelligence, focusing on how language models can represent and reason over structured knowledge. Its work explores the integration of <b>neural and symbolic AI</b>, with a central emphasis on mapping natural language to formal representations (e.g., SPARQL) for principled reasoning over <b>knowledge graphs and ontologies</b>.</p>
 
