@@ -1,5 +1,5 @@
 ---
-title: "Evolving memories for long horizon reasoning"
+title: "Rotate2Think: One Rotation Is All You Need to Prime Reasoning in Language Models"
 authors:
   - aditya-sharma
   - djalil-chikhi
@@ -10,7 +10,7 @@ tags:
   - nlp
 ---
 
-## Evolving memories for long horizon reasoning
+## Rotate2Think: One Rotation Is All You Need to Prime Reasoning in Language Models
 *Speaker: Aditya Sharma*
 
 *Speaker: Djalil Chikhi*
