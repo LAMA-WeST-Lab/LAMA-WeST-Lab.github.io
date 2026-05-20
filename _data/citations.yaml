@@ -1,5 +1,24 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: arxiv:2605.11845
+  title: Probabilistic Calibration Is a Trainable Capability in Language Models
+  authors:
+  - Davide Baldelli
+  - Sruthi Kuriakose
+  - Maryam Hashemzadeh
+  - Amal Zouaq
+  - Sarath Chandar
+  publisher: arXiv
+  date: '2026-05-12'
+  link: https://arxiv.org/abs/2605.11845
+  type: preprint
+  image: images/papers/probabilistic_calibration.png
+  tags:
+  - language models
+  - calibration
+  - fine-tuning
+  plugin: sources.py
+  file: sources.yaml
 - id: arxiv:2601.06973
   title: 'LLMs Can''t Play Hangman: On the Necessity of a Private Working Memory for
     Language Agents'
