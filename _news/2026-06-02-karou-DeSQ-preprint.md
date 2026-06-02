@@ -12,4 +12,4 @@ We are excited to share the preprint of our new paper "DeSQ: Decomposition-based
 
 DeSQ decomposes complex KBQA questions into atomic constraints, maps each constraint to SPARQL fragments with standardized placeholders, grounds URIs separately, and then assembles a complete SPARQL query. This approach improves robustness to lexical variation, simplifies evaluation without a live KB endpoint, and supports fine-grained error analysis.
 
-Read the preprint on arXiv here: http://arxiv.org/abs/2606.00203
+Read the preprint on arXiv  [HERE](http://arxiv.org/abs/2606.00203).
