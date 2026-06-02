@@ -9,6 +9,6 @@ tags:
 image: images/news/karou_LREC.jpg
 ---
 
-We are excited to announce that Karou Diallo is presenting ["FRASE: Frame-based Structured Representations for Generalizable SPARQL Query Generation"](https://lrec.elra.info/lrec2026-main-101) at [LREC 2026](https://lrec2026.info) (Language Resources and Evaluation Conference) in Palma de Mallorca, Spain! This is a great opportunity to share his research with the language resources and evaluation community. Congratulations Karou on this achievement!
+We are excited to announce that Karou Diallo is presenting at LREC (Language Resources and Evaluation Conference) in Palma de Mallorca, Spain! This is a great opportunity to share his research with the language resources and evaluation community. Congratulations Karou on this achievement!
 
 ![Karou at LREC](/images/news/karou_LREC_bis.jpg)
