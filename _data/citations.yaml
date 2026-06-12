@@ -1,5 +1,24 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: arxiv:2606.09873
+  title: 'Rotate2Think: Geometric Priming via Orthogonal Rotation to Improve Language
+    Model Reasoning'
+  authors:
+  - Aditya Sharma
+  - Christopher J. Pal
+  - Amal Zouaq
+  publisher: arXiv
+  date: '2026-06-02'
+  link: https://arxiv.org/abs/2606.09873
+  type: preprint
+  image: images/papers/rotate2thinksvd.png
+  tags:
+  - representational geometry
+  - reasoning
+  - thinking
+  - language models
+  plugin: sources.py
+  file: sources.yaml
 - id: arxiv:2605.11845
   title: Probabilistic Calibration Is a Trainable Capability in Language Models
   authors:
