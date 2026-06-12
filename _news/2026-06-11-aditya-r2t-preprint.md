@@ -19,3 +19,5 @@ We introduce R2T (Rotate2Think), a training-free method that exploits this geome
 Our results? Consistent accuracy gains across model families and benchmarks at comparable token budgets, with base models sometimes surpassing their own full reasoning mode, and the rotation, fit purely on text, even transfers zero-shot to visual math.
 
 Read the preprint on arXiv here: https://arxiv.org/abs/2606.09873
+
+![r2t](/images/papers/rotate2think.png)
