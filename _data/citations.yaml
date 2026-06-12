@@ -1,5 +1,39 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: arxiv:2606.09873
+  title: 'Rotate2Think: Geometric Priming via Orthogonal Rotation to Improve Language
+    Model Reasoning'
+  authors:
+  - Aditya Sharma
+  - Christopher J. Pal
+  - Amal Zouaq
+  publisher: arXiv
+  date: '2026-06-11'
+  link: https://arxiv.org/abs/2606.09873
+  type: preprint
+  tags:
+  - language models
+  - reasoning
+  - llm
+  plugin: sources.py
+  file: sources.yaml
+- id: arxiv:2606.00203
+  title: 'DeSQ: Decomposition-based SPARQL Query Generation'
+  authors:
+  - Karou Diallo
+  - Aditya Sharma
+  - Neshat Elhami Fard
+  - Amal Zouaq
+  publisher: arXiv
+  date: '2026-06-02'
+  link: https://arxiv.org/abs/2606.00203
+  type: preprint
+  tags:
+  - language models
+  - sparql
+  - KBQA
+  plugin: sources.py
+  file: sources.yaml
 - id: arxiv:2605.11845
   title: Probabilistic Calibration Is a Trainable Capability in Language Models
   authors:
