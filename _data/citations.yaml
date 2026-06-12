@@ -11,6 +11,7 @@
   date: '2026-06-11'
   link: https://arxiv.org/abs/2606.09873
   type: preprint
+  image: images/papers/rotate2think.png
   tags:
   - language models
   - reasoning
@@ -28,6 +29,7 @@
   date: '2026-06-02'
   link: https://arxiv.org/abs/2606.00203
   type: preprint
+  image: images/papers/DeSQ.gif
   tags:
   - language models
   - sparql
