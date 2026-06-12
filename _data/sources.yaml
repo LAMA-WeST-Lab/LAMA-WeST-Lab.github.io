@@ -34,6 +34,7 @@
     - Amal Zouaq
   date: 2026-06-11
   link: https://arxiv.org/abs/2606.09873
+  image: images/papers/rotate2think.png
   tags:
     - language models
     - reasoning
@@ -49,6 +50,7 @@
     - Amal Zouaq
   date: 2026-06-02
   link: https://arxiv.org/abs/2606.00203
+  image: images/papers/DeSQ.gif
   tags:
     - language models
     - sparql
