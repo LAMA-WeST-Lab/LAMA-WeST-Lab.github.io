@@ -1,5 +1,21 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.4230/LIPIcs.CP.2026.18
+  type: paper
+  title: "Neurosymbolic Large Neighbourhood Search"
+  authors:
+    - Arnaud Delage-Reid
+    - Gilles Pesant
+    - Amal Zouaq
+  publisher: "32nd International Conference on Principles and Practice of Constraint Programming (CP 2026)"
+  date: "2026-07-13"
+  link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2026.18
+  tags:
+    - Large Neighbourhood Search
+    - Neurosymbolic AI
+    - Constraint Programming
+    - Masked Language Model
+    - CPBP Solver
 - id: arxiv:2601.06973
   title: 'LLMs Can''t Play Hangman: On the Necessity of a Private Working Memory for
     Language Agents'
@@ -988,3 +1004,4 @@
   type: paper
   plugin: sources.py
   file: sources.yaml
+
