@@ -40,11 +40,10 @@
   link: https://doi.org/10.4230/LIPIcs.CP.2026.18
   image: images/papers/NeSyLNS.png
   tags:
-    - Large Neighbourhood Search
-    - Neurosymbolic AI
-    - Constraint Programming
-    - Masked Language Model
-    - CPBP Solver
+    - large neighbourhood search
+    - neurosymbolic
+    - constraint programming
+    - language models
 
 - id: arxiv:2606.09873
   type: preprint
