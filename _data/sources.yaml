@@ -37,13 +37,15 @@
     - Amal Zouaq
   publisher: "32nd International Conference on Principles and Practice of Constraint Programming (CP 2026)"
   date: "2026-07-13"
-  link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2026.18
+  link: https://doi.org/10.4230/LIPIcs.CP.2026.18
+  image: images/papers/NeSyLNS.png
   tags:
     - Large Neighbourhood Search
     - Neurosymbolic AI
     - Constraint Programming
     - Masked Language Model
     - CPBP Solver
+
 - id: arxiv:2606.09873
   type: preprint
   title: "Rotate2Think: Geometric Priming via Orthogonal Rotation to Improve Language Model Reasoning"
