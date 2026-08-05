@@ -25,6 +25,53 @@
 
 #- id: doi:10.7554/eLife.32822
 #  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: arxiv:2606.09873
+  type: preprint
+  title: "Rotate2Think: Geometric Priming via Orthogonal Rotation to Improve Language Model Reasoning"
+  authors:
+    - Aditya Sharma
+    - Christopher J. Pal
+    - Amal Zouaq
+  date: 2026-06-11
+  link: https://arxiv.org/abs/2606.09873
+  image: images/papers/rotate2think.png
+  tags:
+    - language models
+    - reasoning
+    - llm
+
+- id: arxiv:2606.00203
+  type: preprint
+  title: "DeSQ: Decomposition-based SPARQL Query Generation"
+  authors:
+    - Karou Diallo
+    - Aditya Sharma
+    - Neshat Elhami Fard
+    - Amal Zouaq
+  date: 2026-06-02
+  link: https://arxiv.org/abs/2606.00203
+  image: images/papers/DeSQ.gif
+  tags:
+    - language models
+    - sparql
+    - KBQA
+    
+- id: arxiv:2605.11845
+  type: preprint
+  title: "Probabilistic Calibration Is a Trainable Capability in Language Models"
+  authors:
+    - Davide Baldelli
+    - Sruthi Kuriakose
+    - Maryam Hashemzadeh
+    - Amal Zouaq
+    - Sarath Chandar
+  date: 2026-05-12
+  link: https://arxiv.org/abs/2605.11845
+  image: images/papers/probabilistic_calibration.png
+  tags:
+    - language models
+    - calibration
+    - fine-tuning
 
 - id: arxiv:2601.06973
   type: preprint

@@ -1,21 +1,60 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.4230/LIPIcs.CP.2026.18
-  type: paper
-  title: "Neurosymbolic Large Neighbourhood Search"
+- id: arxiv:2606.09873
+  title: 'Rotate2Think: Geometric Priming via Orthogonal Rotation to Improve Language
+    Model Reasoning'
   authors:
-    - Arnaud Delage-Reid
-    - Gilles Pesant
-    - Amal Zouaq
-  publisher: "32nd International Conference on Principles and Practice of Constraint Programming (CP 2026)"
-  date: "2026-07-13"
-  link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2026.18
+  - Aditya Sharma
+  - Christopher J. Pal
+  - Amal Zouaq
+  publisher: arXiv
+  date: '2026-06-11'
+  link: https://arxiv.org/abs/2606.09873
+  type: preprint
+  image: images/papers/rotate2think.png
   tags:
-    - Large Neighbourhood Search
-    - Neurosymbolic AI
-    - Constraint Programming
-    - Masked Language Model
-    - CPBP Solver
+  - language models
+  - reasoning
+  - llm
+  plugin: sources.py
+  file: sources.yaml
+- id: arxiv:2606.00203
+  title: 'DeSQ: Decomposition-based SPARQL Query Generation'
+  authors:
+  - Karou Diallo
+  - Aditya Sharma
+  - Neshat Elhami Fard
+  - Amal Zouaq
+  publisher: arXiv
+  date: '2026-06-02'
+  link: https://arxiv.org/abs/2606.00203
+  type: preprint
+  image: images/papers/DeSQ.gif
+  tags:
+  - language models
+  - sparql
+  - KBQA
+  plugin: sources.py
+  file: sources.yaml
+- id: arxiv:2605.11845
+  title: Probabilistic Calibration Is a Trainable Capability in Language Models
+  authors:
+  - Davide Baldelli
+  - Sruthi Kuriakose
+  - Maryam Hashemzadeh
+  - Amal Zouaq
+  - Sarath Chandar
+  publisher: arXiv
+  date: '2026-05-12'
+  link: https://arxiv.org/abs/2605.11845
+  type: preprint
+  image: images/papers/probabilistic_calibration.png
+  tags:
+  - language models
+  - calibration
+  - fine-tuning
+  plugin: sources.py
+  file: sources.yaml
 - id: arxiv:2601.06973
   title: 'LLMs Can''t Play Hangman: On the Necessity of a Private Working Memory for
     Language Agents'
