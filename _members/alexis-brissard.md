@@ -2,7 +2,8 @@
 name: Alexis Brissard
 image: images/team/alexis-brissard.jpeg
 role: master
-year: "Sept 2023 - "
+group: alum
+year: "Sept 2023 - August 2025"
 affiliation: Polytechnique Montreal
 aliases:
   - A. Brissard
