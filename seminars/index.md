@@ -9,8 +9,6 @@ nav:
 
 We host regular seminars featuring presentations from lab members on their own research projects or other relevant subjects.
 
-**Regular Schedule:** Our seminars are currently held **on Tuesday from 1:30 PM to 3:00 PM in room M-6007 at Polytechnique**.
-
 {% include section.html %}
 
 {% include search-box.html %}
