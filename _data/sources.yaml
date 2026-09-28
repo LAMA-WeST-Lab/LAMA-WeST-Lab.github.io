@@ -28,6 +28,25 @@
 
 
 
+- id: arxiv:2504.08596
+  type: paper
+  title: "MedHal: a Synthetic Dataset for Medical Hallucination Detection"
+  authors:
+    - Fabrice Lamarche
+    - Gaya Mehenni
+    - Neshat Elhami Fard
+    - Odette Rios-Ibacache
+    - Li Ming Wang
+    - John Kildea
+    - Amal Zouaq
+  publisher: "AACL-IJCNLP 2026"
+  date: "2026-09-28"
+  link: https://arxiv.org/abs/2504.08596
+  tags:
+    - medical
+    - hallucination detection
+    - language models
+
 - id: doi:10.4230/LIPIcs.CP.2026.18
   type: paper
   title: "Neurosymbolic Large Neighbourhood Search"
