@@ -13,7 +13,7 @@ tags:
 
 *Speakers: Zacharie Garnier-Cuchet, Aditya Sharma*
 
-*Date: October 22, 2026, 1PM to 2:30PM*
+*Date: October 29, 2026, 1PM to 2:30PM*
 *Room: M-6007*
 
 ### Presentations
