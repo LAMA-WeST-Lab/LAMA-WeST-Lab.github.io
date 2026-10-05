@@ -11,14 +11,6 @@ The LAMA-WeST lab conducts research at the intersection of natural language proc
 
 {% include section.html %}
 
-## Highlighted
-
-{% include citation.html lookup="Reducing hallucinations in language model-based sparql query generation using post-generation memory retrieval" style="rich" %}
-
-{% include citation.html lookup="GeoCoder - Solving Geometry Problems by Generating Modular Code through Vision-Language Models" style="rich" %}
-
-{% include section.html %}
-
 ## All
 
 {% include search-box.html %}
