@@ -1,10 +1,15 @@
 ---
-title: "Lab Seminar: TBD"
+title: "Study of the properties of embedding space of embedding/generative models and their impacts"
 authors:
   - karou-diallo
+    
 featured: false
 tags:
-  - seminar
+  - embedding
+  - property
+  - embedding-model
+  - generative-model
+  - lexical-variation
 ---
 
 ## Multiple Presentations
