@@ -16,7 +16,7 @@ tags:
 
 ### Presentations
 
-1. **TBD**
+1. **Study of the properties of embedding space of embedding/generative models and their impacts**
    *Speaker: Karou Diallo*
 
 2. **TBD**
