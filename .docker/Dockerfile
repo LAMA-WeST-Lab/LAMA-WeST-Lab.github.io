@@ -12,12 +12,15 @@ RUN VERSION=$(grep -A 1 'BUNDLED WITH' Gemfile.lock | tail -n 1 | xargs); \
     gem install bundler --version ${VERSION} && \
     bundle _${VERSION}_ install
 
-# install Python
-RUN apt update && apt install -y python3 python3-pip
+# install pip (python3 already ships in the base image; Debian 11's python3-pip
+# package can no longer be fetched since bullseye moved to LTS)
+RUN curl -sSL https://bootstrap.pypa.io/pip/3.9/get-pip.py -o /tmp/get-pip.py && \
+    python3 /tmp/get-pip.py && \
+    rm /tmp/get-pip.py
 
 # install Python packages
 RUN python3 -m pip install --no-cache-dir --upgrade --requirement requirements.txt
-RUN pip install "watchdog[watchmedo]==3.0.0"
+RUN python3 -m pip install --no-cache-dir "watchdog[watchmedo]==3.0.0"
 
 # copy the entire website into container
 COPY . .
