@@ -25,7 +25,7 @@
     <img
       src="{{ member.image | relative_url | uri_escape }}"
       class="portrait-image"
-      alt="member portrait"
+      alt="{{ site.data.strings.member_portrait | xml_escape }}"
       loading="lazy"
       {% include fallback.html %}
     >

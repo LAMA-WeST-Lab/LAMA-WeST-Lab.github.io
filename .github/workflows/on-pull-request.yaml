@@ -21,3 +21,6 @@ jobs:
   build-preview:
     needs: update-citations
     uses: ./.github/workflows/build-preview.yaml
+
+  missing-translations:
+    uses: ./.github/workflows/missing-translations.yaml

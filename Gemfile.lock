@@ -74,8 +74,6 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
-    jekyll-sitemap (1.4.0)
-      jekyll (>= 3.7, < 5.0)
     jekyll-spaceship (0.10.2)
       gemoji (~> 3.0)
       jekyll (>= 3.6, < 5.0)
@@ -156,7 +154,6 @@ DEPENDENCIES
   jekyll-last-modified-at
   jekyll-polyglot
   jekyll-redirect-from
-  jekyll-sitemap
   jekyll-spaceship
   webrick (~> 1.7)
 

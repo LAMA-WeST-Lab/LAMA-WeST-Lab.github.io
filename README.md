@@ -53,3 +53,25 @@ Windows:
 ```powershell
 .\.docker\run.ps1 -Platform linux/amd64
 ```
+
+## Languages
+
+The site is built in English (at `/`) and in French (at `/fr/`) with [jekyll-polyglot](https://github.com/untra/polyglot). Visitors switch with the `FR` / `EN` link in the header.
+
+A French version is a file with the same name in a folder named `fr`:
+
+| English | French |
+| --- | --- |
+| `team/index.md` | `fr/team/index.md` |
+| `_news/2026-01-01-some-news.md` | `_news/fr/2026-01-01-some-news.md` |
+| `_seminars/2026-01-01-some-seminar.md` | `_seminars/fr/2026-01-01-some-seminar.md` |
+| `_members/firstname-lastname.md` | `_members/fr/firstname-lastname.md` |
+| `_data/strings.yaml`, `_data/types.yaml` | `_data/fr/strings.yaml`, `_data/fr/types.yaml` |
+
+- A French file only needs the front matter fields that change (usually `title`); the rest comes from the English file.
+- Content with no French file is shown in English on the French site, so translating is always optional, but should be done as much as possible. Pull requests get a comment listing what they add without a French version; it is only a reminder.
+- Publications are not translated. Tags are shared by both languages.
+- Text that belongs to the layout (buttons, tooltips, dates) is in `_data/strings.yaml`, with its French version in `_data/fr/strings.yaml`.
+- When running locally, the French site is at `http://localhost:4000/fr/`.
+
+See the guides in [news](news/README.md), [seminars](seminars/README.md), [team](team/README.md) and [research](research/README.md).

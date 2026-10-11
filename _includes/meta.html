@@ -20,7 +20,10 @@
 
 {% assign subtitle = site.subtitle %}
 
-{% assign description = page.description | default: site.description %}
+{% assign description = page.description
+  | default: site.data.strings.description
+  | default: site.description
+%}
 {% if site.subtitle %}
   {% capture description -%}
     {{ site.subtitle }}. {{ description }}

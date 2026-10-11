@@ -1,6 +1,6 @@
 <form onsubmit="onSiteSearchSubmit(event)">
-  <input type="text" name="query" placeholder="Search site with Google" />
-  <button type="submit" class="button" aria-label="search site">
+  <input type="text" name="query" placeholder="{{ site.data.strings.site_search_placeholder | xml_escape }}" />
+  <button type="submit" class="button" aria-label="{{ site.data.strings.site_search | xml_escape }}">
     {% include icon.html icon="fa-solid fa-magnifying-glass" %}
   </button>
 </form>

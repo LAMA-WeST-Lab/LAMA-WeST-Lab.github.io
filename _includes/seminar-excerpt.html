@@ -30,7 +30,7 @@
 
       {% if seminar.authors %}
         <div class="seminar-authors">
-          <strong>Presenters:</strong>
+          <strong>{{ site.data.strings.presenters }}:</strong>
           {% for author_id in seminar.authors %}
             {% assign author_obj = site.members | where: "slug", author_id | first %}
             {% if author_obj %}

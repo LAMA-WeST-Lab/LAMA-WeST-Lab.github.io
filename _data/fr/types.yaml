@@ -34,3 +34,89 @@ intern:
 
 alum:
   description: Anciens membres
+
+# general
+
+link:
+  text: Lien
+  tooltip: Lien
+
+website:
+  text: Site web
+  tooltip: Site web
+
+external:
+  text: Lien externe
+  tooltip: Lien externe
+
+home-page:
+  text: Page personnelle
+  tooltip: Page personnelle
+
+email:
+  text: Courriel
+  tooltip: Courriel
+
+phone:
+  text: Téléphone
+  tooltip: Téléphone
+
+address:
+  text: Adresse
+  tooltip: Adresse
+
+search:
+  text: Recherche
+  tooltip: Recherche
+
+# publications
+
+paper:
+  text: Article scientifique
+  tooltip: Article de recherche ou communication scientifique
+
+book:
+  text: Livre
+  tooltip: Livre ou ouvrage
+
+article:
+  text: Article
+  tooltip: Article de presse ou de magazine
+
+journal:
+  text: Article de revue
+  tooltip: Article publié dans une revue scientifique
+
+preprint:
+  text: Prépublication
+  tooltip: Prépublication
+
+unpublished:
+  text: Non publié
+  tooltip: Non publié
+
+# software
+
+docs:
+  text: Documentation
+  tooltip: Documentation
+
+source:
+  text: Code source
+  tooltip: Code source
+
+server:
+  text: Serveur
+  tooltip: Serveur
+
+app:
+  text: Application
+  tooltip: Application
+
+data:
+  text: Données
+  tooltip: Données
+
+package:
+  text: Paquet
+  tooltip: Paquet

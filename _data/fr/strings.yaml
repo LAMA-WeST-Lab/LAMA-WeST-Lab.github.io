@@ -1,0 +1,53 @@
+# french versions of the text in _data/strings.yaml, with the same keys.
+# a key missing here falls back to english.
+
+# replaces the description in _config.yaml
+description: IA neuro-symbolique pour le Web, la sémantique et le texte.
+
+# header and footer
+home: Accueil
+nav_toggle: afficher/masquer le menu
+dark_mode: Mode sombre
+built_with: Construit avec
+
+# search
+search_placeholder: Rechercher dans cette page
+clear_search: Effacer la recherche
+site_search_placeholder: Rechercher sur le site avec Google
+site_search: Rechercher sur le site
+tag_tooltip: Afficher les éléments avec l'étiquette « $TAG »
+
+# news and seminars
+author: Auteur
+published: Publié le
+updated: Mis à jour le
+previous_post: Article précédent
+next_post: Article suivant
+presenters: Présentateurs
+
+# team
+member_portrait: portrait du membre
+member_papers: "$NAME : voir les publications sur la page Recherche"
+
+# dates, see localized_date in _plugins/i18n.rb
+date_format: "%-d %B %Y"
+date_first: 1er
+months:
+  - janvier
+  - février
+  - mars
+  - avril
+  - mai
+  - juin
+  - juillet
+  - août
+  - septembre
+  - octobre
+  - novembre
+  - décembre
+
+# text used by the files in _scripts
+scripts:
+  showing: $X résultats affichés sur $N
+  clear_search: Effacer la recherche
+  tag_tooltip: Afficher les éléments avec l'étiquette « $TAG »

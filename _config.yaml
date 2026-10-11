@@ -52,7 +52,6 @@ collections:
 # jekyll plugins
 plugins:
   - jekyll-spaceship
-  - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-last-modified-at
@@ -66,6 +65,8 @@ exclude_from_localization:
   - images
   - favicon.ico
   - favicon.png
+  - sitemap.xml
+  - robots.txt
 parallel_localization: true
 
 # code block syntax highlighting

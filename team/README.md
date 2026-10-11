@@ -31,13 +31,15 @@ Short bio text.
 
 ## Allowed `role` Values
 
-- `principal-investigator`
+- `fullprof`
 - `postdoc`
+- `associate`
 - `phd`
 - `master`
+- `profmaster`
 - `undergrad`
 - `intern`
-- `associate`
+- `collaborator`
 
 ## Optional `year` Field
 
@@ -79,4 +81,21 @@ If no `group` is specified, the member is considered a current member.
 
 - Keep the image path relative, for example: `images/team/your-photo.jpg`.
 - Use web URLs in links (for example `https://...`).
-- To change available roles, links, or social media keys, edit `_data/types.yaml`.
+- To change available roles, links, or social media keys, edit `_data/types.yaml` (and `_data/fr/types.yaml` for the French labels).
+
+## French Version
+
+The site has an English and a French version. The role label is translated automatically, so a profile with no bio text needs nothing more.
+
+To translate a bio, create a file with the same name in `_members/fr` that contains only the French text. Everything else (name, image, role, links) comes from the original file:
+
+```md
+---
+---
+
+Courte biographie en français.
+```
+
+Keep the two `---` lines even when there is nothing between them. To change a field for the French site only, write it between them (for example `affiliation: Polytechnique Montréal`).
+
+Without a French file, the French site shows the English bio.

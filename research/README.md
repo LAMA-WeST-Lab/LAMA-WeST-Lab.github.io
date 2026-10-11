@@ -124,7 +124,13 @@ During the cite process, entries with the same `id` are merged, and any manually
 
 ---
 
-## 3. Further documentation
+## 3. French version of the site
+
+Papers need nothing extra. A citation added to `_data/sources.yaml` appears on both the English and the French Research page, with its title, authors and tags unchanged.
+
+---
+
+## 4. Further documentation
 
 This project follows the Greene Lab **lab-website-template** citation system. For full details and advanced use cases, see the upstream documentation:
 

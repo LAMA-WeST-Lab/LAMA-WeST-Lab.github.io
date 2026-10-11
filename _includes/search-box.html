@@ -3,12 +3,12 @@
     type="text"
     class="search-input"
     oninput="onSearchInput(this)"
-    placeholder="Search items on this page"
+    placeholder="{{ site.data.strings.search_placeholder | xml_escape }}"
   />
   <button
     disabled
-    data-tooltip="Clear search"
-    aria-label="clear search"
+    data-tooltip="{{ site.data.strings.clear_search | xml_escape }}"
+    aria-label="{{ site.data.strings.clear_search | xml_escape }}"
     onclick="onSearchClear()"
   >
     {% include icon.html icon="fa-solid fa-magnifying-glass" %}
