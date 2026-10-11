@@ -1,0 +1,36 @@
+# french labels, merged over _data/types.yaml on the french site
+# only list the fields that change
+
+# team member roles
+
+fullprof:
+  description: Professeure titulaire et titulaire d'une chaire FRQS en IA et santé numérique
+
+postdoc:
+  description: Postdoctorat
+
+phd:
+  description: Doctorat
+
+undergrad:
+  description: Baccalauréat
+
+master:
+  description: Maîtrise recherche
+
+collaborator:
+  description: Collaborateur(-trice)
+
+associate:
+  description: Associé(e) de recherche
+
+profmaster:
+  description: Maîtrise professionnelle
+
+intern:
+  description: Stagiaire
+
+# team member groups
+
+alum:
+  description: Anciens membres

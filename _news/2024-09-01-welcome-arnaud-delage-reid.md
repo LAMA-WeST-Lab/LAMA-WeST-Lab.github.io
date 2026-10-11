@@ -6,9 +6,6 @@ tags:
   - welcome
   - master
   - student
-lang:
-  - en
-  - fr
 ---
 
 We are happy to welcome **Arnaud Delage-Reid** as a master student in the lab at Polytechnique Montréal.

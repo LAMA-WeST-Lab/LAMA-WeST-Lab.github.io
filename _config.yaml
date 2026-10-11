@@ -56,6 +56,17 @@ plugins:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-last-modified-at
+  - jekyll-polyglot
+
+# languages (jekyll-polyglot): english at /, french at /fr/
+# content without a french version falls back to english
+languages: ["en", "fr"]
+default_lang: "en"
+exclude_from_localization:
+  - images
+  - favicon.ico
+  - favicon.png
+parallel_localization: true
 
 # code block syntax highlighting
 highlighter: rouge

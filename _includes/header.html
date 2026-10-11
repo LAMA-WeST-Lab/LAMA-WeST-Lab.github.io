@@ -46,6 +46,8 @@
 
   <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
 
+  {% assign current_url = page.url %}
+
   <nav>
     {% assign pages = site.pages
       | where_exp: "page", "page.nav"
@@ -60,6 +62,22 @@
           {{ page.title }}
         </a>
       {% endif %}
+    {% endfor %}
+    {% for lang in site.languages %}
+      {% unless lang == site.active_lang %}
+        {% assign prefix = "" %}
+        {% unless lang == site.default_lang %}
+          {% assign prefix = lang | prepend: "/" %}
+        {% endunless %}
+        <a
+          {% static_href %}href="{{ site.baseurl }}{{ prefix }}{{ current_url }}"{% endstatic_href %}
+          class="lang-toggle"
+          lang="{{ lang }}"
+          hreflang="{{ lang }}"
+        >
+          {{ lang | upcase }}
+        </a>
+      {% endunless %}
     {% endfor %}
   </nav>
 </header>

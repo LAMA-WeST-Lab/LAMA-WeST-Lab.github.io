@@ -62,7 +62,11 @@
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ url }}">
 <meta property="og:image" content="{{ share }}">
-<meta property="og:locale" content="en_US">
+{% if site.active_lang == "fr" %}
+  <meta property="og:locale" content="fr_CA">
+{% else %}
+  <meta property="og:locale" content="en_US">
+{% endif %}
 
 <meta property="twitter:title" content="{{ title }}">
 <meta property="twitter:description" content="{{ description }}">
@@ -104,3 +108,24 @@
 </script>
 
 <link rel="alternate" type="application/rss+xml" href="{{ feed }}">
+
+{% comment %}
+  canonical url and links to the other languages. a page with no translation
+  is served in the default language, so point to the default language url.
+{% endcomment %}
+{% assign translations = page.available_languages | default: site.default_lang %}
+{% for lang in site.languages %}
+  {% assign prefix = "" %}
+  {% unless lang == site.default_lang %}
+    {% assign prefix = lang | prepend: "/" %}
+  {% endunless %}
+  {% capture langurl -%}
+    {{ site.url }}{{ site.baseurl }}{{ prefix }}{{ page.url }}
+  {%- endcapture %}
+  {% if lang == page.rendered_lang %}
+    <link rel="canonical" {% static_href %}href="{{ langurl }}"{% endstatic_href %}>
+  {% endif %}
+  {% if translations contains lang %}
+    <link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="{{ langurl }}"{% endstatic_href %}>
+  {% endif %}
+{% endfor %}
