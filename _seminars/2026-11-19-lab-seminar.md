@@ -1,5 +1,5 @@
 ---
-title: "Continual Alignment via Model Merging"
+title: "Continual Alignment via Model Merging & Verifying Chain-of-Thought Step by Step Using Hidden States"
 authors:
   - nishant-sharma
   - djalil-chikhi
@@ -9,6 +9,9 @@ tags:
   - model-merging
   - continual-learning
   - alignment
+  - chain-of-thought
+  - step-level-verification
+  - hidden-states
 ---
 
 ## Multiple Presentations
@@ -23,5 +26,5 @@ tags:
 1. **Continual Alignment via Model Merging**
    *Speaker: Nishant Sharma*
 
-2. **TBD**
+2. **Verifying Chain-of-Thought Step by Step Using Hidden States**
    *Speaker: Djalil Chikhi*
