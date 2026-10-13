@@ -1,11 +1,14 @@
 ---
-title: "Lab Seminar: TBD"
+title: "Continual Alignment via Model Merging"
 authors:
   - nishant-sharma
   - djalil-chikhi
 featured: false
 tags:
   - seminar
+  - model-merging
+  - continual-learning
+  - alignment
 ---
 
 ## Multiple Presentations
@@ -17,7 +20,7 @@ tags:
 
 ### Presentations
 
-1. **TBD**
+1. **Continual Alignment via Model Merging**
    *Speaker: Nishant Sharma*
 
 2. **TBD**
