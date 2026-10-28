@@ -1,12 +1,12 @@
 ---
-title: "LeREaD, hermes & Oral Predoc Practice"
+title: "LeREaD & Oral Predoc Practice"
 authors:
   - zacharie-garnier-cuchet
   - gaetan-butault
 featured: false
 tags:
-  - hermes
   - seminar
+  - legal
   - presentations
   - oral-practice
 ---
