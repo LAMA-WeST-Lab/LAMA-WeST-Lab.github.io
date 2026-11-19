@@ -15,6 +15,9 @@ links:
 
 ### jekyll settings
 
+# build in Montreal time, so date comparisons (e.g. upcoming seminars) match local days
+timezone: America/Toronto
+
 # front matter defaults
 defaults:
   # all markdown files

@@ -1,0 +1,20 @@
+name: rebuild-daily
+run-name: daily rebuild of live site
+
+on:
+  schedule:
+    # daily, just after midnight Montreal time, so date-based content
+    # (e.g. upcoming vs. past seminars) stays current between pushes
+    - cron: "0 5 * * *"
+
+  # run if user manually requests it
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-site:
+    # only run on user instance of template, not template itself
+    if: github.repository != 'greenelab/lab-website-template'
+    uses: ./.github/workflows/build-site.yaml
