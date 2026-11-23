@@ -47,8 +47,6 @@
 {% assign published = page.date | date_to_xmlschema %}
 {% assign updated = page.last_modified_at | date_to_xmlschema %}
 
-{% assign feed = "feed.xml" | absolute_url %}
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>{{ fulltitle }}</title>
@@ -109,8 +107,6 @@
     "url": "{{ url }}"
   }
 </script>
-
-<link rel="alternate" type="application/rss+xml" href="{{ feed }}">
 
 {% comment %}
   canonical url and links to the other languages. a page with no translation

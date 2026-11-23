@@ -56,7 +56,6 @@ collections:
 plugins:
   - jekyll-spaceship
   - jekyll-redirect-from
-  - jekyll-feed
   - jekyll-last-modified-at
   - jekyll-polyglot
 
