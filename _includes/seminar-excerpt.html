@@ -17,13 +17,14 @@
       <a
         href="{{ url }}"
         class="seminar-excerpt-title"
+        {% include lang.html lang=seminar.rendered_lang %}
         aria-label="{{ title | default: "seminar link" | regex_strip }}"
       >
         {{ title }}
       </a>
 
       {% if seminar.subtitle %}
-        <div class="seminar-subtitle">
+        <div class="seminar-subtitle"{% include lang.html lang=seminar.rendered_lang %}>
           {{ seminar.subtitle }}
         </div>
       {% endif %}
@@ -60,7 +61,7 @@
         | strip_html
       %}
       {% if excerpt %}
-        <div class="seminar-excerpt-text">
+        <div class="seminar-excerpt-text"{% include lang.html lang=seminar.rendered_lang %}>
           {{ excerpt }}
         </div>
       {% endif %}

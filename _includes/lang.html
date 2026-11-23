@@ -1,0 +1,7 @@
+{%- comment -%}
+  lang attribute for text in another language than the site, e.g. the title of
+  an english news item listed on the french site because it has no translation
+  yet. outputs nothing when the language is the site's. pass the item's
+  rendered_lang (set by jekyll-polyglot) as lang.
+{%- endcomment -%}
+{%- if include.lang and include.lang != site.active_lang %} lang="{{ include.lang }}"{% endif -%}

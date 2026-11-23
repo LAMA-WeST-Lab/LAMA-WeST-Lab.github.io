@@ -1,0 +1,23 @@
+{% comment %}
+  body of a page shown in another language than the site, because it has no
+  translation yet (e.g. an english news item on the french site). if the body
+  has any text, adds a notice saying it is not translated and marks the body
+  with its language. pass the body as content and the page's rendered_lang
+  (set by jekyll-polyglot) as lang. a translated page is output unchanged.
+{% endcomment %}
+
+{% assign untranslated_lang = include.lang | default: site.active_lang %}
+{% assign untranslated_text = include.content | strip_html | strip %}
+
+{% if untranslated_lang == site.active_lang or untranslated_text == "" %}
+  {{ include.content }}
+{% else %}
+  {% include alert.html type="info" content=site.data.strings.untranslated %}
+
+  {% comment %}
+    close and reopen the wrapper around section breaks, see content.html
+  {% endcomment %}
+  {% capture untranslated_open %}<div lang="{{ untranslated_lang }}">{% endcapture %}
+  {% assign untranslated_break = "</div><!-- section break -->" | append: untranslated_open %}
+  {{ untranslated_open }}{{ include.content | replace: "<!-- section break -->", untranslated_break }}</div>
+{% endif %}

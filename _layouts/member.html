@@ -18,7 +18,7 @@ layout: default
 
 {% include float.html content=floatcontent %}
 
-{{ content }}
+{% include untranslated.html content=content lang=page.rendered_lang %}
 
 {% assign aliases = page.aliases
   | default: page.name

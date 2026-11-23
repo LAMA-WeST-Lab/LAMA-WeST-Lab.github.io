@@ -69,7 +69,7 @@ A French version is a file with the same name in a folder named `fr`:
 | `_data/strings.yaml`, `_data/types.yaml` | `_data/fr/strings.yaml`, `_data/fr/types.yaml` |
 
 - A French file only needs the front matter fields that change (usually `title`); the rest comes from the English file.
-- Content with no French file is shown in English on the French site, so translating is always optional, but should be done as much as possible. Pull requests get a comment listing what they add without a French version; it is only a reminder.
+- Content with no French file is shown in English on the French site, with a notice saying it is not translated yet (`_includes/untranslated.html`), so translating is always optional, but should be done as much as possible. Pull requests get a comment listing what they add without a French version; it is only a reminder.
 - Publications are not translated. Tags are shared by both languages.
 - Text that belongs to the layout (buttons, tooltips, dates) is in `_data/strings.yaml`, with its French version in `_data/fr/strings.yaml`.
 - When running locally, the French site is at `http://localhost:4000/fr/`.

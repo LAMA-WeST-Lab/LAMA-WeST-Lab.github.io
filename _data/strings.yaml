@@ -26,6 +26,8 @@ updated: Last updated on
 previous_post: Previous post
 next_post: Next post
 presenters: Presenters
+# notice on a page shown in its original language because it has no translation
+untranslated: This page is not translated yet; it is shown in its original language.
 
 # team
 member_portrait: member portrait
