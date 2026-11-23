@@ -1,5 +1,24 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1007/978-3-032-40795-5_33
+  title: 'PETALE: a Fine-Grained Evaluation Framework for Process Modeling Methods'
+  authors:
+  - Clara Kowalczyk
+  - Alexis Brissard
+  - Frederic Cuppens
+  - Amal Zouaq
+  publisher: 45th International Conference of Conceptual Modeling
+  date: '2026-10-05'
+  link: https://link.springer.com/chapter/10.1007/978-3-032-40795-5_33
+  type: paper
+  image: images/papers/petale_pipeline.svg
+  tags:
+  - business process modeling
+  - information extraction
+  - BPMN
+  repo: LAMA-WeST-Lab/PETALE
+  plugin: sources.py
+  file: sources.yaml
 - id: arxiv:2504.08596
   title: 'MedHal: a Synthetic Dataset for Medical Hallucination Detection'
   authors:

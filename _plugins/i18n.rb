@@ -7,7 +7,8 @@ module Jekyll
   # jekyll-polyglot serves it in place of the original on the translated site.
   module I18n
     # front matter fields that belong to the file itself
-    OWN = ["lang", "permalink", "slug", "ext", "excerpt"]
+    # (last_modified_at is set by jekyll-last-modified-at from the file's own git history)
+    OWN = ["lang", "permalink", "slug", "ext", "excerpt", "last_modified_at"]
 
     # language of translated file, from the folder it is in
     def self.lang(site, doc)

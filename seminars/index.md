@@ -21,11 +21,16 @@ For the Fall 2026 semester, seminars are held from **1:00 PM to 2:30 PM in room 
 
 ## Upcoming Seminars
 
-{% include list.html data="seminars" component="seminar-excerpt" filter="date >= Time.now" %}
+{% comment %}
+  Upcoming/past is decided at build time, compared by calendar day so a seminar
+  stays "upcoming" for its whole day. The rebuild-daily workflow rebuilds the
+  site every night so this stays current between pushes.
+{% endcomment %}
+{% include list.html data="seminars" component="seminar-excerpt" filter="date.strftime('%F') >= Time.now.strftime('%F')" %}
 
 {% include section.html %}
 
 ## Past Seminars
 
-{% include list.html data="seminars" component="seminar-excerpt" filter="date < Time.now" %}
+{% include list.html data="seminars" component="seminar-excerpt" filter="date.strftime('%F') < Time.now.strftime('%F')" %}
 

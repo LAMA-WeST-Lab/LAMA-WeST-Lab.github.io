@@ -1,11 +1,17 @@
 ---
-title: "Lab Seminar: TBD"
+title: "Continual Alignment via Model Merging & Verifying Chain-of-Thought Step by Step Using Hidden States"
 authors:
   - nishant-sharma
   - djalil-chikhi
 featured: false
 tags:
   - seminar
+  - model-merging
+  - continual-learning
+  - alignment
+  - chain-of-thought
+  - step-level-verification
+  - hidden-states
 ---
 
 ## Multiple Presentations
@@ -17,8 +23,8 @@ tags:
 
 ### Presentations
 
-1. **TBD**
+1. **Continual Alignment via Model Merging**
    *Speaker: Nishant Sharma*
 
-2. **TBD**
+2. **Verifying Chain-of-Thought Step by Step Using Hidden States**
    *Speaker: Djalil Chikhi*
