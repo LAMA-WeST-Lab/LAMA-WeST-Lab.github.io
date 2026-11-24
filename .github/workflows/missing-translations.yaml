@@ -1,0 +1,84 @@
+name: missing-translations
+run-name: list content with no french version
+
+on:
+  # run when called from another workflow
+  workflow_call:
+
+  # run if user manually requests it
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  missing-translations:
+    runs-on: ubuntu-latest
+    # reminder only, never block anything
+    continue-on-error: true
+
+    steps:
+      # script comes from this branch, not from the pull request
+      - name: Checkout branch contents
+        uses: actions/checkout@v4
+
+      - name: Checkout pull request contents
+        if: github.event.pull_request && github.event.action != 'closed'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: pull-request
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: List files changed in pull request
+        if: github.event.pull_request && github.event.action != 'closed'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" \
+            --paginate --jq '.[] | select(.status != "removed") | .filename' > changed.txt
+
+      - name: List missing french versions
+        if: github.event.action != 'closed'
+        run: |
+          root="."
+          if [ -d pull-request ]; then root="pull-request"; fi
+          touch changed.txt
+          python .github/scripts/missing-translations.py \
+            --root "$root" \
+            --changed changed.txt \
+            --summary summary.md \
+            --comment comment.md
+          cat summary.md >> "$GITHUB_STEP_SUMMARY"
+
+      # one comment per pull request, updated in place
+      - name: Comment on pull request
+        if: github.event.pull_request && github.event.action != 'closed'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { readFileSync } = require("fs");
+            const marker = "<!-- missing-translations -->";
+            const text = readFileSync("comment.md", "utf8").trim();
+            const { owner, repo } = context.repo;
+            const issue_number = context.payload.pull_request.number;
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner,
+              repo,
+              issue_number,
+            });
+            const existing = comments.find((comment) => comment.body.includes(marker));
+            const body = `${marker}\n${text}`;
+            if (text && existing)
+              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            else if (text)
+              await github.rest.issues.createComment({ owner, repo, issue_number, body });
+            else if (existing)
+              await github.rest.issues.deleteComment({ owner, repo, comment_id: existing.id });

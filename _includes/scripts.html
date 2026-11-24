@@ -3,6 +3,11 @@
 <script src="https://unpkg.com/tippy.js@6" defer></script>
 <script src="https://unpkg.com/mark.js@8" defer></script>
 
+<!-- text used by the scripts, in the language of the page -->
+<script>
+  window.strings = {{ site.data.strings.scripts | jsonify }};
+</script>
+
 <!-- include all js in scripts folder -->
 {% assign scripts = site.static_files | where_exp: "file", "file.path contains '/_scripts'" %}
 {% for script in scripts %}

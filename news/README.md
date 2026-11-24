@@ -82,3 +82,17 @@ The full story and details about our project can be found...
 - **Images**: Place images in `images/` directory or subdirectories like `images/news/`
 - **Excerpts**: Optional but recommended for better news list display
 - **Tags**: Keep them consistent across news items for better organization
+
+## French Version
+
+The site has an English and a French version. To translate a news item, create a file with the same name in `_news/fr`. Write only what changes, usually the title and the text. Everything else (author, image, tags, featured) comes from the original file:
+
+```md
+---
+title: Le laboratoire reçoit une importante subvention
+---
+
+Nous sommes heureux d'annoncer que notre laboratoire a reçu une importante subvention de recherche...
+```
+
+Without a French file, the French site shows the English news item. Tags are shared by both languages, so do not translate them.

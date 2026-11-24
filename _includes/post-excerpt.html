@@ -18,6 +18,7 @@
       <a
         href="{{ url }}"
         class="post-excerpt-image"
+        {% include lang.html lang=post.rendered_lang %}
         aria-label="{{ title | default: "excerpt link" | regex_strip }}"
       >
         <img
@@ -30,7 +31,7 @@
     {% endif %}
 
     <div class="post-excerpt-text">
-      <a href="{{ url }}">{{ title }}</a>
+      <a href="{{ url }}"{% include lang.html lang=post.rendered_lang %}>{{ title }}</a>
 
       {%
         include post-info.html
@@ -52,7 +53,7 @@
         | strip_newlines
         | regex_strip
       %}
-      <p data-search="{{ search }}">
+      <p data-search="{{ search }}"{% include lang.html lang=post.rendered_lang %}>
         {{ excerpt }}
       </p>
     </div>

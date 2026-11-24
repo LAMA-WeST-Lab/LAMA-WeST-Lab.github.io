@@ -17,20 +17,21 @@
       <a
         href="{{ url }}"
         class="seminar-excerpt-title"
+        {% include lang.html lang=seminar.rendered_lang %}
         aria-label="{{ title | default: "seminar link" | regex_strip }}"
       >
         {{ title }}
       </a>
 
       {% if seminar.subtitle %}
-        <div class="seminar-subtitle">
+        <div class="seminar-subtitle"{% include lang.html lang=seminar.rendered_lang %}>
           {{ seminar.subtitle }}
         </div>
       {% endif %}
 
       {% if seminar.authors %}
         <div class="seminar-authors">
-          <strong>Presenters:</strong>
+          <strong>{{ site.data.strings.presenters }}:</strong>
           {% for author_id in seminar.authors %}
             {% assign author_obj = site.members | where: "slug", author_id | first %}
             {% if author_obj %}
@@ -60,7 +61,7 @@
         | strip_html
       %}
       {% if excerpt %}
-        <div class="seminar-excerpt-text">
+        <div class="seminar-excerpt-text"{% include lang.html lang=seminar.rendered_lang %}>
           {{ excerpt }}
         </div>
       {% endif %}

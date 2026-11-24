@@ -1,0 +1,56 @@
+# text used by the site's layouts, components and scripts (english).
+# the french versions are in _data/fr/strings.yaml, with the same keys.
+
+# language toggle
+languages:
+  en: English
+  fr: Français
+
+# header and footer
+home: Home
+nav_toggle: show/hide nav
+dark_mode: Dark mode
+built_with: Built with
+
+# search
+search_placeholder: Search items on this page
+clear_search: Clear search
+site_search_placeholder: Search site with Google
+site_search: Search site
+tag_tooltip: Show items with the tag "$TAG"
+
+# news and seminars
+author: Author
+published: Originally published on
+updated: Last updated on
+previous_post: Previous post
+next_post: Next post
+presenters: Presenters
+# notice on a page shown in its original language because it has no translation
+untranslated: This page is not translated yet; it is shown in its original language.
+
+# team
+member_portrait: member portrait
+member_papers: Search for $NAME's papers on the Research page
+
+# dates, see localized_date in _plugins/i18n.rb
+date_format: "%B %d, %Y"
+months:
+  - January
+  - February
+  - March
+  - April
+  - May
+  - June
+  - July
+  - August
+  - September
+  - October
+  - November
+  - December
+
+# text used by the files in _scripts
+scripts:
+  showing: Showing $X of $N results
+  clear_search: Clear search
+  tag_tooltip: Show items with the tag "$TAG"

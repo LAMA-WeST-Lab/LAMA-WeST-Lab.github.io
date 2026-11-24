@@ -9,19 +9,29 @@
   | split: ","
   | uniq
 %}
-{% assign link = include.link | default: page.dir %}
+{% assign link = include.link
+  | default: page.dir
+  | prepend: "/"
+  | append: "/"
+  | replace: "//", "/"
+%}
+{% assign langprefix = "" %}
+{% unless site.active_lang == site.default_lang %}
+  {% assign langprefix = site.active_lang | prepend: "/" %}
+{% endunless %}
 {% if tags.size > 0 or include.repo %}
   <div
     class="tags"
     {% if include.repo %}
       data-repo="{{ include.repo | xml_escape }}"
+      data-link="{{ site.baseurl }}{{ langprefix }}{{ link }}"
     {% endif %}
   >
     {% for tag in tags %}
       <a
         href="{{ link | relative_url }}?search=&quot;tag: {{ tag }}&quot;"
         class="tag"
-        data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
+        data-tooltip="{{ site.data.strings.tag_tooltip | replace: "$TAG", tag | xml_escape }}"
       >
         {{ tag }}
       </a>

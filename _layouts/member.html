@@ -18,7 +18,7 @@ layout: default
 
 {% include float.html content=floatcontent %}
 
-{{ content }}
+{% include untranslated.html content=content lang=page.rendered_lang %}
 
 {% assign aliases = page.aliases
   | default: page.name
@@ -34,7 +34,8 @@ layout: default
 
 <p class="center">
   <a href="{{ search | relative_url | uri_escape }}">
-    Search for {{ page.name | default: page.title }}'s papers on the Research page
+    {% assign name = page.name | default: page.title %}
+    {{ site.data.strings.member_papers | replace: "$NAME", name }}
   </a>
 </p>
 

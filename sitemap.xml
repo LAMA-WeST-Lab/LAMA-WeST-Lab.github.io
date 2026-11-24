@@ -1,0 +1,29 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+{%- comment %}
+  lists every page once per language it is written in. a page with no
+  translation is not listed under the other language, where it only shows the
+  default language as a fallback.
+{% endcomment %}
+{%- assign docs = site.html_pages | concat: site.documents %}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for doc in docs %}
+  {%- if doc.sitemap == false or doc.url contains "404" or doc.redirect_to %}
+    {%- continue %}
+  {%- endif %}
+  {%- assign translations = doc.available_languages | default: site.default_lang %}
+  {%- for lang in site.languages %}
+    {%- if translations contains lang %}
+      {%- assign prefix = "" %}
+      {%- unless lang == site.default_lang %}
+        {%- assign prefix = lang | prepend: "/" %}
+      {%- endunless %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ prefix }}{{ doc.url | xml_escape }}</loc>
+  </url>
+    {%- endif %}
+  {%- endfor %}
+{%- endfor %}
+</urlset>

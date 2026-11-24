@@ -136,8 +136,10 @@
 
       // info template
       let info = "";
-      info += `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results<br>`;
-      info += "<a href='./'>Clear search</a>";
+      info += window.strings.showing
+        .replace("$X", x.toLocaleString())
+        .replace("$N", n.toLocaleString());
+      info += `<br><a href='./'>${window.strings.clear_search}</a>`;
 
       // set info HTML string
       boxes.forEach((el) => (el.innerHTML = info));
