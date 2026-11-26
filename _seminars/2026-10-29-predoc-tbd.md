@@ -1,5 +1,5 @@
 ---
-title: "LeREaD & Oral Predoc Practice"
+title: "LeREaD & Safe and Controllable LLM Generation"
 authors:
   - zacharie-garnier-cuchet
   - gaetan-butault
@@ -8,7 +8,8 @@ tags:
   - seminar
   - legal
   - presentations
-  - oral-practice
+  - constrained decoding
+  - LLMs as a judge
 ---
 
 ## Multiple Presentations
@@ -23,5 +24,5 @@ tags:
 1. **LeREaD : Legal Reference Extraction and Disambiguation**
    *Speaker: Zacharie Garnier-Cuchet*
 
-2. **Oral Predoc practice**
+2. **Safe and Controllable LLM Generation: Inference-Time Steering and Evaluation with Clinical Applications**
    *Speaker: Gaetan Butault*
