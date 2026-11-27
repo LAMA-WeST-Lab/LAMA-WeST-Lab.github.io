@@ -11,7 +11,7 @@ layout: default
 
 <p class="home-intro">Application domains include law, medicine, and oncology, which serve as testbeds for developing precise, explainable, and verifiable interactions between language and complex knowledge systems.</p>
 
-<p class="home-intro">Our lab is funded through government and industry institutions including NSERC, FRQS, SSHRC, IVADO and MITACS. Our students are also part of <b>MILA</b>. </p>
+<p class="home-intro">Our lab is funded through government and industry institutions including NSERC, FRQS, SSHRC, IVADO and MITACS. Our students are also part of <b>Mila</b>. </p>
 
 <p class="home-intro">Led by <b> Prof. Amal Zouaq</b>, the LAMA-WeST lab is welcoming new collaborations in the academic and industrial community.</p>
 
