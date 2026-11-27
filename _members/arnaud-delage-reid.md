@@ -2,7 +2,8 @@
 name: Arnaud Delage-Reid
 image: images/team/Arnaud.jpg
 role: master
-year: "Sept 2024 - "
+group: alum
+year: "Sept 2024 - Oct 2026"
 affiliation: Polytechnique Montreal
 links:
   email: arnaud.delage-reid@etud.polytechnique.ca
